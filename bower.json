@@ -1,0 +1,32 @@
+{
+  "name": "front-end-groundwork",
+  "version": "1.0.0",
+  "authors": [
+    "Travis Lehman <travlehman@gmail.com>"
+  ],
+  "description": "A front end dev groundwork with Bourbon and SCSS",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "SCSS",
+    "SASS",
+    "Front",
+    "end",
+    "dev",
+    "Bourbon"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tehtrav/front-end-groundwork#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.4",
+    "foundation": "~5.5.2"
+  }
+}
