@@ -1,6 +1,6 @@
+// BOURBON SCSS FRAMEWORK
 @import 'bower_components/bourbon/app/assets/stylesheets/bourbon';
 
-* {
-    background: blue;
-    @include transform(scale(2));
-}
+@import 'variables';
+@import 'type';
+@import 'site';

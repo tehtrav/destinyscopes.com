@@ -1,0 +1,20 @@
+body {
+    font-family: $base-font-family;
+    color: $base-color;
+    line-height: $base-line-height;
+}
+
+p,
+li,
+dd,
+dt,
+address,
+div,
+article {
+    font-size: $base-font-size;
+
+}
+
+h1, h2, h3, h4, h5 {
+    color: $heading-color;
+}

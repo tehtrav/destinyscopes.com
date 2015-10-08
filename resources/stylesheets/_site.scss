@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: $base-background;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 100px;
+    background: rgba(white, .02);
+}
+
+.item {
+    .visual {
+        position: relative;
+        img:first-child {
+            width: 100%;
+        }
+        img {
+            border-radius: 4px;
+        }
+        img:last-child {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            transition: opacity .3s;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
