@@ -9,10 +9,9 @@ li,
 dd,
 dt,
 address,
-div,
 article {
     font-size: $base-font-size;
-
+    margin: 0 0 $base-margin;
 }
 
 h1, h2, h3, h4, h5 {

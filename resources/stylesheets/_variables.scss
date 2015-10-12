@@ -1,15 +1,31 @@
+// COLORS
+// ----------
+$green:             #7BD500;
+$red:               #E06A72;
+$blue:              #00A8E3;
+$off-white:         #ABB5BF;
+$slate:             #16191E;
+$dusk:              #2A333E;
+
 // TYPOGRAPHY
 // ----------
-
-$base-color:                       #ACB2B7;
-$base-background:                  #353A44;
-
+$base-font-family:                 -apple-system, Roboto, Helvetica, Arial;
 $base-font-size:                   14px;
-$base-font-family:                 -apple-system, Helvetica, Arial;
-$base-font-family:                 -apple-system, Helvetica, Arial;
+$base-margin:                      14px;
 $base-line-height:                 1.4;
 
-$heading-color:                    lighten($base-color, 20%);
-$heading-line-height:              1.4;
-$heading-min-font-size:            15px;
-$heading-max-font-size:            40px;
+$medium: 500;
+$bold:   600;
+$normal: 400;
+
+$border-radius-large:              6px;
+$border-radius-small:              3px;
+$border:                           1px solid rgba(white, .1);
+
+$base-color:                         $off-white;
+$base-background-color:              $slate;
+$link-color:                         $blue;
+$heading-color:                      lighten($base-color, 20%);
+$heading-line-height:                1.4;
+$heading-min-font-size:              15px;
+$heading-max-font-size:              40px;

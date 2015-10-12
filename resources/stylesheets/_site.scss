@@ -1,34 +1,226 @@
 body {
     margin: 0;
-    background: $base-background;
+    background: url(../images/background.jpg) no-repeat #26303A;
+    background-size: cover;
+    a {
+        color: $link-color;
+        text-decoration: none;
+        &:hover {
+            color: lighten($link-color, 10%);
+        }
+    }
+}
+
+#global-header,
+#global-footer {
+    background: $dusk;
+    padding: 16px;
+    h1 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 20px;
+        color: mix($dusk, white, 35%);
+        text-transform: uppercase;
+        @include retina-image("../images/logo", 37px 37px);
+        background-position: left center;
+        background-repeat: no-repeat;
+        padding: 9px 0 8px 45px;
+
+    }
+}
+
+#global-footer {
+    clear: both;
+    p {
+        font-size: 11px;
+        margin: 0;
+        text-align: center;
+    }
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px 100px;
-    background: rgba(white, .02);
+}
+
+.layout {
+    max-width: 1000px;
+    margin: 0 auto;
+    @include breakpoint(768px) {
+        .primary-column {
+            @include span-columns(10);
+            @include omega;
+            float: right;
+
+        }
+        .secondary-column {
+            @include span-columns(2);
+            float: left;
+        }
+    }
 }
 
 .item {
+    padding: 20px 0;
+    & + & {
+        border-top: 1px solid rgba(white, .1);
+    }
+    .details {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(rgba(black, 0), rgba(black, 1) 90% );
+        padding: 50px 20px 20px 20px;
+        border-bottom-left-radius: $border-radius-large;
+        border-bottom-right-radius: $border-radius-large;
+        text-shadow: 0 1px 1px rgba(black, .5);
+        .icon {
+            $size: 55px;
+            width: $size;
+            height: $size;
+            margin-right: $base-margin;
+            background-color: $blue;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            border-radius: 100px;
+            float: left;
+        }
+        .name {
+            margin-bottom: 0;
+            margin-top: 0px;
+        }
+        .description {
+            font-style: 15px;
+            font-weight: $medium;
+            margin: 0;
+        }
+    }
+
     .visual {
         position: relative;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 0 rgba(white, .05);
+        border-radius: $border-radius-large;
         img:first-child {
             width: 100%;
         }
         img {
-            border-radius: 4px;
+            border-radius: $border-radius-large;
+            display: block;
         }
-        img:last-child {
+        img:nth-child(2) {
+            display: none;
             position: absolute;
+            z-index: 2;
             left: 0;
             top: 0;
             right: 0;
             bottom: 0;
-            opacity: 0;
+            opacity: .5;
+            width: 100%;
             transition: opacity .3s;
             &:hover {
                 opacity: 1;
+            }
+        }
+    }
+}
+.stats {
+    $push: 80px;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    li {
+        @include clearfix;
+        list-style: none;
+        margin: 0 0 4px;
+        font-weight: $medium;
+        padding-left: $push;
+    }
+    .label {
+        display: block;
+        width: $push;
+        margin-left: -($push);
+        float: left;
+    }
+    .graph {
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .amount {
+        display: inline-block;
+        font-size: 11px;
+        margin-top: -4px;
+        vertical-align: middle;
+    }
+}
+
+.graph {
+    background: rgba(black, .5);
+    // box-shadow: 0 1px 3px black inset, 0 1px 0 rgba(white, .05);
+    border-radius: 2px;
+    height: 16px;
+    width: 170px;
+    position: relative;
+    float: left;
+    &:before {
+        $pull: 0;
+        width: 0px;
+        top: $pull;
+        bottom: $pull;
+        position: absolute;
+        left: 50%;
+        content: " ";
+        background: rgba(white, .4);
+    }
+    .plot {
+        min-width: 40px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: $green;
+        border: 0px solid rgba(black, .3) !important;
+        &.negative {
+            right: 50%;
+            background: rgba($red, .8);
+            border-right-width: 1px;
+        }
+        &.positive {
+            left: 50%;
+            background: rgba($green, .4);
+            border-left-width: 1px;
+        }
+    }
+}
+
+.legend {
+
+    h4, h5 {
+        border-bottom: $border;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    h5 {
+        border-bottom: 0;
+    }
+
+    ul {
+        margin: 0 0 8px;
+        padding: 0;
+        li {
+            list-style: none;
+            margin: 0 0 5px;
+            font-size: 12px;
+            a {
+                color: mix(white, $slate, 40%);
+                &:hover {
+                    color: mix(white, $slate, 70%);
+                }
             }
         }
     }

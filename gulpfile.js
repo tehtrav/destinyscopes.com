@@ -15,6 +15,7 @@ var gzip = require('gulp-gzip');
 var livereload = require('gulp-livereload');
 var notify = require("gulp-notify");
 var gutil = require("gulp-util");
+var sourcemaps = require("gulp-sourcemaps");
 
 var gzip_options = {
     threshold: '1kb',
@@ -60,10 +61,12 @@ gulp.task('styles', function () {
     .pipe(plumber({
         errorHandler: reportError
     }))
+    .pipe(sourcemaps.init())
     .pipe(sass())
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(gzip(gzip_options))
         .pipe(gulp.dest('public/stylesheets'))

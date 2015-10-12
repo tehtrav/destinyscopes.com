@@ -1,5 +1,7 @@
 // BOURBON SCSS FRAMEWORK
 @import 'bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import 'bower_components/breakpoint-sass/stylesheets/_breakpoint.scss';
+@import 'bower_components/neat/app/assets/stylesheets/_neat.scss';
 
 @import 'variables';
 @import 'type';

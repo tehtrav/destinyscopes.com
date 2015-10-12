@@ -1,9 +1,10 @@
 {
-  "name": "front-end-groundwork",
+  "name": "destinyoptics.com",
   "version": "1.0.0",
-  "description": "A gulp based front end dev groundwork with error reporting and notifications",
+  "description": "A site that shows off the many scopes of Destiny",
   "main": "gulpfile.js",
-  "dependencies": {
+  "devDependencies": {
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-gzip": "^1.2.0",
     "gulp-livereload": "^3.8.0",
     "gulp-notify": "^2.2.0",
@@ -14,8 +15,8 @@
     "gulp-util": "^3.0.6",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2"
+
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
