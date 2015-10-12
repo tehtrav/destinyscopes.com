@@ -1,2 +1,2 @@
-# destinyoptics.com
+# destinyscopes.com
 Details coming soon :)
