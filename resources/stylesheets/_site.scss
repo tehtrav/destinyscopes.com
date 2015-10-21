@@ -14,7 +14,7 @@ body {
 #global-header,
 #global-footer {
     background: $dusk;
-    padding: 16px;
+    padding: 10px 16px;
     h1 {
         margin: 0;
         font-size: 20px;
@@ -29,6 +29,10 @@ body {
     }
 }
 
+#global-header {
+    margin-bottom: 40px;
+}
+
 #global-footer {
     clear: both;
     p {
@@ -41,7 +45,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 100px;
+    padding: 80px 100px;
 }
 
 .layout {
@@ -62,7 +66,7 @@ body {
 }
 
 .item {
-    padding: 20px 0;
+    padding: 0 0 20px;
     & + & {
         border-top: 1px solid rgba(white, .1);
     }
@@ -197,12 +201,11 @@ body {
 }
 
 .legend {
-
     h4, h5 {
         border-bottom: $border;
         font-size: 12px;
         text-transform: uppercase;
-        margin-bottom: 5px;
+        margin: 0 0 5px;
     }
 
     h5 {
@@ -210,7 +213,7 @@ body {
     }
 
     ul {
-        margin: 0 0 8px;
+        margin: 0 0 20px;
         padding: 0;
         li {
             list-style: none;
