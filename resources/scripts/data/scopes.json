@@ -1,0 +1,35 @@
+[
+	{
+		"Name" : "RED DOT ORES-1",
+		"Description" : "Slightly improved optics, better handling",
+		"Image" :
+		[
+			"public/images/gun.jpg",
+			"public/images/shortgaze.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 4.5, false, "x"],
+			["Aim Assist", 5],
+			["Handling", -2],
+			["Range", 2]
+		]
+	},
+	{
+		"Name" : "Shortgaze SLS10",
+		"Description" : "Slightly improved optics, better handling",
+		"Image" :
+		[
+			"public/images/shortgaze.jpg",
+			"public/images/shortgaze-alt.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 4.5, false, "x"],
+			["Aim Assist", 5],
+			["Handling", -2],
+			["Range", 2]
+		]
+	}
+
+]
