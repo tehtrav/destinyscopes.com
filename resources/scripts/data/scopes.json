@@ -1,18 +1,122 @@
 [
 	{
-		"Name" : "RED DOT ORES-1",
-		"Description" : "Slightly improved optics, better handling",
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Omolon",
+		"Name" : "Torch HS2",
+		"Description" : "Omolon close quarters combat sights. CQ optics, improved target acquisition.",
+		"Icon" : "public/images/red-dot-oes-icon.png",
 		"Image" :
 		[
-			"public/images/gun.jpg",
-			"public/images/shortgaze.jpg"
+			"public/images/red-dot-oes.jpg",
+			"public/images/red-dot-oes-ads.jpg"
 		],
 		"Stats" :
 		[
-			["Zoom", 4.5, false, "x"],
-			["Aim Assist", 5],
-			["Handling", -2],
-			["Range", 2]
+			["Zoom", 0.2, false, "x"],
+			["Range", 2],
+			["Stability", 12]
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Name" : "Red Dot-OES",
+		"Description" : "Agile sight. For smooth engagement in close quarters.",
+		"Icon" : "public/images/red-dot-oes-icon.png",
+		"Image" :
+		[
+			"public/images/red-dot-oes.jpg",
+			"public/images/red-dot-oes-ads.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 0.2, false, "x"],
+			["Range", 2],
+			["Stability", 12]
+		]
+	},
+	{
+		"Name" : "Red Dot-ORS",
+		"Description" : "Accurized sight. For precise fire.",
+		"Image" :
+		[
+			"public/images/red-dot-ors.jpg",
+			"public/images/red-dot-ors-ads.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 0.3, false, "x"],
+			["Range", 6],
+			["Stability", 9]
+		]
+	},
+	{
+		"Name" : "Red Dot-OAS",
+		"Description" : "Snapshot sight. Enhanced target acquisition.",
+		"Image" :
+		[
+			"public/images/red-dot-oas.jpg",
+			"public/images/red-dot-oas-ads.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 0.2, false, "x"],
+			["Stability", 14]
+		]
+	},
+	{
+		"Name" : "Red Dot-ORS1",
+		"Description" : "Precision sight. Highest zoom in class. Enhanced range.",
+		"Image" :
+		[
+			"public/images/red-dot-ors1.jpg",
+			"public/images/red-dot-ors1-ads.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 0.4, false, "x"],
+			["Range", 8],
+			["Stability", 6]
+		]
+	},
+	{
+		"Name" : "Red Dot-ORES",
+		"Description" : "Flexible sight. Enhances handling, range, and recoil control.",
+		"Image" :
+		[
+			"public/images/red-dot-ores.jpg",
+			"public/images/red-dot-ores-ads.jpg"
+		],
+		"Stats" :
+		[
+			["Zoom", 0.3, false, "x"],
+			["Range", 6],
+			["Stability", 9],
+			["Reload", 4],
+			["Handling", 4]
+		]
+	},
+	{
+		"Name" : "Reflex",
+		"Description" : "Slightly improved optics, improved aim assist.",
+		"Image" :
+		[
+			"public/images/reflex.jpg",
+			"public/images/reflex-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Name" : "MD-Reflex",
+		"Description" : "Significantly improved handling.",
+		"Image" :
+		[
+			"public/images/md-reflex.jpg",
+			"public/images/md-reflex-ads.jpg"
+		],
+		"Stats" :
+		[
 		]
 	},
 	{
@@ -26,9 +130,9 @@
 		"Stats" :
 		[
 			["Zoom", 4.5, false, "x"],
+			["Range", 2],
 			["Aim Assist", 5],
-			["Handling", -2],
-			["Range", 2]
+			["Handling", -2]
 		]
 	}
 

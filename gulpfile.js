@@ -17,6 +17,9 @@ var notify = require("gulp-notify");
 var gutil = require("gulp-util");
 var sourcemaps = require("gulp-sourcemaps");
 
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
+
 var gzip_options = {
     threshold: '1kb',
     gzipOptions: {
@@ -74,6 +77,13 @@ gulp.task('styles', function () {
         .on('error', reportError)
         .pipe(livereload());
 });
+
+// gulp.task('scripts', function() {  
+//   return gulp.src('vendor/*.js')
+//     .pipe(concat('vendor.js'))
+//     .pipe(uglify())
+//     .pipe(gulp.dest('build/vendor.js'))
+// });
 
 /* Watch Files For Changes */
 gulp.task('watch', function() {

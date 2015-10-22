@@ -8,6 +8,7 @@
 
 	<header id="global-header">
 		<h1>Destiny Scopes</h1>
+		<a class="jump-to-legend" href="#legend">Legend</a>
 	</header>
 
 	<div class="layout">
@@ -15,7 +16,10 @@
 
 		</div>
 		<div class="secondary-column">
-			<div class="legend">
+			<div id="legend" class="legend">
+
+
+
 				<h4>Iron Sites</h4>
 				<ul>
 					<li><a href="#">SteadyHand IS</a></li>
@@ -24,29 +28,31 @@
 				</ul>
 
 				<h4>Red Dot Sites</h4>
-				<ul>
-					<li><a href="#">Red Dot</a></li>
-					<li><a href="#">QuickDraw IS</a></li>
-					<li><a href="#">SureShot IS</a></li>
-				</ul>
-				<h5>Omolon</h5>
-				<ul>
-					<li><a href="#">SteadyHand IS</a></li>
-					<li><a href="#">QuickDraw IS</a></li>
-					<li><a href="#">SureShot IS</a></li>
-				</ul>
-				<h5>Suros</h5>
-				<ul>
-					<li><a href="#">SteadyHand IS</a></li>
-					<li><a href="#">QuickDraw IS</a></li>
-					<li><a href="#">SureShot IS</a></li>
-				</ul>
-				<h5>Hakke</h5>
-				<ul>
-					<li><a href="#">SteadyHand IS</a></li>
-					<li><a href="#">QuickDraw IS</a></li>
-					<li><a href="#">SureShot IS</a></li>
-				</ul>
+					<ul>
+						<li><a href="#">Red Dot</a></li>
+						<li><a href="#">QuickDraw IS</a></li>
+						<li><a href="#">SureShot IS</a></li>
+					</ul>
+
+					<h5>Omolon</h5>
+						<ul>
+							<li><a href="#">SteadyHand IS</a></li>
+							<li><a href="#">QuickDraw IS</a></li>
+							<li><a href="#">SureShot IS</a></li>
+						</ul>
+
+					<h5>Suros</h5>
+						<ul>
+							<li><a href="#">SteadyHand IS</a></li>
+							<li><a href="#">QuickDraw IS</a></li>
+							<li><a href="#">SureShot IS</a></li>
+						</ul>
+					<h5>Hakke</h5>
+						<ul>
+							<li><a href="#">SteadyHand IS</a></li>
+							<li><a href="#">QuickDraw IS</a></li>
+							<li><a href="#">SureShot IS</a></li>
+						</ul>
 
 				<h4>Ranged Scopes</h4>
 				<ul>

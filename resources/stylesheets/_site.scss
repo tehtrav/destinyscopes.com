@@ -31,6 +31,20 @@ body {
 
 #global-header {
     margin-bottom: 40px;
+    position: relative;
+    .jump-to-legend {
+        display: block;
+        background: rgba(black, .3);
+
+        $gutter: 10px;
+        position: absolute;
+        right: $gutter;
+        top: $gutter;
+        bottom: $gutter;
+        width: 46px;
+        text-indent: -9999px;
+        border-radius: 4px;
+    }
 }
 
 #global-footer {
@@ -42,16 +56,12 @@ body {
     }
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 80px 100px;
-}
-
 .layout {
     max-width: 1000px;
+    padding: 0 20px;
     margin: 0 auto;
     @include breakpoint(768px) {
+        padding: 0 35px;
         .primary-column {
             @include span-columns(8 of 10);
             @include omega;
