@@ -53,13 +53,13 @@ body {
     margin: 0 auto;
     @include breakpoint(768px) {
         .primary-column {
-            @include span-columns(10);
+            @include span-columns(8 of 10);
             @include omega;
             float: right;
 
         }
         .secondary-column {
-            @include span-columns(2);
+            @include span-columns(2 of 10);
             float: left;
         }
     }
@@ -68,7 +68,8 @@ body {
 .item {
     padding: 0 0 20px;
     & + & {
-        border-top: 1px solid rgba(white, .1);
+        border-top: 2px solid rgba(white, .1);
+        padding-top: 40px;
     }
     .details {
         position: absolute;
@@ -181,7 +182,7 @@ body {
         background: rgba(white, .4);
     }
     .plot {
-        min-width: 40px;
+        // min-width: 40px;
         position: absolute;
         top: 0;
         bottom: 0;

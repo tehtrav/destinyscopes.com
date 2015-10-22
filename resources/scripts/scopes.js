@@ -77,7 +77,7 @@ window.RenderScopes = function(scopes){
 
 		for(var si in scopes[i].Stats)
 		{
-			var $stat = $("<li><li>").addClass(".stats-" + scopes[i].Stats[si].Name.toLowerCase().replace(/\w/g, "-"));
+			var $stat = $("<li>").addClass("stats-" + scopes[i].Stats[si].Name.toLowerCase().replace(/\s+/g, "-"));
 			$stat.append($("<span></span>").addClass("label").text(scopes[i].Stats[si].Name));
 			if(scopes[i].Stats[si].IsGraph)
 			{
@@ -87,6 +87,7 @@ window.RenderScopes = function(scopes){
 
 				$plot.addClass(scopes[i].Stats[si].Value >= 0 ? "positive" : "negative")
 				$plot.attr("data-size", scopes[i].Stats[si].Value)
+				$plot.css("width", Math.abs(scopes[i].Stats[si].Value) * 3)
 				$plot.appendTo($graph);
 				$graph.appendTo($stat);
 
