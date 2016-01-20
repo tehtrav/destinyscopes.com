@@ -120,12 +120,13 @@
 		]
 	},
 	{
-		"Name" : "Shortgaze SLS10",
-		"Description" : "Slightly improved optics, better handling",
+		"Type" : "Sniper Scope",
+		"Name" : "Ambush",
+		"Description" : "...",
 		"Image" :
 		[
-			"public/images/shortgaze.jpg",
-			"public/images/shortgaze-alt.jpg"
+			"http://i.imgur.com/uqjhZBC.png",
+			"http://i.imgur.com/uqjhZBC.png"
 		],
 		"Stats" :
 		[

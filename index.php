@@ -172,8 +172,8 @@ function stripFormatting($string) {
 	</footer>
 
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!-- 
 	<script src="resources/scripts/scopes.js"></script>
+	<!-- 
 	<script src="resources/scripts/scripts.js"></script>
 	-->
 	
