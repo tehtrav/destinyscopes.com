@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+<?php 
+function stripFormatting($string) {
+    //Lower case everything
+    $string = strtolower($string);
+    //Make alphanumeric (removes all other characters)
+    $string = preg_replace("/[^a-z0-9_\s-]/", "", $string);
+    //Clean up multiple dashes or whitespaces
+    $string = preg_replace("/[\s-]+/", " ", $string);
+    //Convert whitespaces and underscore to dash
+    $string = preg_replace("/[\s_]/", "-", $string);
+    return $string;
+}
+?>
 <head>
 	<title></title>
 	<link rel="stylesheet" href="public/stylesheets/main.min.css">
@@ -26,6 +39,71 @@
 
 	<div class="layout">
 		<div class="primary-column">
+			
+
+			<?php 
+				/*			
+				$scopeName      = "Torch HS2";
+				$scopeImg       = "public/images/red-dot-oes.jpg";
+				$scopeIcon      = "public/images/red-dot-oes.jpg";
+				$scopeDesc      = "Omolon close quarters combat sights. CQ optics, improved target acquisition.";
+				$scopeZoom      = .1;
+				$scopeRange     = 2;
+				$scopeStability = -3;
+				$scopeHandling  = 4;
+				include("scope-item.php"); 
+				*/
+			?>
+
+			<?php 
+			/*
+				$scopeName      = "Red Dot OES";
+				$scopeImg       = "public/images/red-dot-oes.jpg";
+				$scopeIcon      = "public/images/red-dot-oes.jpg";
+				$scopeDesc      = "Omolon close quarters combat sights. CQ optics, improved target acquisition.";
+				$scopeZoom      = -.3;
+				$scopeRange     = "0.2";
+				$scopeStability = "0.3";
+				$scopeHandling  = "0.4";
+				include("scope-item.php"); */
+			?>
+
+
+
+			<!-- Item -->
+			<!-- <article class="item" id="torch-hs2">
+			    <div class="visual">
+			        <img src="public/images/red-dot-oes.jpg">
+			        <div class="details">
+			            <div class="icon"></div>
+			            <h2 class="name">Torch HS2</h2>
+			            <p class="description">Omolon close quarters combat sights. CQ optics, improved target acquisition.</p>
+			        </div>
+			    </div>
+			    <ul class="stats">
+			        <li class="stats-zoom">
+			            <span class="label">Zoom</span>
+			            <div class="graph">
+			                <div class="plot positive" data-size="0.2" style="width: 1px;"></div>
+			            </div>
+			            <span class="amount">+0.2</span>
+			        </li>
+			        <li class="stats-range">
+			            <span class="label">Range</span>
+			            <div class="graph">
+			                <div class="plot positive" data-size="2" style="width: 10px;"></div>
+			            </div>
+			            <span class="amount">+2</span>
+			        </li>
+			        <li class="stats-stability">
+			            <span class="label">Stability</span>
+			            <div class="graph">
+			                <div class="plot positive" data-size="12" style="width: 60px;"></div>
+			            </div>
+			            <span class="amount">+12</span>
+			        </li>
+			    </ul>
+			</article> -->
 
 		</div>
 		<div class="secondary-column">
@@ -36,55 +114,44 @@
 					<li><a href="#">QuickDraw IS</a></li>
 					<li><a href="#">SureShot IS</a></li>
 				</ul>
-
 				<h4>Red Dot Sites</h4>
-					<ul>
-						<li><a href="#">Red Dot</a></li>
-						<li><a href="#">QuickDraw IS</a></li>
-						<li><a href="#">SureShot IS</a></li>
-					</ul>
-
-					<h5>Omolon</h5>
-						<ul>
-							<li><a href="#">SteadyHand IS</a></li>
-							<li><a href="#">QuickDraw IS</a></li>
-							<li><a href="#">SureShot IS</a></li>
-						</ul>
-
-					<h5>Suros</h5>
-						<ul>
-							<li><a href="#">SteadyHand IS</a></li>
-							<li><a href="#">QuickDraw IS</a></li>
-							<li><a href="#">SureShot IS</a></li>
-						</ul>
-					<h5>Hakke</h5>
-						<ul>
-							<li><a href="#">SteadyHand IS</a></li>
-							<li><a href="#">QuickDraw IS</a></li>
-							<li><a href="#">SureShot IS</a></li>
-						</ul>
-
+				<ul>
+					<li><a href="#">Red Dot</a></li>
+					<li><a href="#">QuickDraw IS</a></li>
+					<li><a href="#">SureShot IS</a></li>
+				</ul>
+				<h5>Omolon</h5>
+				<ul>
+					<li><a href="#">SteadyHand IS</a></li>
+					<li><a href="#">QuickDraw IS</a></li>
+					<li><a href="#">SureShot IS</a></li>
+				</ul>
+				<h5>Suros</h5>
+				<ul>
+					<li><a href="#">SteadyHand IS</a></li>
+					<li><a href="#">QuickDraw IS</a></li>
+					<li><a href="#">SureShot IS</a></li>
+				</ul>
+				<h5>Hakke</h5>
+				<ul>
+					<li><a href="#">SteadyHand IS</a></li>
+					<li><a href="#">QuickDraw IS</a></li>
+					<li><a href="#">SureShot IS</a></li>
+				</ul>
 				<h4>Ranged Scopes</h4>
 				<ul>
 					<li><a href="#">SteadyHand IS</a></li>
 					<li><a href="#">QuickDraw IS</a></li>
 					<li><a href="#">SureShot IS</a></li>
 				</ul>
-
 				<h4>Sniper Scopes</h4>
 				<ul>
 					<li><a href="#">SteadyHand IS</a></li>
 					<li><a href="#">QuickDraw IS</a></li>
 					<li><a href="#">SureShot IS</a></li>
 				</ul>
-
-
 			</div>
 		</div>
-
-
-
-
 	</div><!-- layout -->
 	<footer id="global-footer">
 
@@ -117,8 +184,18 @@
 
 	</footer>
 
+<<<<<<< HEAD
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="resources/scripts/scopes.js"></script>
+=======
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="resources/scripts/scopes.js"></script>
+	<!-- 
+	<script src="resources/scripts/scripts.js"></script>
+	-->
+	
+	
+>>>>>>> cc0b03a0a3d2b124b00a6bd52de1b6a132d8eb04
 
 </body>
 </html>
