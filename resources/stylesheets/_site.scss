@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: url(../images/background.jpg) no-repeat #26303A;
     background-size: cover;
+    background-attachment: fixed;
     a {
         color: $link-color;
         text-decoration: none;
@@ -238,4 +239,8 @@ body {
             }
         }
     }
+}
+
+.active {
+    font-weight: bold;
 }

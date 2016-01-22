@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A site that shows off the many scopes of Destiny",
   "main": "gulpfile.js",
+  "bungieAPI": "46234df2505b44d1b4f03a6b3c6b3f15",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",

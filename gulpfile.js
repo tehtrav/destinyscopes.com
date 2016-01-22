@@ -78,7 +78,7 @@ gulp.task('styles', function () {
         .pipe(livereload());
 });
 
-// gulp.task('scripts', function() {  
+// gulp.task('scripts', function() {
 //   return gulp.src('vendor/*.js')
 //     .pipe(concat('vendor.js'))
 //     .pipe(uglify())
@@ -91,6 +91,7 @@ gulp.task('watch', function() {
     gulp.watch('resources/stylesheets/*.scss', ['styles']);
     gulp.watch('*.php').on('change', livereload.changed);
     gulp.watch('*.html').on('change', livereload.changed);
+    gulp.watch('*').on('change', livereload.changed);
 });
 
 gulp.task('default', ['styles', 'watch']);

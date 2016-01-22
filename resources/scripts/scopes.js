@@ -1,10 +1,29 @@
-$(document).ready(function(){
-	GetScopeData();
+// Sticky sidebar
+$(function(){ // document ready
+
+	if (!!$('#legend').offset()) { // make sure ".sticky" element exists
+		var legendTop = $('#legend').offset().top - 20; // returns number
+		$(window).scroll(function(){ // scroll event
+			var windowTop = $(window).scrollTop(); // returns number
+			if (legendTop < windowTop) {
+				$('#legend').css({ position: 'fixed', top: 20 });
+			}
+			else {
+				$('#legend').css('position','static');
+			}
+		});
+	}
 });
 
-window.Scope = function( name, description, images, stats){
+$(document).ready(function(){
+	GetScopeData();
+
+});
+
+window.Scope = function( name, description, icon, images, stats){
 	this.Name = name || "";
 	this.Description = description || "";
+	this.Icon = icon || "";
 	this.Images = [];
 	this.Stats = [];
 	for(var i in images)
@@ -56,6 +75,7 @@ window.GetScopeData = function(){
 				scopes.push( new Scope(
 					data[scope].Name || "",
 					data[scope].Description || "",
+					data[scope].Icon || "",
 					data[scope].Image || [],
 					data[scope].Stats || []
 				));
@@ -100,8 +120,10 @@ window.RenderScopes = function(scopes){
 		}
 
 		$visual.append($('<img src="'+ scopes[i].Images[0].href +'"/>'));
+		$visual.append($('<img src="'+ scopes[i].Images[1].href +'"/>'));
 
-		$details.append($('<div></div>').addClass("icon").css("background-image", "url("+ scopes[i].Images[1].href +");"));
+		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
+
 		$details.append($('<h2></h2>').addClass('name').text(scopes[i].Name));
 		$details.append($('<p></p>').addClass('description').text(scopes[i].Description));
 		$details.appendTo($visual);
@@ -119,13 +141,10 @@ window.RenderScopes = function(scopes){
 window.RenderLegend = function(scopes){
 	var $legend = $("#legend");
 	$legend.html('');
-
 	for(var i in scopes) {
 		var $scope = $("<li></li>");
 		var $link = $("<a></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
 	}
-
 	$link.appendTo($scope);
-
 	$scope.appendTo($legend);
 }

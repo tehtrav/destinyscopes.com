@@ -2,19 +2,209 @@
 	{
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Omolon",
-		"Name" : "Torch HS2",
-		"Description" : "Omolon close quarters combat sights. CQ optics, improved target acquisition.",
-		"Icon" : "public/images/red-dot-oes-icon.png",
+		"Name" : "Spark IS2",
+		"Description" : "Omolon holo sights. Improves weapon handling.",
+		"Icon" : "public/images/scope-icons/omolon.png",
 		"Image" :
 		[
-			"public/images/red-dot-oes.jpg",
-			"public/images/red-dot-oes-ads.jpg"
+			"public/images/scopes/omolon-spark.jpg",
+			"public/images/scopes/omolon-spark-ads.jpg"
 		],
 		"Stats" :
 		[
-			["Zoom", 0.2, false, "x"],
-			["Range", 2],
-			["Stability", 12]
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SLO-12",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-slo-12.jpg",
+			"public/images/scopes/suros-slo-12.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SLO-19",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-slo-19.jpg",
+			"public/images/scopes/suros-slo-19.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SPO-26",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-spo-26.jpg",
+			"public/images/scopes/suros-spo-26.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SPO-28",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-spo-28.jpg",
+			"public/images/scopes/suros-spo-28.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SRO-37",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-sro-37.jpg",
+			"public/images/scopes/suros-sro-37.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Suros",
+		"Name" : "SRO-41",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/suros.png",
+		"Image" :
+		[
+			"public/images/scopes/suros-sro-41.jpg",
+			"public/images/scopes/suros-sro-41.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Hakke",
+		"Name" : "GA Post",
+		"Description" : "Agile post sights. Improves weapon handling.",
+		"Icon" : "public/images/scope-icons/hakke.png",
+		"Image" :
+		[
+			"public/images/scopes/hakke-ga-post.jpg",
+			"public/images/scopes/hakke-ga-post.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Hakke",
+		"Name" : "LD Watchdog",
+		"Description" : "Häkke threat evaluation tech. Highlights dangerous enemies and Guardians with charged Supers.",
+		"Icon" : "public/images/scope-icons/hakke.png",
+		"Image" :
+		[
+			"public/images/scopes/hakke-ld-watchdog.jpg",
+			"public/images/scopes/hakke-ld-watchdog.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Omolon",
+		"Name" : "Candle IS2",
+		"Description" : "Minimal iron sites. Improves weapon handling.",
+		"Icon" : "public/images/scope-icons/omolon.png",
+		"Image" :
+		[
+			"public/images/scopes/omolon-candle.jpg",
+			"public/images/scopes/omolon-candle.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Omolon",
+		"Name" : "Spark IS2",
+		"Description" : "Omolon holo sights. Improves weapon handling.",
+		"Icon" : "public/images/scope-icons/omolon.png",
+		"Image" :
+		[
+			"public/images/scopes/omolon-spark.jpg",
+			"public/images/scopes/omolon-spark-ads.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Omolon",
+		"Name" : "Torch HS2",
+		"Description" : "Omolon close quarters combat sights. CQ optics, improved target acquisition.",
+		"Icon" : "public/images/scope-icons/omolon.png",
+		"Image" :
+		[
+			"public/images/scopes/omolon-torch.jpg",
+			"public/images/scopes/omolon-torch.jpg"
+		],
+		"Stats" :
+		[
+
+		]
+	},
+	{
+		"Type" : "Red Dot Sites",
+		"Manufacturer" : "Omolon",
+		"Name" : "Signal MS5",
+		"Description" : "Omolon imaging technology. Highlights long-distance enemy targets at optimal combat range.",
+		"Icon" : "public/images/scope-icons/omolon.png",
+		"Image" :
+		[
+			"public/images/scopes/omolon-signal.jpg",
+			"public/images/scopes/omolon-signal.jpg"
+		],
+		"Stats" :
+		[
+
 		]
 	},
 	{
@@ -24,8 +214,8 @@
 		"Icon" : "public/images/red-dot-oes-icon.png",
 		"Image" :
 		[
-			"public/images/red-dot-oes.jpg",
-			"public/images/red-dot-oes-ads.jpg"
+			"public/images/scopes/red-dot-oes.jpg",
+			"public/images/scopes/red-dot-oes-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -39,8 +229,8 @@
 		"Description" : "Accurized sight. For precise fire.",
 		"Image" :
 		[
-			"public/images/red-dot-ors.jpg",
-			"public/images/red-dot-ors-ads.jpg"
+			"public/images/scopes/red-dot-ors-ads.jpg",
+			"public/images/scopes/red-dot-ors-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -54,8 +244,8 @@
 		"Description" : "Snapshot sight. Enhanced target acquisition.",
 		"Image" :
 		[
-			"public/images/red-dot-oas.jpg",
-			"public/images/red-dot-oas-ads.jpg"
+			"public/images/scopes/red-dot-oas-ads.jpg",
+			"public/images/scopes/red-dot-oas-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -83,8 +273,8 @@
 		"Description" : "Flexible sight. Enhances handling, range, and recoil control.",
 		"Image" :
 		[
-			"public/images/red-dot-ores.jpg",
-			"public/images/red-dot-ores-ads.jpg"
+			"public/images/scopes/red-dot-ores.jpg",
+			"public/images/scopes/red-dot-ores-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -96,12 +286,37 @@
 		]
 	},
 	{
+		"Name" : "Red Dot-ORA",
+		"Description" : "...",
+		"Icon" : "public/images/scope-icons/red-dot.png",
+		"Image" :
+		[
+			"public/images/scopes/red-dot-ora.jpg",
+			"public/images/scopes/red-dot-ora.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Name" : "OEG",
+		"Description" : "...",
+		"Image" :
+		[
+			"public/images/scopes/oeg.jpg",
+			"public/images/scopes/oeg.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
 		"Name" : "Reflex",
 		"Description" : "Slightly improved optics, improved aim assist.",
 		"Image" :
 		[
-			"public/images/reflex.jpg",
-			"public/images/reflex-ads.jpg"
+			"public/images/scopes/reflex.jpg",
+			"public/images/scopes/reflex-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -112,8 +327,8 @@
 		"Description" : "Significantly improved handling.",
 		"Image" :
 		[
-			"public/images/md-reflex.jpg",
-			"public/images/md-reflex-ads.jpg"
+			"public/images/scopes/md-reflex.jpg",
+			"public/images/scopes/md-reflex.jpg"
 		],
 		"Stats" :
 		[
@@ -122,10 +337,11 @@
 	{
 		"Name" : "Shortgaze SLS10",
 		"Description" : "Slightly improved optics, better handling",
+		"Icon" : "public/images/scope-icons/sniper.png",
 		"Image" :
 		[
-			"public/images/shortgaze.jpg",
-			"public/images/shortgaze-alt.jpg"
+			"public/images/scopes/shortgaze.png",
+			"public/images/scopes/shortgaze.png"
 		],
 		"Stats" :
 		[
