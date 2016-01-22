@@ -92,6 +92,7 @@ body {
         border-bottom-left-radius: $border-radius-large;
         border-bottom-right-radius: $border-radius-large;
         text-shadow: 0 1px 1px rgba(black, .5);
+        z-index: 2;
         .icon {
             $size: 55px;
             width: $size;
@@ -114,28 +115,37 @@ body {
             margin: 0;
         }
     }
+    .zoom {
+        position: absolute;
+        z-index: 3;
+        font-size: 17px;
+        width: 100%;
+        top: 10px;
+        text-align: center;
+        text-shadow: 0 1px 4px rgba(black, .4);
+        opacity: .6;
+    }
 
     .visual {
         position: relative;
         margin-bottom: 20px;
         box-shadow: 0 1px 0 rgba(white, .05);
         border-radius: $border-radius-large;
-        img:first-child {
-            width: 100%;
-        }
         img {
             border-radius: $border-radius-large;
             display: block;
         }
-        img:nth-child(2) {
-            display: none;
+        img.scope-ads {
+            width: 100%;
+        }
+        img.scope-hip {
             position: absolute;
-            z-index: 2;
+            z-index: 1;
             left: 0;
             top: 0;
             right: 0;
             bottom: 0;
-            opacity: .5;
+            opacity: 0;
             width: 100%;
             transition: opacity .3s;
             &:hover {
