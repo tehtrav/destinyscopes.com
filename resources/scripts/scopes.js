@@ -20,10 +20,11 @@ $(document).ready(function(){
 
 });
 
-window.Scope = function( name, description, icon, images, stats){
+window.Scope = function( name, description, icon, zoom, images, stats){
 	this.Name = name || "";
 	this.Description = description || "";
 	this.Icon = icon || "";
+	this.Zoom = zoom || "";
 	this.Images = [];
 	this.Stats = [];
 	for(var i in images)
@@ -76,6 +77,7 @@ window.GetScopeData = function(){
 					data[scope].Name || "",
 					data[scope].Description || "",
 					data[scope].Icon || "",
+					data[scope].Zoom || "",
 					data[scope].Image || [],
 					data[scope].Stats || []
 				));
@@ -119,8 +121,12 @@ window.RenderScopes = function(scopes){
 			$stat.appendTo($stats);
 		}
 
-		$visual.append($('<img src="'+ scopes[i].Images[0].href +'"/>'));
-		$visual.append($('<img src="'+ scopes[i].Images[1].href +'"/>'));
+		$visual.append($('<img class="scope-ads" src="'+ scopes[i].Images[1].href +'"/>'));
+		$visual.append($('<img class="scope-hip" src="'+ scopes[i].Images[0].href +'"/>'));
+
+		if ( scopes[i].Zoom != 0 || scopes[i].Zoom != "" ) {
+			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom + "x"));
+		}
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
 
