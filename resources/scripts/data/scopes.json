@@ -79,13 +79,6 @@
 
 		]
 	},
-
-
-
-
-
-
-
 	{
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Suros",
@@ -212,7 +205,7 @@
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Hakke",
 		"Name" : "SD Thermal",
-		"Description" : "",
+		"Description" : "Häkke thermal imaging scope. Highlights all enemy targets.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
         "Image" :
@@ -229,7 +222,7 @@
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Hakke",
 		"Name" : "LB Assault",
-		"Description" : "",
+		"Description" : "Medium-range assault scope. Improved optics and range.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
         "Image" :
@@ -246,7 +239,7 @@
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Hakke",
 		"Name" : "SC Holo",
-		"Description" : "",
+		"Description" : "Häkke holo sights. Improved target acquisition.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
         "Image" :
@@ -259,9 +252,6 @@
 
 		]
 	},
-
-
-
 	{
 		"Type" : "Red Dot Sites",
 		"Manufacturer" : "Hakke",
@@ -622,7 +612,6 @@
 		]
 	},
 	{
-<<<<<<< HEAD
 		"Name" : "Focus Lens FLS2",
 		"Description" : "Agile scope. Modest zoom. Light and snappy.",
 		"Icon" : "public/images/scope-icons/ranged-scope.png",
@@ -666,15 +655,6 @@
 		[
 			"public/images/scopes/shortgaze.jpg",
 			"public/images/scopes/shortgaze.jpg"
-=======
-		"Type" : "Sniper Scope",
-		"Name" : "Ambush",
-		"Description" : "...",
-		"Image" :
-		[
-			"http://i.imgur.com/uqjhZBC.png",
-			"http://i.imgur.com/uqjhZBC.png"
->>>>>>> cc0b03a0a3d2b124b00a6bd52de1b6a132d8eb04
 		],
 		"Stats" :
 		[
