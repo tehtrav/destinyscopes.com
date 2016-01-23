@@ -1,7 +1,7 @@
 // Sticky sidebar
 $(function(){ // document ready
 
-	if (!!$('#legend').offset()) { // make sure ".sticky" element exists
+	if (!!$('#legend.sticky').offset()) { // make sure ".sticky" element exists
 		var legendTop = $('#legend').offset().top - 20; // returns number
 		$(window).scroll(function(){ // scroll event
 			var windowTop = $(window).scrollTop(); // returns number
