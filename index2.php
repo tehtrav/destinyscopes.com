@@ -1,52 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>DestinyScopes.com</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- All CSS -->
 	<link rel="stylesheet" href="public/stylesheets/main.min.css">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<meta name="viewport" content="width=device-width">
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#legend">
 	<header id="global-header">
 		<h1>Destiny Scopes</h1>
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
 
-	<div class="layout">
-		<div class="primary-column">
-		</div>
-		<div class="secondary-column">
-			<nav class="col-xs-3 bs-docs-sidebar">
-		        <ul id="sidebar" class="nav nav-stacked fixed">
-		            <li>
-		                <a href="#GroupA">Group A</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupASub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupASub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		            <li>
-		                <a href="#GroupB">Group B</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupBSub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupBSub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		            <li>
-		                <a href="#GroupC">Group C</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupCSub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupCSub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		        </ul>
-		    </nav>
-
-
-
-			<div id="legend" class="legend">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="primary-column col-md-9 col-lg-10">
 			</div>
+			<div class="secondary-column col-md-3 col-lg-2">
+				<div id="legend" class="legend" data-spy="affix" data-offset-top="30" data-offset-bottom="30">
+				</div>
+			</div>
+
 		</div>
-	</div><!-- layout -->
+	</div>
+
 	<footer id="global-footer">
 		<p>A hobby project by @tehtrav. Contact me on <a href="http://twitter.com/tehtrav">Twitter</a> or by
 		<script type="text/javascript" language="javascript">
@@ -86,6 +67,5 @@
 		ga('create', 'UA-72752759-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-
 </body>
 </html>

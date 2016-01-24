@@ -93,7 +93,7 @@ window.RenderScopes = function(scopes){
 	$column.html('');
 
 	var $legend = $("#legend");
-	$legend.html('<h4>Scopes</h4><ul></ul>');
+	$legend.html('<h4>Scopes</h4><ul class="nav"></ul>');
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-"));
@@ -137,8 +137,8 @@ window.RenderScopes = function(scopes){
 		$stats.appendTo($scope);
 		$scope.appendTo($column);
 
-		var $link = $("<li></li>");
-		var $anchor = $("<a></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
+		var $link = $("<li class='nav-item'></li>");
+		var $anchor = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
 		$anchor.appendTo($link);
 		$link.appendTo("#legend ul");
 	}
@@ -149,7 +149,7 @@ window.RenderLegend = function(scopes){
 	$legend.html('');
 	for(var i in scopes) {
 		var $scope = $("<li></li>");
-		var $link = $("<a></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
+		var $link = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
 	}
 	$link.appendTo($scope);
 	$scope.appendTo($legend);
