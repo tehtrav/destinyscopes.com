@@ -17,11 +17,17 @@ $(function(){ // document ready
 
 $(document).ready(function(){
 	GetScopeData();
-
+        /*
+        // in order to filter by scope
+        $("select#ScopeTypeFilter").change(function(){
+        	FilterByScopeType($(this).val());	
+        });
+        */
 });
 
-window.Scope = function( name, description, icon, zoom, images, stats){
+window.Scope = function( name, scopeType, description, icon, zoom, images, stats){
 	this.Name = name || "";
+	this.ScopeType = scopeType || "";
 	this.Description = description || "";
 	this.Icon = icon || "";
 	this.Zoom = zoom || "";
@@ -75,6 +81,7 @@ window.GetScopeData = function(){
 			for(var scope in data){
 				scopes.push( new Scope(
 					data[scope].Name || "",
+					data[scope].ScopeType || "",
 					data[scope].Description || "",
 					data[scope].Icon || "",
 					data[scope].Zoom || "",
@@ -97,6 +104,8 @@ window.RenderScopes = function(scopes){
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-"));
+		$scope.attr("data-type", "scope");
+		$scope.attr("scope-type", scopes[i].ScopeType);
 		var $visual = $("<div></div>").addClass("visual");
 		var $details = $("<div></div>").addClass("details");
 		var $stats = $("<ul></ul>").addClass("stats");
@@ -154,3 +163,15 @@ window.RenderLegend = function(scopes){
 	$link.appendTo($scope);
 	$scope.appendTo($legend);
 }
+
+window.FilterByScopeType = function(scopeType){
+	if(scopeType.length == 0){
+		// show all
+		$("[data-type='scope']").show();	
+	} else {
+		// filter
+		$("[data-type='scope']").hide();	
+		$("[scope-type='"+scopeType"']").show();
+	}
+}
+
