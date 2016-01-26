@@ -26,8 +26,6 @@
     "tests"
   ],
   "dependencies": {
-    "bourbon": "~4.2.4",
-    "breakpoint-sass": "~2.5.0",
-    "neat": "1.4.0"
+    "bootstrap-sass-official": "~3.3.6"
   }
 }

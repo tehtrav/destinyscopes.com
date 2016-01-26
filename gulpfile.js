@@ -69,7 +69,7 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest('public/stylesheets'))
         .pipe(gzip(gzip_options))
         .pipe(gulp.dest('public/stylesheets'))
@@ -91,7 +91,7 @@ gulp.task('watch', function() {
     gulp.watch('resources/stylesheets/*.scss', ['styles']);
     gulp.watch('*.php').on('change', livereload.changed);
     gulp.watch('*.html').on('change', livereload.changed);
-    gulp.watch('*').on('change', livereload.changed);
+    //gulp.watch('*').on('change', livereload.changed);
 });
 
 gulp.task('default', ['styles', 'watch']);

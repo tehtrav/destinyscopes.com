@@ -1,52 +1,79 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>DestinyScopes.com</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- All CSS -->
 	<link rel="stylesheet" href="public/stylesheets/main.min.css">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<meta name="viewport" content="width=device-width">
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#legend">
 	<header id="global-header">
 		<h1>Destiny Scopes</h1>
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
 
-	<div class="layout">
-		<div class="primary-column">
-		</div>
-		<div class="secondary-column">
-			<nav class="col-xs-3 bs-docs-sidebar">
-		        <ul id="sidebar" class="nav nav-stacked fixed">
-		            <li>
-		                <a href="#GroupA">Group A</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupASub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupASub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		            <li>
-		                <a href="#GroupB">Group B</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupBSub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupBSub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		            <li>
-		                <a href="#GroupC">Group C</a>
-		                <ul class="nav nav-stacked">
-		                    <li><a href="#GroupCSub1">Sub-Group 1</a></li>
-		                    <li><a href="#GroupCSub2">Sub-Group 2</a></li>
-		                </ul>
-		            </li>
-		        </ul>
-		    </nav>
+	<div class="container">
+		<div class="row">
+			<div class="secondary-column col-md-3 col-lg-2">
+				<div id="legend" class="legend">
+					<div class="filters">
+						<h4>Manufacturers</h4>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Omolon</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Hakke</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Suros</label>
+						</div>
+					</div>
+					<div class="filters">
 
+						<h4>Type</h4>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Iron Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Red Dot Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Ranged Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Sniper Sights</label>
+						</div>
 
-
-			<div id="legend" class="legend">
+						<!-- <p>
+							<select id="ScopeTypeFilter" class="form-control input-sm">
+								<option value="">All Types</option>
+								<option value="Iron Sights">Iron Sights</option>
+								<option value="Red Dot Sights">Red Dot Sights</option>
+								<option value="Ranged Sights">Ranged Sights</option>
+								<option value="Sniper Scopes">Sniper Scopes</option>
+							</select>
+						</p>
+						<p>
+							<select id="ScopeMakeFilter" class="form-control input-sm">
+								<option value="">All Manufacturers</option>
+								<option value="Classic">Classic</option>
+								<option value="Hakke">Hakke</option>
+								<option value="Omolon">Omolon</option>
+								<option value="Suros">Suros</option>
+							</select>
+						</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="primary-column col-md-9 col-lg-10">
 			</div>
 		</div>
-	</div><!-- layout -->
+	</div>
+
 	<footer id="global-footer">
 		<p>A hobby project by @tehtrav. Contact me on <a href="http://twitter.com/tehtrav">Twitter</a> or by
 		<script type="text/javascript" language="javascript">
@@ -75,7 +102,7 @@
 	</footer>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"></script>
 	<script src="resources/scripts/scopes.js"></script>
 
 	<script>
@@ -86,6 +113,5 @@
 		ga('create', 'UA-72752759-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-
 </body>
 </html>
