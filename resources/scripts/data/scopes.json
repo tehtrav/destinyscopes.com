@@ -1,7 +1,8 @@
 [
 	{
-		"Type" : "Iron Sites",
+		"Type" : "Iron Sights",
 		"Name" : "QuickDraw IS",
+		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. Lightning fastl handling.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
@@ -16,8 +17,9 @@
 		]
 	},
 	{
-		"Type" : "Iron Sites",
+		"Type" : "Iron Sights",
 		"Name" : "TrueSight IS",
+		"Manufacturer" : "Classic",
 		"Description" : "Flexible sight. Light, with good recoil control. Strong target aquisition.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
@@ -32,8 +34,9 @@
 		]
 	},
 	{
-		"Type" : "Iron Sites",
+		"Type" : "Iron Sights",
 		"Name" : "Fastdraw IS",
+		"Manufacturer" : "Classic",
 		"Description" : "Standard sight. A lightweight design, good for recoil control.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
@@ -48,8 +51,9 @@
 		]
 	},
 	{
-		"Type" : "Iron Sites",
+		"Type" : "Iron Sights",
 		"Name" : "SteadyHand IS",
+		"Manufacturer" : "Classic",
 		"Description" : "Stable sight. Optimized for excellent recoil control.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
@@ -64,8 +68,9 @@
 		]
 	},
 	{
-		"Type" : "Iron Sites",
+		"Type" : "Iron Sights",
 		"Name" : "Sureshot IS",
+		"Manufacturer" : "Classic",
 		"Description" : "Snapshot sight. Excellent handling. Superb target aquisition.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
@@ -80,9 +85,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SLO-12",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS projection sight. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 1.87,
@@ -97,9 +102,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SLO-19",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS irons with projection sight. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 0,
@@ -114,9 +119,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SPO-26",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS lightweight red dot sights. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 0,
@@ -131,9 +136,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SPO-28",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS holo sights. Improved target acquisition.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 1.8,
@@ -148,9 +153,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SRO-37",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS ranged combat scope. Improves range.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 2.42,
@@ -165,9 +170,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SRO-41",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 0,
@@ -182,9 +187,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Suros",
+		"Type" : "Red Dot Sights",
 		"Name" : "SPO-57",
+		"Manufacturer" : "Suros",
 		"Description" : "SUROS threat evaluation. Highlights enemy targets.",
 		"Icon" : "public/images/scope-icons/suros.png",
 		"Zoom" : 0,
@@ -198,13 +203,10 @@
 
 		]
 	},
-
-
-
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "SD Thermal",
+		"Manufacturer" : "Hakke",
 		"Description" : "Häkke thermal imaging scope. Highlights all enemy targets.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -219,9 +221,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "LB Assault",
+		"Manufacturer" : "Hakke",
 		"Description" : "Medium-range assault scope. Improved optics and range.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -236,9 +238,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "SC Holo",
+		"Manufacturer" : "Hakke",
 		"Description" : "Häkke holo sights. Improved target acquisition.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -253,9 +255,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "GA Post",
+		"Manufacturer" : "Hakke",
 		"Description" : "Agile post sights. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -270,9 +272,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "GB Iron",
+		"Manufacturer" : "Hakke",
 		"Description" : "Häkke iron sights. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -287,9 +289,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "LD Watchdog",
+		"Manufacturer" : "Hakke",
 		"Description" : "Häkke threat evaluation tech. Highlights dangerous enemies and Guardians with charged Supers.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -304,9 +306,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Hakke",
+		"Type" : "Red Dot Sights",
 		"Name" : "LC Ranged",
+		"Manufacturer" : "Hakke",
 		"Description" : "Häkke marksman scope. Improved optics and range.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -321,9 +323,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Omolon",
+		"Type" : "Red Dot Sights",
 		"Name" : "Candle IS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Minimal iron sites. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -338,9 +340,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Omolon",
+		"Type" : "Red Dot Sights",
 		"Name" : "Spark IS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Omolon holo sights. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -355,9 +357,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Omolon",
+		"Type" : "Red Dot Sights",
 		"Name" : "Torch HS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Omolon close quarters combat sights. CQ optics, improved target acquisition.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -372,9 +374,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Omolon",
+		"Type" : "Ranged Sights",
 		"Name" : "Signal MS5",
+		"Manufacturer" : "Omolon",
 		"Description" : "Omolon imaging technology. Highlights long-distance enemy targets at optimal combat range.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -389,9 +391,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
-		"Manufacturer" : "Omolon",
+		"Type" : "Ranged Sights",
 		"Name" : "Impulse MS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Ranged combat scope. Improved optics and range.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -406,8 +408,9 @@
 		]
 	},
 	{
-		"Type" : "Red Dot Sites",
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-OES",
+		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. For smooth engagement in close quarters.",
 		"Icon" : "public/images/scope-icons/red-dot.png",
 		"Zoom" : 2.2,
@@ -423,7 +426,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-ORS",
+		"Manufacturer" : "Classic",
 		"Description" : "Accurized sight. For precise fire.",
 		"Icon" : "public/images/scope-icons/red-dot.png",
 		"Zoom" : 2.3,
@@ -439,7 +444,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-OAS",
+		"Manufacturer" : "Classic",
 		"Description" : "Snapshot sight. Enhanced target acquisition.",
 		"Icon" : "public/images/scope-icons/red-dot.png",
 		"Zoom" : 2.2,
@@ -454,7 +461,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-ORS1",
+		"Manufacturer" : "Classic",
 		"Description" : "Precision sight. Highest zoom in class. Enhanced range.",
 		"Icon" : "public/images/scope-icons/red-dot.png",
 		"Zoom" : 2.4,
@@ -470,7 +479,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-ORES",
+		"Manufacturer" : "Classic",
 		"Description" : "Flexible sight. Enhances handling, range, and recoil control.",
 		"Icon" : "public/images/scope-icons/red-dot.png",
 		"Zoom" : 2.3,
@@ -488,7 +499,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-ORA",
+		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling",
 		"Icon" : "public/images/scope-icons/red-dot-alt.png",
 		"Zoom" : 0,
@@ -502,7 +515,9 @@
 		]
 	},
 	{
+		"Type" : "Red Dot Sights",
 		"Name" : "Red Dot-ORA2",
+		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling.",
 		"Icon" : "public/images/scope-icons/red-dot-alt.png",
 		"Zoom" : 0,
@@ -516,7 +531,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "OEG",
+		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling.",
 		"Icon" : "public/images/scope-icons/reflex.png",
 		"Zoom" : 0,
@@ -530,7 +547,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "OEG Riflescope",
+		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, improved range.",
 		"Icon" : "public/images/scope-icons/oeg-riflescope.png",
 		"Zoom" : 0,
@@ -544,7 +563,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "Reflex",
+		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved aim assist.",
 		"Icon" : "public/images/scope-icons/reflex.png",
 		"Zoom" : 0,
@@ -558,7 +579,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "MD-Reflex",
+		"Manufacturer" : "Classic",
 		"Description" : "Significantly improved handling.",
 		"Icon" : "public/images/scope-icons/md-reflex.png",
 		"Zoom" : 0,
@@ -571,12 +594,10 @@
 		[
 		]
 	},
-
-
-
-
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "Ranged Lens RLR5",
+		"Manufacturer" : "Classic",
 		"Description" : "Precision scope. Superb effective range. Heavy, with poor recoil control.",
 		"Icon" : "public/images/scope-icons/ranged-scope.png",
 		"Zoom" : 2.8,
@@ -594,7 +615,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "Ranged Lens RLS3",
+		"Manufacturer" : "Classic",
 		"Description" : "Mid-range scope. Good effective range and recoil control. Heavy and slow.",
 		"Icon" : "public/images/scope-icons/ranged-scope.png",
 		"Zoom" : 2.6,
@@ -612,7 +635,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "Focus Lens FLS2",
+		"Manufacturer" : "Classic",
 		"Description" : "Agile scope. Modest zoom. Light and snappy.",
 		"Icon" : "public/images/scope-icons/ranged-scope.png",
 		"Zoom" : 2.4,
@@ -628,7 +653,9 @@
 		]
 	},
 	{
+		"Type" : "Ranged Sights",
 		"Name" : "Focus Lens FLA5",
+		"Manufacturer" : "Classic",
 		"Description" : "Agile scope. Modest zoom. Light and snappy.",
 		"Icon" : "public/images/scope-icons/ranged-scope.png",
 		"Zoom" : 2.6,
@@ -642,12 +669,10 @@
 			["Range", 10]
 		]
 	},
-
-
-
-
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Shortgaze SLH10",
+		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, better handling",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 4.5,
@@ -664,7 +689,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Longview SLR20",
+		"Manufacturer" : "Classic",
 		"Description" : "Long-range scope. Excellent target acquisition. Improves weapon range.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 7,
@@ -678,7 +705,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Longview SLR10",
+		"Manufacturer" : "Classic",
 		"Description" : "Low-zoom scope. Improved range and handling.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 5,
@@ -692,7 +721,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Ambush SLH25",
+		"Manufacturer" : "Classic",
 		"Description" : "Agile, snappy scope. Handles beautifully. Rewards a skilled hand.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 4.5,
@@ -706,7 +737,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "ViewTac SLH20",
+		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, significantly improved handling.",
 		"Icon" : "public/images/scope-icons/sniper-ttk.png",
 		"Zoom" : 5,
@@ -720,7 +753,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "EagleEye SLR20",
+		"Manufacturer" : "Classic",
 		"Description" : "Longest-range scope. Heavy optics for pinpoint sniping.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 9,
@@ -734,7 +769,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "SightSys SLS20",
+		"Manufacturer" : "Classic",
 		"Description" : "Very long distance scope. Superb target acquisition and recoil control.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 8,
@@ -748,7 +785,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Hawkeye SLR15",
+		"Manufacturer" : "Classic",
 		"Description" : "Mid-zoom precision scope. Increased range and target acquisition. Heavy.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 6,
@@ -762,7 +801,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "WildHawk SLS20",
+		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, decreased handling, improved range, slightly decreased stability.",
 		"Icon" : "public/images/scope-icons/sniper-wildhawk.png",
 		"Zoom" : 5.5,
@@ -776,7 +817,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "TacSys SLS15",
+		"Manufacturer" : "Classic",
 		"Description" : "Mid-zoom scope. Useful for unpredictable situations.",
 		"Icon" : "public/images/scope-icons/sniper.png",
 		"Zoom" : 6,
@@ -790,7 +833,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "ATA Scout",
+		"Manufacturer" : "Hakke",
 		"Description" : "Light, low-zoom sniper scope. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 4.65,
@@ -804,7 +849,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "ATB Long Range",
+		"Manufacturer" : "Hakke",
 		"Description" : "Long-distance scope. Increased range, slower handling.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -818,7 +865,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "ATD Raptor",
+		"Manufacturer" : "Hakke",
 		"Description" : "Standard sniper zoom. Highlights enemies with low health.",
 		"Icon" : "public/images/scope-icons/hakke.png",
 		"Zoom" : 0,
@@ -832,7 +881,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Aquila SS4",
+		"Manufacturer" : "Omolon",
 		"Description" : "Omolon imaging technology. Highlights long-distance enemy targets at optimal combat range.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -846,7 +897,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Faucon SS1",
+		"Manufacturer" : "Omolon",
 		"Description" : "Ultra-light holo sniper sights. Low zoom, improves weapon handling.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -860,7 +913,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Yepaki SS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Standard zoom, lightweight sniper sight. Improves weapon handling.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -874,7 +929,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Condor SS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Ranged zoom lens. Improves range.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,
@@ -888,7 +945,9 @@
 		]
 	},
 	{
+		"Type" : "Sniper Scopes",
 		"Name" : "Corvo SS2",
+		"Manufacturer" : "Omolon",
 		"Description" : "Omolon's longest-range distance scope. Improves range.",
 		"Icon" : "public/images/scope-icons/omolon.png",
 		"Zoom" : 0,

@@ -266,9 +266,15 @@ body {
 }
 
 .legend {
+
+    .filters {
+        margin-bottom: 28px;
+    }
+
     margin-top: 30px;
-    //max-height: 50vh;
+    max-height: calc(100vh - 120px);
     overflow: auto;
+
     &.affix {
         top: 0px;
     }
@@ -317,7 +323,6 @@ body {
     .active ul {
         display: block;
     }
-
 
     ul {
         margin: 0 0 20px;

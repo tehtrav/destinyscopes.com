@@ -16,10 +16,57 @@
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="secondary-column col-md-3 col-lg-2">
 				<div id="legend" class="legend">
+					<div class="filters">
+						<h4>Manufacturers</h4>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Omolon</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Hakke</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Suros</label>
+						</div>
+					</div>
+					<div class="filters">
+
+						<h4>Type</h4>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Iron Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Red Dot Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Ranged Sights</label>
+						</div>
+						<div class="checkbox">
+						    <label><input type="checkbox" checked> Sniper Sights</label>
+						</div>
+
+						<!-- <p>
+							<select id="ScopeTypeFilter" class="form-control input-sm">
+								<option value="">All Types</option>
+								<option value="Iron Sights">Iron Sights</option>
+								<option value="Red Dot Sights">Red Dot Sights</option>
+								<option value="Ranged Sights">Ranged Sights</option>
+								<option value="Sniper Scopes">Sniper Scopes</option>
+							</select>
+						</p>
+						<p>
+							<select id="ScopeMakeFilter" class="form-control input-sm">
+								<option value="">All Manufacturers</option>
+								<option value="Classic">Classic</option>
+								<option value="Hakke">Hakke</option>
+								<option value="Omolon">Omolon</option>
+								<option value="Suros">Suros</option>
+							</select>
+						</p> -->
+					</div>
 				</div>
 			</div>
 			<div class="primary-column col-md-9 col-lg-10">

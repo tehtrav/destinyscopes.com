@@ -1,33 +1,38 @@
-// Sticky sidebar
-$(function(){ // document ready
-
-	if (!!$('#legend.sticky').offset()) { // make sure ".sticky" element exists
-		var legendTop = $('#legend').offset().top - 20; // returns number
-		$(window).scroll(function(){ // scroll event
-			var windowTop = $(window).scrollTop(); // returns number
-			if (legendTop < windowTop) {
-				$('#legend').css({ position: 'fixed', top: 20 });
-			}
-			else {
-				$('#legend').css('position','static');
-			}
-		});
-	}
-});
-
 $(document).ready(function(){
 	GetScopeData();
-        /*
-        // in order to filter by scope
-        $("select#ScopeTypeFilter").change(function(){
-        	FilterByScopeType($(this).val());	
-        });
-        */
+    // in order to filter by scope
+    $("select#ScopeTypeFilter").change(function(){
+    	FilterByScopeType($(this).val());	
+    });
+
+    $("select#ScopeMakeFilter").change(function(){
+    	FilterByScopeType($(this).val());	
+    });
+
+    $('#legend').affix({
+		offset: {
+		    top: function () {
+				return (this.top = $('#global-header').outerHeight(true))
+		    },
+		    bottom: function () {
+				return (this.bottom = $('#global-footer').outerHeight(true))
+		    }
+		}
+	});
+
+	$("#legend").width( $(".secondary-column").width() );
+	$( window ).resize(function() {
+		$("#legend").width( $(".secondary-column").width() );
+	});
+
 });
 
-window.Scope = function( name, scopeType, description, icon, zoom, images, stats){
+
+
+window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){
 	this.Name = name || "";
-	this.ScopeType = scopeType || "";
+	this.Type = type || "";
+	this.Manufacturer = manufacturer || "";
 	this.Description = description || "";
 	this.Icon = icon || "";
 	this.Zoom = zoom || "";
@@ -81,7 +86,8 @@ window.GetScopeData = function(){
 			for(var scope in data){
 				scopes.push( new Scope(
 					data[scope].Name || "",
-					data[scope].ScopeType || "",
+					data[scope].Type || "",
+					data[scope].Manufacturer || "",
 					data[scope].Description || "",
 					data[scope].Icon || "",
 					data[scope].Zoom || "",
@@ -100,12 +106,13 @@ window.RenderScopes = function(scopes){
 	$column.html('');
 
 	var $legend = $("#legend");
-	$legend.html('<h4>Scopes</h4><ul class="nav"></ul>');
+	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-"));
-		$scope.attr("data-type", "scope");
-		$scope.attr("scope-type", scopes[i].ScopeType);
+		$scope.attr("data-scopetype", "scope");
+		$scope.attr("data-scopetype", scopes[i].Type);
+		$scope.attr("data-manufacturer", scopes[i].Manufacturer);
 		var $visual = $("<div></div>").addClass("visual");
 		var $details = $("<div></div>").addClass("details");
 		var $stats = $("<ul></ul>").addClass("stats");
@@ -146,32 +153,26 @@ window.RenderScopes = function(scopes){
 		$stats.appendTo($scope);
 		$scope.appendTo($column);
 
+		// Make Legend
 		var $link = $("<li class='nav-item'></li>");
 		var $anchor = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
+		$link.attr("data-scopetype", "scope");
+		$link.attr("data-scopetype", scopes[i].Type);
+		$link.attr("data-manufacturer", scopes[i].Manufacturer);
 		$anchor.appendTo($link);
 		$link.appendTo("#legend ul");
-	}
-}
 
-window.RenderLegend = function(scopes){
-	var $legend = $("#legend");
-	$legend.html('');
-	for(var i in scopes) {
-		var $scope = $("<li></li>");
-		var $link = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
 	}
-	$link.appendTo($scope);
-	$scope.appendTo($legend);
 }
 
 window.FilterByScopeType = function(scopeType){
 	if(scopeType.length == 0){
 		// show all
-		$("[data-type='scope']").show();	
+		$("[data-scopetype").show();
 	} else {
 		// filter
-		$("[data-type='scope']").hide();	
-		$("[scope-type='"+scopeType"']").show();
+		$("[data-scopetype]").hide();	
+		$("[data-scopetype='" + scopeType + "']").show();
 	}
 }
 
