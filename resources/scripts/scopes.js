@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+	// Add .js class to body for js/no-js styling
+	$(".no-js").removeClass("no-js").addClass("js");
+
 	GetScopeData();
     // in order to filter by scope
     // $("select#ScopeTypeFilter").change(function(){

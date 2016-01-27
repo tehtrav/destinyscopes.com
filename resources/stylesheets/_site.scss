@@ -1,9 +1,8 @@
 body {
     position: relative;
     margin: 0;
-    background: url(../images/background.jpg) no-repeat #26303A;
+    background: #26303A url(../images/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    //background-attachment: fixed;
     padding-top: 60px;
     @media (min-width: 768px) {
         padding-top: 0;
@@ -15,6 +14,18 @@ body {
             color: lighten($link-color, 10%);
         }
     }
+}
+
+.no-js .js-only { display: none; }
+.js .no-js-only { display: none; }
+
+.placeholder-block {
+    background: rgba(white, .1);
+    border: 1px solid rgba(white, .1);
+    text-align: center;
+    padding: 50px;
+    margin: 30px 0;
+    box-shadow: 0 1px 5px rgba(black, .4);
 }
 
 .bar {
@@ -323,8 +334,10 @@ body {
         position: static !important;
     }
     @media (min-width: 768px) {
-        max-height: calc(100vh - 120px);
-        overflow: auto;
+        .js & {
+            max-height: calc(100vh - 120px);
+            overflow: auto;
+        }
     }
 
     &.affix {
