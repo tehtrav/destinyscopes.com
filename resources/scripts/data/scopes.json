@@ -3,7 +3,7 @@
 		"Type" : "Iron Sights",
 		"Name" : "QuickDraw IS",
 		"Manufacturer" : "Classic",
-		"Description" : "Agile sight. Lightning fastl handling.",
+		"Description" : "Agile sight. Lightning fast handling.",
 		"Icon" : "public/images/scope-icons/iron-sites.png",
 		"Zoom" : 2,
         "Image" :
