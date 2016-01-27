@@ -58,8 +58,11 @@ body {
         color: mix($dusk, white, 35%);
         text-transform: uppercase;
         padding: 9px 0 8px 45px;
-        background: url("../images/logo.png") left center no-repeat;
-        background-size: 37px 37px;
+        //background: url("/public/images/logo.png") left center no-repeat;
+
+        @include img-retina("../images/logo.png", "../images/logo_2x.png", 37px, 37px);
+        background-repeat: no-repeat;
+        background-position: left center;
     }
 }
 
