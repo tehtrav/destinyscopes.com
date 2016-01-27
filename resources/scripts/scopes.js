@@ -1,13 +1,21 @@
 $(document).ready(function(){
 	GetScopeData();
     // in order to filter by scope
-    $("select#ScopeTypeFilter").change(function(){
-    	FilterByScopeType($(this).val());	
-    });
+    // $("select#ScopeTypeFilter").change(function(){
+    // 	FilterByScopeType($(this).val());
+    // });
+	//
+    // $("select#ScopeMakeFilter").change(function(){
+    // 	FilterByScopeType($(this).val());
+    // });
 
-    $("select#ScopeMakeFilter").change(function(){
-    	FilterByScopeType($(this).val());	
-    });
+	$("#legend :checkbox").click(function() {
+		$(".scope").hide();
+		$("#legend :checkbox:checked").each(function() {
+			$( "." + $(this).val() ).show();
+			console.log("." + $(this).val());
+		});
+	});
 
     $('#legend').affix({
 		offset: {
@@ -110,9 +118,9 @@ window.RenderScopes = function(scopes){
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-"));
-		$scope.attr("data-scopetype", "scope");
-		$scope.attr("data-scopetype", scopes[i].Type);
-		$scope.attr("data-manufacturer", scopes[i].Manufacturer);
+		$scope.addClass("scope");
+		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
+		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
 		var $visual = $("<div></div>").addClass("visual");
 		var $details = $("<div></div>").addClass("details");
 		var $stats = $("<ul></ul>").addClass("stats");
@@ -156,9 +164,9 @@ window.RenderScopes = function(scopes){
 		// Make Legend
 		var $link = $("<li class='nav-item'></li>");
 		var $anchor = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
-		$link.attr("data-scopetype", "scope");
-		$link.attr("data-scopetype", scopes[i].Type);
-		$link.attr("data-manufacturer", scopes[i].Manufacturer);
+		$link.addClass("scope");
+		$link.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
+		$link.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
 		$anchor.appendTo($link);
 		$link.appendTo("#legend ul");
 
@@ -171,8 +179,7 @@ window.FilterByScopeType = function(scopeType){
 		$("[data-scopetype").show();
 	} else {
 		// filter
-		$("[data-scopetype]").hide();	
+		$("[data-scopetype]").hide();
 		$("[data-scopetype='" + scopeType + "']").show();
 	}
 }
-

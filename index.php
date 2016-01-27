@@ -22,51 +22,34 @@
 				<div id="legend" class="legend">
 					<div class="filters">
 						<h4>Manufacturers</h4>
-						<div class="checkbox">
-						    <label><input type="checkbox" checked> Omolon</label>
+                        <div class="checkbox">
+						    <label><input type="checkbox" value="sm-classic" checked> Classic</label>
+						</div>
+                        <div class="checkbox">
+						    <label><input type="checkbox" value="sm-omolon" checked> Omolon</label>
 						</div>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Hakke</label>
+						    <label><input type="checkbox" value="sm-hakke" checked> Hakke</label>
 						</div>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Suros</label>
+						    <label><input type="checkbox" value="sm-suros" checked> Suros</label>
 						</div>
 					</div>
-					<div class="filters">
-
+					<!-- <div class="filters">
 						<h4>Type</h4>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Iron Sights</label>
+						    <label><input type="checkbox" value="st-iron-sights" checked> Iron Sights</label>
 						</div>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Red Dot Sights</label>
+						    <label><input type="checkbox" value="st-red-dot-sights" checked> Red Dot Sights</label>
 						</div>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Ranged Sights</label>
+						    <label><input type="checkbox" value="st-ranged-sights" checked> Ranged Sights</label>
 						</div>
 						<div class="checkbox">
-						    <label><input type="checkbox" checked> Sniper Sights</label>
+						    <label><input type="checkbox" value="st-sniper-scopes" checked> Sniper Sights</label>
 						</div>
-
-						<!-- <p>
-							<select id="ScopeTypeFilter" class="form-control input-sm">
-								<option value="">All Types</option>
-								<option value="Iron Sights">Iron Sights</option>
-								<option value="Red Dot Sights">Red Dot Sights</option>
-								<option value="Ranged Sights">Ranged Sights</option>
-								<option value="Sniper Scopes">Sniper Scopes</option>
-							</select>
-						</p>
-						<p>
-							<select id="ScopeMakeFilter" class="form-control input-sm">
-								<option value="">All Manufacturers</option>
-								<option value="Classic">Classic</option>
-								<option value="Hakke">Hakke</option>
-								<option value="Omolon">Omolon</option>
-								<option value="Suros">Suros</option>
-							</select>
-						</p> -->
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="primary-column col-md-9 col-lg-10">
@@ -102,7 +85,7 @@
 	</footer>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js"></script>
+	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 	<script src="resources/scripts/scopes.js"></script>
 
 	<script>
