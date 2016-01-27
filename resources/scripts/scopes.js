@@ -139,7 +139,7 @@ window.RenderScopes = function(scopes){
 
 				$plot.addClass(scopes[i].Stats[si].Value >= 0 ? "positive" : "negative")
 				$plot.attr("data-size", scopes[i].Stats[si].Value)
-				$plot.css("width", Math.abs(scopes[i].Stats[si].Value) * 5)
+				$plot.css("width", Math.abs(scopes[i].Stats[si].Value) * 3)
 				$plot.appendTo($graph);
 				$graph.appendTo($stat);
 

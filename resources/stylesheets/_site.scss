@@ -297,6 +297,7 @@ body {
     width: 170px;
     position: relative;
     float: left;
+    overflow: hidden;
     &:before {
         $pull: 0;
         width: 0px;
