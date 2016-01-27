@@ -58,7 +58,7 @@
 	</div>
 
 	<footer id="global-footer">
-		<p>A hobby project by @tehtrav. Contact me on <a href="http://twitter.com/tehtrav">Twitter</a> or by
+		<p>A hobby project by <a href="https://github.com/tehtrav">@tehtrav</a>. Contribute on <a href="https://github.com/tehtrav/destinyscopes.com">Github</a>. Contact me on <a href="http://twitter.com/tehtrav">Twitter</a>, by
 		<script type="text/javascript" language="javascript">
 		// Email obfuscator script 2.1 by Tim Williams, University of Arizona
 		// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
