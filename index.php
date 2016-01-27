@@ -8,6 +8,11 @@
 	<meta name="description" content="A website for viewing screenshots of the many scopes and sights available in the game Destiny, made by Bungie" />
 	<meta name="keywords" content="Destiny, Bungie, Destiny The Game, Scopes, Weapons, Sights, Screenshots, Shortgaze, Ambush, Red Dot Sight, ACOG" />
 
+	<link rel="apple-touch-icon" href="/public/images/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/public/images/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/public/images/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/public/images/touch-icon-ipad-retina.png">
+
 	<title>Destinyscopes.com</title>
 
 </head>

@@ -1,0 +1,10 @@
+Lots of info: https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit?pref=2&pli=1#gid=0
+
+Base zoom values:
+
+PR: 1.7
+AR: 1.5
+FR: 1.7 maybe?
+SR: 2.0
+HC: 1.7
+SG: 1.2
