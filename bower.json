@@ -1,23 +1,19 @@
 {
-  "name": "front-end-groundwork",
+  "name": "destinyscopes.com",
   "version": "1.0.0",
   "authors": [
     "Travis Lehman <travlehman@gmail.com>"
   ],
-  "description": "A front end dev groundwork with Bourbon and SCSS",
+  "description": "A website that showcases the many scopes of the game Destiny, by Bungie",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "SCSS",
-    "SASS",
-    "Front",
-    "end",
-    "dev",
-    "Bourbon"
+    "Destiny",
+    "Bungie"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/tehtrav/front-end-groundwork#readme",
+  "homepage": "https://github.com/tehtrav/destinyscopes.com#readme",
   "ignore": [
     "**/.*",
     "node_modules",
