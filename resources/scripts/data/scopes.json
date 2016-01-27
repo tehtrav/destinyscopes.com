@@ -13,7 +13,8 @@
 		],
 		"Stats" :
 		[
-
+			["Reload", 15],
+			["Handling", 15]
 		]
 	},
 	{
@@ -30,7 +31,9 @@
 		],
 		"Stats" :
 		[
-
+			["Stability", 5],
+			["Reload", 8],
+			["Handling", 8]
 		]
 	},
 	{
@@ -47,7 +50,9 @@
 		],
 		"Stats" :
 		[
-
+			["Stability", 4],
+			["Reload", 10],
+			["Handling", 10]
 		]
 	},
 	{
@@ -64,7 +69,9 @@
 		],
 		"Stats" :
 		[
-
+			["Stability", 6],
+			["Reload", 8],
+			["Handling", 8]
 		]
 	},
 	{
@@ -81,7 +88,9 @@
 		],
 		"Stats" :
 		[
-
+			["Stability", 2],
+			["Reload", 12],
+			["Handling", 12]
 		]
 	},
 	{
@@ -684,7 +693,7 @@
 		"Stats" :
 		[
 			["Range", 2],
-			["Aim Assist", 5],
+			["Aim Assist", 30],
 			["Handling", -2]
 		]
 	},
@@ -718,6 +727,7 @@
 		],
 		"Stats" :
 		[
+			["Aim Assist", 40]
 		]
 	},
 	{
@@ -782,6 +792,7 @@
 		],
 		"Stats" :
 		[
+			["Aim Assist", 40]
 		]
 	},
 	{
@@ -798,6 +809,7 @@
 		],
 		"Stats" :
 		[
+			["Aim Assist", 35]
 		]
 	},
 	{
@@ -830,6 +842,7 @@
 		],
 		"Stats" :
 		[
+			["Aim Assist", 25]
 		]
 	},
 	{
