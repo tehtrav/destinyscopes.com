@@ -42,7 +42,7 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"public/images/scopes/fastdraw-is.png",
+			"public/images/scopes/fastdraw-is-ads.png",
 			"public/images/scopes/fastdraw-is-ads.png"
 		],
 		"Stats" :
@@ -59,7 +59,7 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"public/images/scopes/steadyhand-is.png",
+			"public/images/scopes/steadyhand-is-ads.png",
 			"public/images/scopes/steadyhand-is-ads.png"
 		],
 		"Stats" :
@@ -195,8 +195,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/suros-spo-57.jpg",
-			"public/images/scopes/suros-spo-57-ads.jpg"
+			"public/images/scopes/soon.jpg",
+			"public/images/scopes/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -212,8 +212,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/sd-thermal.jpg",
-			"public/images/scopes/sd-thermal-ads.jpg"
+			"public/images/scopes/soon.jpg",
+			"public/images/scopes/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -229,8 +229,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/lb-assault.jpg",
-			"public/images/scopes/lb-assault-ads.jpg"
+			"public/images/scopes/soon.jpg",
+			"public/images/scopes/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -246,8 +246,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/sc-holo.jpg",
-			"public/images/scopes/sc-holo-ads.jpg"
+			"public/images/scopes/soon.jpg",
+			"public/images/scopes/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -416,7 +416,7 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"public/images/scopes/red-dot-oes.jpg",
+			"public/images/scopes/red-dot-oes-ads.jpg",
 			"public/images/scopes/red-dot-oes-ads.jpg"
 		],
 		"Stats" :
@@ -469,8 +469,8 @@
 		"Zoom" : 2.4,
         "Image" :
 		[
-			"public/images/scopes/red-dot-ors1.png",
-			"public/images/scopes/red-dot-ors1-ads.png"
+			"public/images/scopes/red-dot-ors1-ads.jpg",
+			"public/images/scopes/red-dot-ors1-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -571,7 +571,7 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/reflex.jpg",
+			"public/images/scopes/reflex-ads.jpg",
 			"public/images/scopes/reflex-ads.jpg"
 		],
 		"Stats" :
@@ -697,7 +697,7 @@
 		"Zoom" : 7,
         "Image" :
 		[
-			"public/images/scopes/longview-slr20.jpg",
+			"public/images/scopes/longview-slr20-ads.jpg",
 			"public/images/scopes/longview-slr20-ads.jpg"
 		],
 		"Stats" :
@@ -729,7 +729,7 @@
 		"Zoom" : 4.5,
         "Image" :
 		[
-			"public/images/scopes/ambush-slh25.jpg",
+			"public/images/scopes/ambush-slh25-ads.jpg",
 			"public/images/scopes/ambush-slh25-ads.jpg"
 		],
 		"Stats" :
@@ -745,8 +745,8 @@
 		"Zoom" : 5,
         "Image" :
 		[
-			"public/images/scopes/viewtac-slh20.png",
-			"public/images/scopes/viewtac-slh20-ads.png"
+			"public/images/scopes/viewtac-slh20-ads.jpg",
+			"public/images/scopes/viewtac-slh20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -777,7 +777,7 @@
 		"Zoom" : 8,
         "Image" :
 		[
-			"public/images/scopes/sightsys-sls20.jpg",
+			"public/images/scopes/sightsys-sls20-ads.jpg",
 			"public/images/scopes/sightsys-sls20-ads.jpg"
 		],
 		"Stats" :
@@ -793,7 +793,7 @@
 		"Zoom" : 6,
         "Image" :
 		[
-			"public/images/scopes/hawkeye-slr15.jpg",
+			"public/images/scopes/hawkeye-slr15-ads.jpg",
 			"public/images/scopes/hawkeye-slr15-ads.jpg"
 		],
 		"Stats" :
@@ -889,7 +889,7 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/aquila-ss4.png",
+			"public/images/scopes/aquila-ss4-ads.png",
 			"public/images/scopes/aquila-ss4-ads.png"
 		],
 		"Stats" :
@@ -937,7 +937,7 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/condor-ss2.png",
+			"public/images/scopes/condor-ss2-ads.png",
 			"public/images/scopes/condor-ss2-ads.png"
 		],
 		"Stats" :
@@ -953,7 +953,7 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/corvo-ss2.png",
+			"public/images/scopes/corvo-ss2-ads.png",
 			"public/images/scopes/corvo-ss2-ads.png"
 		],
 		"Stats" :

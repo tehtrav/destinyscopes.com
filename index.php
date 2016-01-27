@@ -19,7 +19,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="secondary-column col-md-3 col-lg-2">
+			<div class="secondary-column col-sm-3 col-lg-2">
 				<div id="legend" class="legend">
 					<div class="filters">
 						<h4>Manufacturers</h4>
@@ -36,24 +36,9 @@
 						    <label><input type="checkbox" value="sm-suros" checked> Suros</label>
 						</div>
 					</div>
-					<!-- <div class="filters">
-						<h4>Type</h4>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="st-iron-sights" checked> Iron Sights</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="st-red-dot-sights" checked> Red Dot Sights</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="st-ranged-sights" checked> Ranged Sights</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="st-sniper-scopes" checked> Sniper Sights</label>
-						</div>
-					</div> -->
 				</div>
 			</div>
-			<div class="primary-column col-md-9 col-lg-10">
+			<div class="primary-column col-sm-9 col-lg-10">
 			</div>
 		</div>
 	</div>
