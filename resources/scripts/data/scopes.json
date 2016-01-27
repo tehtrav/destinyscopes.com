@@ -221,8 +221,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/soon.jpg",
-			"public/images/scopes/soon.jpg"
+			"public/images/scopes/sd-thermal.jpg",
+			"public/images/scopes/sd-thermal-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -255,8 +255,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"public/images/scopes/soon.jpg",
-			"public/images/scopes/soon.jpg"
+			"public/images/scopes/sc-holo.jpg",
+			"public/images/scopes/sc-holo-ads.jpg"
 		],
 		"Stats" :
 		[
