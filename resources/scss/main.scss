@@ -6,7 +6,10 @@
 // Bootstrap
 // ---------
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../bower_components/sass-flex-mixin/flexbox';
 
 @import 'variables';
+@import 'mixins';
 @import 'type';
+@import 'utilities';
 @import 'site';

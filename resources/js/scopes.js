@@ -89,7 +89,7 @@ window.ScopeStat = function(name, value, isGraph, suffix){
 
 window.GetScopeData = function(){
 	$.ajax({
-		url: "resources/scripts/data/scopes.json",
+		url: "resources/data/scopes.json",
 		dataType: 'text',
 		type: "GET",
 		success: function(data){
