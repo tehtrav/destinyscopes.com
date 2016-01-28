@@ -1,18 +1,13 @@
 $(document).ready(function(){
 
+	// Run function to ajax scope data
+	GetScopeData();
+
 	// Add .js class to body for js/no-js styling
 	$(".no-js").removeClass("no-js").addClass("js");
 
-	GetScopeData();
-    // in order to filter by scope
-    // $("select#ScopeTypeFilter").change(function(){
-    // 	FilterByScopeType($(this).val());
-    // });
-	//
-    // $("select#ScopeMakeFilter").change(function(){
-    // 	FilterByScopeType($(this).val());
-    // });
-
+	// When checkbox is clicked, hide all scopes
+	// then show the checked ones by class
 	$("#legend :checkbox").click(function() {
 		$(".scope").hide();
 		$("#legend :checkbox:checked").each(function() {
@@ -21,6 +16,7 @@ $(document).ready(function(){
 		});
 	});
 
+	// Affix the legend on desktop devices
     $('#legend').affix({
 		offset: {
 		    top: function () {
@@ -32,14 +28,13 @@ $(document).ready(function(){
 		}
 	});
 
+	// Give #legend a width based on column size so it
+	// doesn't collapse when given fixed positioning
 	$("#legend").width( $(".secondary-column").width() );
 	$( window ).resize(function() {
 		$("#legend").width( $(".secondary-column").width() );
 	});
-
 });
-
-
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){
 	this.Name = name || "";
