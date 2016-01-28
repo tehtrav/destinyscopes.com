@@ -8,8 +8,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scopes/quickdraw-is.jpg",
-			"resources/images/scopes/quickdraw-is-ads.jpg"
+			"resources/images/scope-images/quickdraw-is.jpg",
+			"resources/images/scope-images/quickdraw-is-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -26,8 +26,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scopes/truesight-is.jpg",
-			"resources/images/scopes/truesight-is-ads.jpg"
+			"resources/images/scope-images/truesight-is.jpg",
+			"resources/images/scope-images/truesight-is-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -45,8 +45,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scopes/fastdraw-is-ads.png",
-			"resources/images/scopes/fastdraw-is-ads.png"
+			"resources/images/scope-images/fastdraw-is-ads.png",
+			"resources/images/scope-images/fastdraw-is-ads.png"
 		],
 		"Stats" :
 		[
@@ -64,8 +64,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scopes/steadyhand-is-ads.png",
-			"resources/images/scopes/steadyhand-is-ads.png"
+			"resources/images/scope-images/steadyhand-is-ads.png",
+			"resources/images/scope-images/steadyhand-is-ads.png"
 		],
 		"Stats" :
 		[
@@ -83,8 +83,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scopes/sureshot-is.jpg",
-			"resources/images/scopes/sureshot-is-ads.jpg"
+			"resources/images/scope-images/sureshot-is.jpg",
+			"resources/images/scope-images/sureshot-is-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -102,8 +102,8 @@
 		"Zoom" : 1.87,
         "Image" :
 		[
-			"resources/images/scopes/suros-slo-12.jpg",
-			"resources/images/scopes/suros-slo-12.jpg"
+			"resources/images/scope-images/suros-slo-12.jpg",
+			"resources/images/scope-images/suros-slo-12.jpg"
 		],
 		"Stats" :
 		[
@@ -119,8 +119,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/suros-slo-19.jpg",
-			"resources/images/scopes/suros-slo-19.jpg"
+			"resources/images/scope-images/suros-slo-19.jpg",
+			"resources/images/scope-images/suros-slo-19.jpg"
 		],
 		"Stats" :
 		[
@@ -136,8 +136,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/suros-spo-26.jpg",
-			"resources/images/scopes/suros-spo-26.jpg"
+			"resources/images/scope-images/suros-spo-26.jpg",
+			"resources/images/scope-images/suros-spo-26.jpg"
 		],
 		"Stats" :
 		[
@@ -153,8 +153,8 @@
 		"Zoom" : 1.8,
         "Image" :
 		[
-			"resources/images/scopes/suros-spo-28.jpg",
-			"resources/images/scopes/suros-spo-28.jpg"
+			"resources/images/scope-images/suros-spo-28.jpg",
+			"resources/images/scope-images/suros-spo-28.jpg"
 		],
 		"Stats" :
 		[
@@ -170,8 +170,8 @@
 		"Zoom" : 2.42,
         "Image" :
 		[
-			"resources/images/scopes/suros-sro-37.jpg",
-			"resources/images/scopes/suros-sro-37.jpg"
+			"resources/images/scope-images/suros-sro-37.jpg",
+			"resources/images/scope-images/suros-sro-37.jpg"
 		],
 		"Stats" :
 		[
@@ -187,8 +187,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/suros-sro-41.jpg",
-			"resources/images/scopes/suros-sro-41.jpg"
+			"resources/images/scope-images/suros-sro-41.jpg",
+			"resources/images/scope-images/suros-sro-41.jpg"
 		],
 		"Stats" :
 		[
@@ -204,8 +204,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/soon.jpg",
-			"resources/images/scopes/soon.jpg"
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -221,8 +221,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/sd-thermal.jpg",
-			"resources/images/scopes/sd-thermal-ads.jpg"
+			"resources/images/scope-images/sd-thermal.jpg",
+			"resources/images/scope-images/sd-thermal-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -238,8 +238,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/soon.jpg",
-			"resources/images/scopes/soon.jpg"
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -255,8 +255,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/sc-holo.jpg",
-			"resources/images/scopes/sc-holo-ads.jpg"
+			"resources/images/scope-images/sc-holo.jpg",
+			"resources/images/scope-images/sc-holo-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -272,8 +272,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/hakke-ga-post.jpg",
-			"resources/images/scopes/hakke-ga-post.jpg"
+			"resources/images/scope-images/hakke-ga-post.jpg",
+			"resources/images/scope-images/hakke-ga-post.jpg"
 		],
 		"Stats" :
 		[
@@ -289,8 +289,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/gb-iron.jpg",
-			"resources/images/scopes/gb-iron-ads.jpg"
+			"resources/images/scope-images/gb-iron.jpg",
+			"resources/images/scope-images/gb-iron-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -306,8 +306,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/hakke-ld-watchdog.jpg",
-			"resources/images/scopes/hakke-ld-watchdog.jpg"
+			"resources/images/scope-images/hakke-ld-watchdog.jpg",
+			"resources/images/scope-images/hakke-ld-watchdog.jpg"
 		],
 		"Stats" :
 		[
@@ -323,8 +323,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/lc-ranged.jpg",
-			"resources/images/scopes/lc-ranged-ads.jpg"
+			"resources/images/scope-images/lc-ranged.jpg",
+			"resources/images/scope-images/lc-ranged-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -340,8 +340,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/omolon-candle.jpg",
-			"resources/images/scopes/omolon-candle.jpg"
+			"resources/images/scope-images/omolon-candle.jpg",
+			"resources/images/scope-images/omolon-candle.jpg"
 		],
 		"Stats" :
 		[
@@ -357,8 +357,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/spark-is6.jpg",
-			"resources/images/scopes/spark-is6-ads.jpg"
+			"resources/images/scope-images/spark-is6.jpg",
+			"resources/images/scope-images/spark-is6-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -374,8 +374,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/omolon-torch.jpg",
-			"resources/images/scopes/omolon-torch.jpg"
+			"resources/images/scope-images/omolon-torch.jpg",
+			"resources/images/scope-images/omolon-torch.jpg"
 		],
 		"Stats" :
 		[
@@ -391,8 +391,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/omolon-signal.jpg",
-			"resources/images/scopes/omolon-signal.jpg"
+			"resources/images/scope-images/omolon-signal.jpg",
+			"resources/images/scope-images/omolon-signal.jpg"
 		],
 		"Stats" :
 		[
@@ -408,8 +408,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/impulse-ms2.jpg",
-			"resources/images/scopes/impulse-ms2-ads.jpg"
+			"resources/images/scope-images/impulse-ms2.jpg",
+			"resources/images/scope-images/impulse-ms2-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -425,8 +425,8 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-oes-ads.jpg",
-			"resources/images/scopes/red-dot-oes-ads.jpg"
+			"resources/images/scope-images/red-dot-oes-ads.jpg",
+			"resources/images/scope-images/red-dot-oes-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -443,8 +443,8 @@
 		"Zoom" : 2.3,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-ors.jpg",
-			"resources/images/scopes/red-dot-ors-ads.jpg"
+			"resources/images/scope-images/red-dot-ors.jpg",
+			"resources/images/scope-images/red-dot-ors-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -461,8 +461,8 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-oas.jpg",
-			"resources/images/scopes/red-dot-oas-ads.jpg"
+			"resources/images/scope-images/red-dot-oas.jpg",
+			"resources/images/scope-images/red-dot-oas-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -478,8 +478,8 @@
 		"Zoom" : 2.4,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-ors1-ads.jpg",
-			"resources/images/scopes/red-dot-ors1-ads.jpg"
+			"resources/images/scope-images/red-dot-ors1-ads.jpg",
+			"resources/images/scope-images/red-dot-ors1-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -496,8 +496,8 @@
 		"Zoom" : 2.3,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-ores.jpg",
-			"resources/images/scopes/red-dot-ores-ads.jpg"
+			"resources/images/scope-images/red-dot-ores.jpg",
+			"resources/images/scope-images/red-dot-ores-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -516,8 +516,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-ora.jpg",
-			"resources/images/scopes/red-dot-ora.jpg"
+			"resources/images/scope-images/red-dot-ora.jpg",
+			"resources/images/scope-images/red-dot-ora.jpg"
 		],
 		"Stats" :
 		[
@@ -532,8 +532,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/red-dot-ora-2.jpg",
-			"resources/images/scopes/red-dot-ora-2-ads.jpg"
+			"resources/images/scope-images/red-dot-ora-2.jpg",
+			"resources/images/scope-images/red-dot-ora-2-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -548,8 +548,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/oeg.jpg",
-			"resources/images/scopes/oeg.jpg"
+			"resources/images/scope-images/oeg.jpg",
+			"resources/images/scope-images/oeg.jpg"
 		],
 		"Stats" :
 		[
@@ -564,8 +564,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/oeg-riflescope.jpg",
-			"resources/images/scopes/oeg-riflescope-ads.jpg"
+			"resources/images/scope-images/oeg-riflescope.jpg",
+			"resources/images/scope-images/oeg-riflescope-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -580,8 +580,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/reflex-ads.jpg",
-			"resources/images/scopes/reflex-ads.jpg"
+			"resources/images/scope-images/reflex-ads.jpg",
+			"resources/images/scope-images/reflex-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -596,8 +596,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/md-reflex.jpg",
-			"resources/images/scopes/md-reflex.jpg"
+			"resources/images/scope-images/md-reflex.jpg",
+			"resources/images/scope-images/md-reflex.jpg"
 		],
 		"Stats" :
 		[
@@ -612,8 +612,8 @@
 		"Zoom" : 2.8,
         "Image" :
 		[
-			"resources/images/scopes/ranged-lense-rlr5-ads.png",
-			"resources/images/scopes/ranged-lense-rlr5-ads.png"
+			"resources/images/scope-images/ranged-lense-rlr5-ads.png",
+			"resources/images/scope-images/ranged-lense-rlr5-ads.png"
 		],
 		"Stats" :
 		[
@@ -632,8 +632,8 @@
 		"Zoom" : 2.6,
         "Image" :
 		[
-			"resources/images/scopes/ranged-lense-rls3.jpg",
-			"resources/images/scopes/ranged-lense-rls3-ads.jpg"
+			"resources/images/scope-images/ranged-lense-rls3.jpg",
+			"resources/images/scope-images/ranged-lense-rls3-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -652,8 +652,8 @@
 		"Zoom" : 2.4,
         "Image" :
 		[
-			"resources/images/scopes/focus-lense-fls2.jpg",
-			"resources/images/scopes/focus-lense-fls2-ads.jpg"
+			"resources/images/scope-images/focus-lense-fls2.jpg",
+			"resources/images/scope-images/focus-lense-fls2-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -670,8 +670,8 @@
 		"Zoom" : 2.6,
         "Image" :
 		[
-			"resources/images/scopes/focus-lense-fla5.jpg",
-			"resources/images/scopes/focus-lense-fla5-ads.jpg"
+			"resources/images/scope-images/focus-lense-fla5.jpg",
+			"resources/images/scope-images/focus-lense-fla5-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -687,8 +687,8 @@
 		"Zoom" : 4.5,
         "Image" :
 		[
-			"resources/images/scopes/shortgaze.jpg",
-			"resources/images/scopes/shortgaze.jpg"
+			"resources/images/scope-images/shortgaze.jpg",
+			"resources/images/scope-images/shortgaze.jpg"
 		],
 		"Stats" :
 		[
@@ -706,8 +706,8 @@
 		"Zoom" : 7,
         "Image" :
 		[
-			"resources/images/scopes/longview-slr20-ads.jpg",
-			"resources/images/scopes/longview-slr20-ads.jpg"
+			"resources/images/scope-images/longview-slr20-ads.jpg",
+			"resources/images/scope-images/longview-slr20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -722,8 +722,8 @@
 		"Zoom" : 5,
         "Image" :
 		[
-			"resources/images/scopes/longview-slr10.jpg",
-			"resources/images/scopes/longview-slr10-ads.jpg"
+			"resources/images/scope-images/longview-slr10.jpg",
+			"resources/images/scope-images/longview-slr10-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -739,8 +739,8 @@
 		"Zoom" : 4.5,
         "Image" :
 		[
-			"resources/images/scopes/ambush-slh25-ads.jpg",
-			"resources/images/scopes/ambush-slh25-ads.jpg"
+			"resources/images/scope-images/ambush-slh25-ads.jpg",
+			"resources/images/scope-images/ambush-slh25-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -755,8 +755,8 @@
 		"Zoom" : 5,
         "Image" :
 		[
-			"resources/images/scopes/viewtac-slh20-ads.jpg",
-			"resources/images/scopes/viewtac-slh20-ads.jpg"
+			"resources/images/scope-images/viewtac-slh20-ads.jpg",
+			"resources/images/scope-images/viewtac-slh20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -771,8 +771,8 @@
 		"Zoom" : 9,
         "Image" :
 		[
-			"resources/images/scopes/eagleeye-slr20-ads.png",
-			"resources/images/scopes/eagleeye-slr20-ads.png"
+			"resources/images/scope-images/eagleeye-slr20-ads.png",
+			"resources/images/scope-images/eagleeye-slr20-ads.png"
 		],
 		"Stats" :
 		[
@@ -787,8 +787,8 @@
 		"Zoom" : 8,
         "Image" :
 		[
-			"resources/images/scopes/sightsys-sls20-ads.jpg",
-			"resources/images/scopes/sightsys-sls20-ads.jpg"
+			"resources/images/scope-images/sightsys-sls20-ads.jpg",
+			"resources/images/scope-images/sightsys-sls20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -804,8 +804,8 @@
 		"Zoom" : 6,
         "Image" :
 		[
-			"resources/images/scopes/hawkeye-slr15-ads.jpg",
-			"resources/images/scopes/hawkeye-slr15-ads.jpg"
+			"resources/images/scope-images/hawkeye-slr15-ads.jpg",
+			"resources/images/scope-images/hawkeye-slr15-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -821,8 +821,8 @@
 		"Zoom" : 5.5,
         "Image" :
 		[
-			"resources/images/scopes/wildhawk-sls20.jpg",
-			"resources/images/scopes/wildhawk-sls20-ads.jpg"
+			"resources/images/scope-images/wildhawk-sls20.jpg",
+			"resources/images/scope-images/wildhawk-sls20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -837,8 +837,8 @@
 		"Zoom" : 6,
         "Image" :
 		[
-			"resources/images/scopes/tacsys-sls15.jpg",
-			"resources/images/scopes/tacsys-sls15-ads.jpg"
+			"resources/images/scope-images/tacsys-sls15.jpg",
+			"resources/images/scope-images/tacsys-sls15-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -854,8 +854,8 @@
 		"Zoom" : 4.65,
         "Image" :
 		[
-			"resources/images/scopes/hakke-ata-scout.jpg",
-			"resources/images/scopes/hakke-ata-scout-ads.jpg"
+			"resources/images/scope-images/hakke-ata-scout.jpg",
+			"resources/images/scope-images/hakke-ata-scout-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -870,8 +870,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/hakke-atb-long-range.jpg",
-			"resources/images/scopes/hakke-atb-long-range-ads.jpg"
+			"resources/images/scope-images/hakke-atb-long-range.jpg",
+			"resources/images/scope-images/hakke-atb-long-range-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -886,8 +886,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/hakke-raptor.jpg",
-			"resources/images/scopes/hakke-raptor-ads.jpg"
+			"resources/images/scope-images/hakke-raptor.jpg",
+			"resources/images/scope-images/hakke-raptor-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -902,8 +902,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/aquila-ss4-ads.png",
-			"resources/images/scopes/aquila-ss4-ads.png"
+			"resources/images/scope-images/aquila-ss4-ads.png",
+			"resources/images/scope-images/aquila-ss4-ads.png"
 		],
 		"Stats" :
 		[
@@ -918,8 +918,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/faucon-ss1.jpg",
-			"resources/images/scopes/faucon-ss1-ads.jpg"
+			"resources/images/scope-images/faucon-ss1.jpg",
+			"resources/images/scope-images/faucon-ss1-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -934,8 +934,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/yepaki-ss2.jpg",
-			"resources/images/scopes/yepaki-ss2-ads.jpg"
+			"resources/images/scope-images/yepaki-ss2.jpg",
+			"resources/images/scope-images/yepaki-ss2-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -950,8 +950,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/condor-ss2-ads.png",
-			"resources/images/scopes/condor-ss2-ads.png"
+			"resources/images/scope-images/condor-ss2-ads.png",
+			"resources/images/scope-images/condor-ss2-ads.png"
 		],
 		"Stats" :
 		[
@@ -966,8 +966,568 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scopes/corvo-ss2-ads.png",
-			"resources/images/scopes/corvo-ss2-ads.png"
+			"resources/images/scope-images/corvo-ss2-ads.png",
+			"resources/images/scope-images/corvo-ss2-ads.png"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Fabian Strategy",
+		"Manufacturer" : "Hakke",
+		"Description" : "Wait for enemy to make a mistake. Die. Stand by for Ghost Resurrection. Repeat as necessary.",
+		"Icon" : "resources/images/exotic-icons/fabian-strategy.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/fabian-strategy.jpg",
+			"resources/images/scope-images/fabian-strategy-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Suros Regime",
+		"Manufacturer" : "Suros",
+		"Description" : "Nostalgia as a weapon of war. Style as a hallmark of victory.",
+		"Icon" : "resources/images/exotic-icons/suros-regime.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/suros-regime.jpg",
+			"resources/images/scope-images/suros-regime-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Monte Carlo",
+		"Manufacturer" : "Exotic",
+		"Description" : "There will always be paths to tread and methods to try. Roll with it.",
+		"Icon" : "resources/images/exotic-icons/monte-carlo.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/monte-carlo.jpg",
+			"resources/images/scope-images/monte-carlo-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Hard Light",
+		"Manufacturer" : "Exotic",
+		"Description" : "Ionized polymer synballistic attack platform. The system's lethality is dynamically robust across tactical spaces.",
+		"Icon" : "resources/images/exotic-icons/hard-light.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Zhalo Supercell",
+		"Manufacturer" : "Exotic",
+		"Description" : "An upcycled torrent of righteous thunder.",
+		"Icon" : "resources/images/exotic-icons/zhalo-supercell.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/zhalo-supercell.jpg",
+			"resources/images/scope-images/zhalo-supercell-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Necrochasm",
+		"Manufacturer" : "Exotic",
+		"Description" : "Eternity is very close. Can you feel yourself slipping?",
+		"Icon" : "resources/images/exotic-icons/necrochasm.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Bad Juju",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"If you believe your weapon wants to end all existence, then so it will.\" - Toland the Shattered",
+		"Icon" : "resources/images/exotic-icons/bad-juju.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/bad-juju.jpg",
+			"resources/images/scope-images/bad-juju-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Red Death",
+		"Manufacturer" : "Exotic",
+		"Description" : "Vanguard policy urges Guardians to destroy this weapon on sight.",
+		"Icon" : "resources/images/exotic-icons/red-death.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/red-death.jpg",
+			"resources/images/scope-images/red-death-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "No Time To Explain",
+		"Manufacturer" : "Exotic",
+		"Description" : "A single word is etched onto the inside of the weapon's casing: \"Soon.\"",
+		"Icon" : "resources/images/exotic-icons/no-time-to-explain.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "MIDA Multi-tool",
+		"Manufacturer" : "Exotic",
+		"Description" : "Select application: Ballistic engagement. Entrenching tool. Avionics trawl. Troll smasher. Stellar sextant. List continues.",
+		"Icon" : "resources/images/exotic-icons/mida-multi-tool.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/mida-multi-tool.jpg",
+			"resources/images/scope-images/mida-multi-tool-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The Jade Rabbit",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"What kind of harebrained scheme have you got in mind this time?\"",
+		"Icon" : "resources/images/exotic-icons/the-jade-rabbit.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Boolean Gemini",
+		"Manufacturer" : "Exotic",
+		"Description" : "Fight your way!",
+		"Icon" : "resources/images/exotic-icons/boolean-gemini.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/boolean-gemini.jpg",
+			"resources/images/scope-images/boolean-gemini-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Touch of Malice",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"Let them feel every lash, every curse, every touch of malice that they first dealt to me.\" —Eris Morn",
+		"Icon" : "resources/images/exotic-icons/touch-of-malice.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/touch-of-malice.jpg",
+			"resources/images/scope-images/touch-of-malice-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Tlaloc",
+		"Manufacturer" : "Exotic",
+		"Description" : "Release the storm. Hold nothing back.",
+		"Icon" : "resources/images/exotic-icons/tlaloc.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Thorn",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"To rend one's enemies is to see them not as equals, but objects—hollow of spirit and meaning.\" - 13th Understanding, 7th Book of Sorrow",
+		"Icon" : "resources/images/exotic-icons/thorn.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/thorn.jpg",
+			"resources/images/scope-images/thorn-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The Last Word",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"Yours... not mine.\" - Renegade Hunter Shin Malphur to Dredgen Yor",
+		"Icon" : "resources/images/exotic-icons/the-last-word.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/the-last-word.jpg",
+			"resources/images/scope-images/the-last-word-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Hawkmoon",
+		"Manufacturer" : "Exotic",
+		"Description" : "Stalk thy prey and let loose thy talons upon the Darkness.",
+		"Icon" : "resources/images/exotic-icons/hawkmoon.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/hawkmoon.jpg",
+			"resources/images/scope-images/hawkmoon-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Ace of Spades",
+		"Manufacturer" : "Exotic",
+		"Description" : "Don't play your hand unless you're sure you have that ace in the hole.",
+		"Icon" : "resources/images/exotic-icons/ace-of-spades.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The First Curse",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"...is when death becomes an afterthought.\"",
+		"Icon" : "resources/images/exotic-icons/the-first-curse.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/the-first-curse.jpg",
+			"resources/images/scope-images/the-first-curse-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Vex Mythoclast",
+		"Manufacturer" : "Exotic",
+		"Description" : "...a causal loop within the weapon's mechanism, suggesting that the firing process somehow binds space and time into...",
+		"Icon" : "resources/images/exotic-icons/vex-mythoclast.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/vex-mythoclast.jpg",
+			"resources/images/scope-images/vex-mythoclast-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "No Land Beyond",
+		"Manufacturer" : "Exotic",
+		"Description" : "Every hit blazes the path to our reclamation",
+		"Icon" : "resources/images/exotic-icons/no-land-beyond.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/no-land-beyond.jpg",
+			"resources/images/scope-images/no-land-beyond-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Universal Remote",
+		"Manufacturer" : "Exotic",
+		"Description" : "To the untrained eye this beast is a junker. To the trained eye, however, this junker... is a beast.",
+		"Icon" : "resources/images/exotic-icons/universal-remote.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/universal-remote.jpg",
+			"resources/images/scope-images/universal-remote-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Icebreaker",
+		"Manufacturer" : "Exotic",
+		"Description" : "Please replace these components if use causes fatal damage: HEAT SINK. MAGAZINE. OPERATOR",
+		"Icon" : "resources/images/exotic-icons/icebreaker.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/icebreaker.jpg",
+			"resources/images/scope-images/icebreaker-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Black Spindle",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"Your only existence shall be that which I weave for you out of sorrow and woe.\"",
+		"Icon" : "resources/images/exotic-icons/black-spindle.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/black-spindle.jpg",
+			"resources/images/scope-images/black-spindle-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Hereafter",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"Huddled at the mountain's base, we had no choice but to beat our ploughshares into swords once more.\"",
+		"Icon" : "resources/images/exotic-icons/hereafter.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/hereafter.jpg",
+			"resources/images/scope-images/hereafter-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Patience and Time",
+		"Manufacturer" : "Exotic",
+		"Description" : "If you've got it, they'll never see it coming.",
+		"Icon" : "resources/images/exotic-icons/patience-and-time.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Pocket Infinity",
+		"Manufacturer" : "Exotic",
+		"Description" : "You cannot shake the feeling that this is less a weapon than a doorway.",
+		"Icon" : "resources/images/exotic-icons/pocket-infinity.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/pocket-infinity.jpg",
+			"resources/images/scope-images/pocket-infinity-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Plan C",
+		"Manufacturer" : "Exotic",
+		"Description" : "Good fighters have contingency plans. Great fighters don't need them.",
+		"Icon" : "resources/images/exotic-icons/plan-c.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/plan-c.jpg",
+			"resources/images/scope-images/plan-c-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Telesto",
+		"Manufacturer" : "Exotic",
+		"Description" : "Vestiges of the Queen's Harbingers yet linger among Saturn's moons.",
+		"Icon" : "resources/images/exotic-icons/telesto.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/telesto.jpg",
+			"resources/images/scope-images/telesto-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Queenbreaker's Bow",
+		"Manufacturer" : "Exotic",
+		"Description" : "Despite the Breakers' treachery, Her Majesty still stands.",
+		"Icon" : "resources/images/exotic-icons/queenbreakers-bow.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Invective",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"I tried to talk them down. They made a grab for my Ghost. After that it was a short conversation.\" - Ikora Rey",
+		"Icon" : "resources/images/exotic-icons/invective.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/invective.jpg",
+			"resources/images/scope-images/invective-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The Fourth Horseman",
+		"Manufacturer" : "Exotic",
+		"Description" : "It's not a holdout weapon, it's a pathfinder.",
+		"Icon" : "resources/images/exotic-icons/the-fourth-horseman.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/the-fourth-horseman.jpg",
+			"resources/images/scope-images/the-fourth-horseman-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Lord of Wolves",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"By this right alone do I rule.\"",
+		"Icon" : "resources/images/exotic-icons/lord-of-wolves.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/lord-of-wolves.jpg",
+			"resources/images/scope-images/lord-of-wolves-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The Chaperone",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"My mother had a shotgun we called the Chaperone. Kept us alive out there, before we got to the City.\" —Amanda Holliday",
+		"Icon" : "resources/images/exotic-icons/the-chaperone.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/the-chaperone.jpg",
+			"resources/images/scope-images/the-chaperone-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Dreg's Promise",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"I am a marvel with ten thousand arms.\"",
+		"Icon" : "resources/images/exotic-icons/dregs-promise.jpg",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/dregs-promise.jpg",
+			"resources/images/scope-images/dregs-promise-ads.jpg"
 		],
 		"Stats" :
 		[
