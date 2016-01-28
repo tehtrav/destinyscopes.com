@@ -112,79 +112,6 @@ body {
             border-top: 1px solid rgba(white, .1);
         }
     }
-    .details {
-        background: rgba(black, .5);
-        padding: 12px;
-        @media (min-width: 600px) {
-            padding: 18px;
-        }
-        @media (min-width: 768px) {
-            padding: 40px 12px 12px 12px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(rgba(black, 0), rgba(black, 1) 90% );
-            border-bottom-left-radius: $border-radius-large;
-            border-bottom-right-radius: $border-radius-large;
-            text-shadow: 0 1px 1px rgba(black, .5);
-            z-index: 2;
-            padding: 70px 20px 20px 20px;
-        }
-        .icon {
-            display: none;
-            @media (min-width: 375px) {
-                display: block;
-                background-color: $blue;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: 80%;
-                border-radius: 100px;
-                float: left;
-                $size: 30px;
-                width: $size;
-                height: $size;
-                margin-right: 10px;
-            }
-            @media (min-width: 600px) {
-                $size: 45px;
-                width: $size;
-                height: $size;
-                margin-right: $base-margin;
-            }
-            @media (min-width: 768px) {
-                $size: 55px;
-                width: $size;
-                height: $size;
-                margin-right: $base-margin;
-            }
-        }
-        .name {
-            font-size: 15px;
-            margin: 0 0 2px;
-        }
-        .description {
-            font-size: 9px;
-            font-weight: $medium;
-            margin: 0;
-        }
-        @media (min-width: 600px) {
-            .name {
-                font-size: 20px;
-            }
-            .description {
-                font-size: 13px;
-            }
-        }
-        @media (min-width: 768px) {
-            .name {
-                font-size: 24px;
-            }
-            .description {
-                font-size: 14px;
-            }
-        }
-    }
     .zoom {
         position: absolute;
         z-index: 3;
@@ -224,6 +151,86 @@ body {
             &:hover {
                 opacity: 1;
             }
+        }
+    }
+}
+
+.details {
+    background: rgba(black, .5);
+    padding: 12px;
+    @media (min-width: 600px) {
+        padding: 18px;
+    }
+    @media (min-width: 768px) {
+        padding: 40px 12px 12px 12px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(rgba(black, 0), rgba(black, 1) 90% );
+        border-bottom-left-radius: $border-radius-large;
+        border-bottom-right-radius: $border-radius-large;
+        text-shadow: 0 1px 1px rgba(black, .5);
+        z-index: 2;
+        padding: 70px 20px 20px 20px;
+    }
+    .icon {
+        display: none;
+        @media (min-width: 375px) {
+            display: block;
+            background-color: $blue;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            border-radius: 100px;
+            float: left;
+            $size: 30px;
+            width: $size;
+            height: $size;
+            margin-right: 10px;
+        }
+        .st-exotic & {
+            border-radius: 0;
+            background-size: 100%;
+            border: 2px solid white;
+            box-shadow: 0 1px 5px rgba(black,.2);
+        }
+        @media (min-width: 600px) {
+            $size: 45px;
+            width: $size;
+            height: $size;
+            margin-right: $base-margin;
+        }
+        @media (min-width: 768px) {
+            $size: 55px;
+            width: $size;
+            height: $size;
+            margin-right: $base-margin;
+        }
+    }
+    .name {
+        font-size: 15px;
+        margin: 0 0 2px;
+    }
+    .description {
+        font-size: 9px;
+        font-weight: $medium;
+        margin: 0;
+    }
+    @media (min-width: 600px) {
+        .name {
+            font-size: 20px;
+        }
+        .description {
+            font-size: 13px;
+        }
+    }
+    @media (min-width: 768px) {
+        .name {
+            font-size: 24px;
+        }
+        .description {
+            font-size: 14px;
         }
     }
 }
