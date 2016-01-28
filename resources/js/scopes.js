@@ -34,6 +34,16 @@ $(document).ready(function(){
 	$( window ).resize(function() {
 		$("#legend").width( $(".secondary-column").width() );
 	});
+
+	// Hover over item to show hip fire view
+	$(document).on("mouseover", ".scope", function(e) {
+	    $(this).addClass("scope--hovered");
+	});
+
+	$(document).on("mouseleave", ".scope", function(e) {
+		$(this).removeClass("scope--hovered");
+	});
+
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){

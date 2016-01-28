@@ -1,10 +1,17 @@
+.no-cssgradients {
+    * {
+        background: red;
+    }
+}
+
+
 body {
     position: relative;
     margin: 0;
     background-color: darken($dusk, 10%);
     padding-top: 60px;
     @media (min-width: 768px) {
-        background: darken($dusk, 10%) url(../../resources/images/background.jpg) no-repeat center center fixed;
+        background: darken($dusk, 10%) url("../../resources/images/background.jpg") no-repeat center center fixed;
         background-size: cover;
         padding-top: 0;
     }
@@ -31,8 +38,6 @@ body {
         color: mix($dusk, white, 35%);
         text-transform: uppercase;
         padding: 9px 0 8px 45px;
-        //background: url("/public/images/logo.png") left center no-repeat;
-
         @include img-retina("../../resources/images/logo.png", "../../resources/images/logo_2x.png", 37px, 37px);
         background-repeat: no-repeat;
         background-position: left center;
@@ -122,36 +127,39 @@ body {
         text-shadow: 0 1px 4px rgba(black, .4);
         opacity: .6;
     }
+}
 
-    .visual {
-        position: relative;
-        @media (min-width: 768px) {
-            border-radius: $border-radius-large;
-            box-shadow: 0 1px 0 rgba(white, .05);
-            img {
-                border-radius: $border-radius-large;
-            }
-        }
+// VISUAL
+// -----
+// Includes 2 images, title, details, icon
+.visual {
+    position: relative;
+    @media (min-width: 768px) {
+        border-radius: $border-radius-large;
+        box-shadow: 0 1px 0 rgba(white, .05);
         img {
-            display: block;
+            border-radius: $border-radius-large;
         }
-        img.scope-ads {
-            width: 100%;
-        }
-        img.scope-hip {
-            position: absolute;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            opacity: 0;
-            width: 100%;
-            transition: opacity .3s;
-            &:hover {
-                opacity: 1;
-            }
-        }
+    }
+    img {
+        display: block;
+    }
+    img.scope-ads {
+        width: 100%;
+    }
+    img.scope-hip {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 100%;
+        transition: opacity .3s;
+    }
+    .scope--hovered & .scope-hip {
+        opacity: 1;
     }
 }
 

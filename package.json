@@ -10,6 +10,7 @@
     "gulp-gzip": "^1.2.0",
     "gulp-livereload": "^3.8.0",
     "gulp-minify-css": "^1.2.0",
+    "gulp-modernizr": "^1.0.0-alpha",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",

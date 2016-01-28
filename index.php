@@ -13,6 +13,8 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="/public/images/touch-icon-iphone-retina.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/public/images/touch-icon-ipad-retina.png">
 
+    <script type="text/javascript" src="resources/js/modernizr.js"></script>
+
 	<title>Destinyscopes.com</title>
 
 </head>
