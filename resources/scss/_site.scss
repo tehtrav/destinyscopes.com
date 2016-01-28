@@ -1,7 +1,7 @@
 body {
     position: relative;
     margin: 0;
-    background: #26303A url(../images/background.jpg) no-repeat center center fixed;
+    background: darken($dusk, 10%) url(../../resources/images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     padding-top: 60px;
     @media (min-width: 768px) {
@@ -15,9 +15,6 @@ body {
         }
     }
 }
-
-.no-js .js-only { display: none; }
-.js .no-js-only { display: none; }
 
 .placeholder-block {
     background: rgba(white, .1);
@@ -60,7 +57,7 @@ body {
         padding: 9px 0 8px 45px;
         //background: url("/public/images/logo.png") left center no-repeat;
 
-        @include img-retina("../images/logo.png", "../images/logo_2x.png", 37px, 37px);
+        @include img-retina("../../resources/images/logo.png", "../../resources/images/logo_2x.png", 37px, 37px);
         background-repeat: no-repeat;
         background-position: left center;
     }

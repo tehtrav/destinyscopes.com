@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="public/stylesheets/main.min.css">
+	<link rel="stylesheet" href="build/css/main.min.css">
 	<meta name="description" content="A website for viewing screenshots of the many scopes and sights available in the game Destiny, made by Bungie" />
 	<meta name="keywords" content="Destiny, Bungie, Destiny The Game, Scopes, Weapons, Sights, Screenshots, Shortgaze, Ambush, Red Dot Sight, ACOG" />
 
@@ -80,10 +80,11 @@
 		</script><noscript>Email</noscript> for questions or comments.</p>
 
 	</footer>
-
+	<!-- 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-	<script src="resources/scripts/scopes.js"></script>
+	-->
+	<script src="build/js/all.js"></script>
 
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

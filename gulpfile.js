@@ -60,38 +60,39 @@ var reportError = function (error) {
 
 
 gulp.task('styles', function () {
-    return gulp.src('resources/stylesheets/*.scss')
+    return gulp.src('resources/scss/*.scss')
     .pipe(plumber({
         errorHandler: reportError
     }))
     .pipe(sourcemaps.init())
     .pipe(sass())
-        .pipe(gulp.dest('public/stylesheets'))
+        .pipe(gulp.dest('build/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
         //.pipe(sourcemaps.write())
-        .pipe(gulp.dest('public/stylesheets'))
+        .pipe(gulp.dest('build/css'))
         .pipe(gzip(gzip_options))
-        .pipe(gulp.dest('public/stylesheets'))
+        .pipe(gulp.dest('build/css'))
         .pipe(notify("SCSS Compiled!"))
         .on('error', reportError)
         .pipe(livereload());
 });
 
-// gulp.task('scripts', function() {
-//   return gulp.src('vendor/*.js')
-//     .pipe(concat('vendor.js'))
-//     .pipe(uglify())
-//     .pipe(gulp.dest('build/vendor.js'))
-// });
+gulp.task('scripts', function() {
+    return gulp.src(['bower_components/jquery/dist/jquery.js','bower_components/bootstrap-sass/assets/javascripts/bootstrap.js','resources/js/scopes.js'])
+      .pipe(concat('all.js'))
+      .pipe(uglify())
+      .pipe(gulp.dest('build/js/'))
+});
 
 /* Watch Files For Changes */
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch('resources/stylesheets/*.scss', ['styles']);
+    gulp.watch('resources/scss/*.scss', ['styles']);
+    gulp.watch('resources/js/*.js', ['scripts']);
     gulp.watch('*.php').on('change', livereload.changed);
     gulp.watch('*.html').on('change', livereload.changed);
     //gulp.watch('*').on('change', livereload.changed);
 });
 
-gulp.task('default', ['styles', 'watch']);
+gulp.task('default', ['styles','scripts', 'watch']);
