@@ -1,3 +1,17 @@
 // JS & No JS hiding
 .no-js .js-only { display: none; }
 .js .no-js-only { display: none; }
+
+// Hide an element
+.hidden { display: none; }
+
+// Generic padded block with message
+.placeholder-block {
+    background: rgba(white, .1);
+    border: 1px solid rgba(white, .1);
+    text-align: center;
+    padding: 50px;
+    margin: 30px 0;
+    box-shadow: 0 1px 5px rgba(black, .4);
+}
+

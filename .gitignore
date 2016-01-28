@@ -4,3 +4,4 @@ public/stylesheets/
 public/scripts/
 bower_components/
 node_modules/
+build/

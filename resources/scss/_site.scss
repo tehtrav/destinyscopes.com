@@ -1,10 +1,11 @@
 body {
     position: relative;
     margin: 0;
-    background: darken($dusk, 10%) url(../../resources/images/background.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background-color: darken($dusk, 10%);
     padding-top: 60px;
     @media (min-width: 768px) {
+        background: darken($dusk, 10%) url(../../resources/images/background.jpg) no-repeat center center fixed;
+        background-size: cover;
         padding-top: 0;
     }
     a {
@@ -14,31 +15,6 @@ body {
             color: lighten($link-color, 10%);
         }
     }
-}
-
-.placeholder-block {
-    background: rgba(white, .1);
-    border: 1px solid rgba(white, .1);
-    text-align: center;
-    padding: 50px;
-    margin: 30px 0;
-    box-shadow: 0 1px 5px rgba(black, .4);
-}
-
-.bar {
-    $w: 30px;
-    width: $w;
-    height: 2px;
-    background: rgba(white, .4);
-    position: absolute;
-    display: block;
-    left: 50%;
-    margin-left: -($w / 2);
-    box-shadow: 0 1px 0 rgba(white, .2) inset, 0 1px 2px rgba(black, .2);
-}
-
-.hidden {
-    display: none;
 }
 
 #global-header,
@@ -79,30 +55,29 @@ body {
         bottom: $gutter;
         width: 46px;
         display: block;
-        // background: rgba(black, .3);q
         position: absolute;
         border-radius: 4px;
         @media (min-width: 768px) {
             display: none;
         }
-        span {
+        span,
+        span:before,
+        span:after {
+            $w: 30px;
+            width: $w;
+            height: 2px;
+            background: rgba(white, .4);
+            position: absolute;
             display: block;
+            left: 50%;
+            margin-left: -($w / 2);
+            box-shadow: 0 1px 0 rgba(white, .2) inset, 0 1px 2px rgba(black, .2);
             text-indent: -9999px;
-            top: 17px;
-            @extend .bar;
-            &:before,
-            &:after {
-                @extend .bar;
-                position: absolute;
-                content: " ";
-            }
-            &:before {
-                top: 7px;
-            }
-            &:after {
-                bottom: 7px;
-            }
+            content: " ";
         }
+        span { top: 17px; }
+        span:before { top: 7px; }
+        span:after { bottom: 7px; }
     }
 }
 
@@ -117,13 +92,13 @@ body {
 
 @media (max-width: 767px) {
     .row {
-        display: flex;
-        flex-direction: column;
+        @include flexbox;
+        @include flex-direction(column);
         .secondary-column {
-            order: 2;
+            @include order(2);
         }
         .primary-column {
-            order: 1;
+            @include order(1);
         }
     }
 }
