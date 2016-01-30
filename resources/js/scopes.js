@@ -116,7 +116,7 @@ window.RenderScopes = function(scopes){
 	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
 
 	for(var i in scopes) {
-		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-"));
+		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
 		$scope.addClass("scope");
 		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
@@ -125,7 +125,7 @@ window.RenderScopes = function(scopes){
 		var $stats = $("<ul></ul>").addClass("stats");
 
 		for(var si in scopes[i].Stats) {
-			var $stat = $("<li>").addClass("stats-" + scopes[i].Stats[si].Name.toLowerCase().replace(/\s+/g, "-"));
+			var $stat = $("<li>").addClass("stats-" + scopes[i].Stats[si].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
 			$stat.append($("<span></span>").addClass("label").text(scopes[i].Stats[si].Name));
 			if(scopes[i].Stats[si].IsGraph) {
 				var $amount = $("<span></span>").addClass("amount");
@@ -162,7 +162,7 @@ window.RenderScopes = function(scopes){
 
 		// Make Legend
 		var $link = $("<li class='nav-item'></li>");
-		var $anchor = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-")).html(scopes[i].Name);
+		var $anchor = $("<a class='nav-link'></a>").attr("href", "#" + scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, '')).html(scopes[i].Name);
 		$link.addClass("scope");
 		$link.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$link.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));

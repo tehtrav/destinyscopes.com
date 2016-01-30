@@ -867,7 +867,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Long-distance scope. Increased range, slower handling.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : 0,
+		"Zoom" : 5.65,
         "Image" :
 		[
 			"resources/images/scope-images/hakke-atb-long-range.jpg",
@@ -883,7 +883,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Standard sniper zoom. Highlights enemies with low health.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : 0,
+		"Zoom" : 5.15,
         "Image" :
 		[
 			"resources/images/scope-images/hakke-raptor.jpg",
@@ -899,7 +899,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon imaging technology. Highlights long-distance enemy targets at optimal combat range.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : 0,
+		"Zoom" : 5.5,
         "Image" :
 		[
 			"resources/images/scope-images/aquila-ss4-ads.png",
@@ -915,7 +915,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Ultra-light holo sniper sights. Low zoom, improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : 0,
+		"Zoom" : 4.8,
         "Image" :
 		[
 			"resources/images/scope-images/faucon-ss1.jpg",
@@ -931,7 +931,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Standard zoom, lightweight sniper sight. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : 0,
+		"Zoom" : 5,
         "Image" :
 		[
 			"resources/images/scope-images/yepaki-ss2.jpg",
@@ -947,7 +947,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Ranged zoom lens. Improves range.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : 0,
+		"Zoom" : 5.2,
         "Image" :
 		[
 			"resources/images/scope-images/condor-ss2-ads.png",
@@ -963,7 +963,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon's longest-range distance scope. Improves range.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : 0,
+		"Zoom" : 5.5,
         "Image" :
 		[
 			"resources/images/scope-images/corvo-ss2-ads.png",
@@ -979,7 +979,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Wait for enemy to make a mistake. Die. Stand by for Ghost Resurrection. Repeat as necessary.",
 		"Icon" : "resources/images/exotic-icons/fabian-strategy.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/fabian-strategy.jpg",
@@ -995,7 +995,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "Nostalgia as a weapon of war. Style as a hallmark of victory.",
 		"Icon" : "resources/images/exotic-icons/suros-regime.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/suros-regime.jpg",
@@ -1011,7 +1011,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "There will always be paths to tread and methods to try. Roll with it.",
 		"Icon" : "resources/images/exotic-icons/monte-carlo.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/monte-carlo.jpg",
@@ -1027,7 +1027,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Ionized polymer synballistic attack platform. The system's lethality is dynamically robust across tactical spaces.",
 		"Icon" : "resources/images/exotic-icons/hard-light.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1043,7 +1043,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "An upcycled torrent of righteous thunder.",
 		"Icon" : "resources/images/exotic-icons/zhalo-supercell.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/zhalo-supercell.jpg",
@@ -1059,7 +1059,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Eternity is very close. Can you feel yourself slipping?",
 		"Icon" : "resources/images/exotic-icons/necrochasm.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1075,7 +1075,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"If you believe your weapon wants to end all existence, then so it will.\" - Toland the Shattered",
 		"Icon" : "resources/images/exotic-icons/bad-juju.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.7,
         "Image" :
 		[
 			"resources/images/scope-images/bad-juju.jpg",
@@ -1091,7 +1091,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Vanguard policy urges Guardians to destroy this weapon on sight.",
 		"Icon" : "resources/images/exotic-icons/red-death.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.7,
         "Image" :
 		[
 			"resources/images/scope-images/red-death.jpg",
@@ -1107,7 +1107,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "A single word is etched onto the inside of the weapon's casing: \"Soon.\"",
 		"Icon" : "resources/images/exotic-icons/no-time-to-explain.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.7,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1123,7 +1123,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Select application: Ballistic engagement. Entrenching tool. Avionics trawl. Troll smasher. Stellar sextant. List continues.",
 		"Icon" : "resources/images/exotic-icons/mida-multi-tool.jpg",
-		"Zoom" : 0,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/mida-multi-tool.jpg",
@@ -1139,7 +1139,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"What kind of harebrained scheme have you got in mind this time?\"",
 		"Icon" : "resources/images/exotic-icons/the-jade-rabbit.jpg",
-		"Zoom" : 0,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1155,7 +1155,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Fight your way!",
 		"Icon" : "resources/images/exotic-icons/boolean-gemini.jpg",
-		"Zoom" : 0,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/boolean-gemini.jpg",
@@ -1171,7 +1171,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Let them feel every lash, every curse, every touch of malice that they first dealt to me.\" —Eris Morn",
 		"Icon" : "resources/images/exotic-icons/touch-of-malice.jpg",
-		"Zoom" : 0,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/touch-of-malice.jpg",
@@ -1187,7 +1187,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Release the storm. Hold nothing back.",
 		"Icon" : "resources/images/exotic-icons/tlaloc.jpg",
-		"Zoom" : 0,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1203,7 +1203,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"To rend one's enemies is to see them not as equals, but objects—hollow of spirit and meaning.\" - 13th Understanding, 7th Book of Sorrow",
 		"Icon" : "resources/images/exotic-icons/thorn.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/thorn.jpg",
@@ -1219,7 +1219,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Yours... not mine.\" - Renegade Hunter Shin Malphur to Dredgen Yor",
 		"Icon" : "resources/images/exotic-icons/the-last-word.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/the-last-word.jpg",
@@ -1235,7 +1235,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Stalk thy prey and let loose thy talons upon the Darkness.",
 		"Icon" : "resources/images/exotic-icons/hawkmoon.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/hawkmoon.jpg",
@@ -1251,7 +1251,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Don't play your hand unless you're sure you have that ace in the hole.",
 		"Icon" : "resources/images/exotic-icons/ace-of-spades.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1267,7 +1267,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"...is when death becomes an afterthought.\"",
 		"Icon" : "resources/images/exotic-icons/the-first-curse.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/the-first-curse.jpg",
@@ -1283,7 +1283,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "...a causal loop within the weapon's mechanism, suggesting that the firing process somehow binds space and time into...",
 		"Icon" : "resources/images/exotic-icons/vex-mythoclast.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/vex-mythoclast.jpg",
@@ -1299,7 +1299,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Every hit blazes the path to our reclamation",
 		"Icon" : "resources/images/exotic-icons/no-land-beyond.jpg",
-		"Zoom" : 0,
+		"Zoom" : 4,
         "Image" :
 		[
 			"resources/images/scope-images/no-land-beyond.jpg",
@@ -1315,7 +1315,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "To the untrained eye this beast is a junker. To the trained eye, however, this junker... is a beast.",
 		"Icon" : "resources/images/exotic-icons/universal-remote.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/universal-remote.jpg",
@@ -1331,7 +1331,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Please replace these components if use causes fatal damage: HEAT SINK. MAGAZINE. OPERATOR",
 		"Icon" : "resources/images/exotic-icons/icebreaker.jpg",
-		"Zoom" : 0,
+		"Zoom" : 5,
         "Image" :
 		[
 			"resources/images/scope-images/icebreaker.jpg",
@@ -1347,7 +1347,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Your only existence shall be that which I weave for you out of sorrow and woe.\"",
 		"Icon" : "resources/images/exotic-icons/black-spindle.jpg",
-		"Zoom" : 0,
+		"Zoom" : 4,
         "Image" :
 		[
 			"resources/images/scope-images/black-spindle.jpg",
@@ -1363,7 +1363,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Huddled at the mountain's base, we had no choice but to beat our ploughshares into swords once more.\"",
 		"Icon" : "resources/images/exotic-icons/hereafter.jpg",
-		"Zoom" : 0,
+		"Zoom" : "4 & 10",
         "Image" :
 		[
 			"resources/images/scope-images/hereafter.jpg",
@@ -1379,7 +1379,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "If you've got it, they'll never see it coming.",
 		"Icon" : "resources/images/exotic-icons/patience-and-time.jpg",
-		"Zoom" : 0,
+		"Zoom" : "7 & 7.5",
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1395,7 +1395,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "You cannot shake the feeling that this is less a weapon than a doorway.",
 		"Icon" : "resources/images/exotic-icons/pocket-infinity.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/pocket-infinity.jpg",
@@ -1411,7 +1411,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Good fighters have contingency plans. Great fighters don't need them.",
 		"Icon" : "resources/images/exotic-icons/plan-c.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/plan-c.jpg",
@@ -1427,7 +1427,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Vestiges of the Queen's Harbingers yet linger among Saturn's moons.",
 		"Icon" : "resources/images/exotic-icons/telesto.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.5,
         "Image" :
 		[
 			"resources/images/scope-images/telesto.jpg",
@@ -1443,7 +1443,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Despite the Breakers' treachery, Her Majesty still stands.",
 		"Icon" : "resources/images/exotic-icons/queenbreakers-bow.jpg",
-		"Zoom" : 0,
+		"Zoom" : "2.5x & 4",
         "Image" :
 		[
 			"resources/images/scope-images/soon.jpg",
@@ -1459,7 +1459,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"I tried to talk them down. They made a grab for my Ghost. After that it was a short conversation.\" - Ikora Rey",
 		"Icon" : "resources/images/exotic-icons/invective.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/invective.jpg",
@@ -1475,7 +1475,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "It's not a holdout weapon, it's a pathfinder.",
 		"Icon" : "resources/images/exotic-icons/the-fourth-horseman.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/the-fourth-horseman.jpg",
@@ -1491,7 +1491,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"By this right alone do I rule.\"",
 		"Icon" : "resources/images/exotic-icons/lord-of-wolves.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/lord-of-wolves.jpg",
@@ -1507,7 +1507,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"My mother had a shotgun we called the Chaperone. Kept us alive out there, before we got to the City.\" —Amanda Holliday",
 		"Icon" : "resources/images/exotic-icons/the-chaperone.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/the-chaperone.jpg",
@@ -1523,7 +1523,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"I am a marvel with ten thousand arms.\"",
 		"Icon" : "resources/images/exotic-icons/dregs-promise.jpg",
-		"Zoom" : 0,
+		"Zoom" : 1.2,
         "Image" :
 		[
 			"resources/images/scope-images/dregs-promise.jpg",

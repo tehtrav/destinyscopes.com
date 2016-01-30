@@ -1,3 +1,11 @@
+// .scope {
+//     display: none !important;
+// }
+// .st-exotic {
+//     display: block !important;
+// }
+
+
 body {
     position: relative;
     margin: 0;
@@ -14,6 +22,16 @@ body {
         &:hover {
             color: lighten($link-color, 10%);
         }
+    }
+}
+
+// Sticky footer
+body {
+    min-height: 100vh;
+    @include flexbox;
+    @include flex-direction(column);
+    .container {
+        @include flex(1);
     }
 }
 
@@ -194,6 +212,7 @@ body {
             background-size: 100%;
             border: 2px solid white;
             box-shadow: 0 1px 5px rgba(black,.2);
+            background-color: $gold;
         }
         @media (min-width: 600px) {
             $size: 45px;
