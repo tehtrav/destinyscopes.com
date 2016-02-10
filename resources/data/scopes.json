@@ -8,8 +8,9 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/quickdraw-is.jpg",
-			"resources/images/scope-images/quickdraw-is-ads.jpg"
+			"resources/images/scope-images/quickdraw-is.jpeg",
+			"resources/images/scope-images/bad-juju.jpg",
+			"resources/images/scope-images/hawkmoon.jpg"
 		],
 		"Stats" :
 		[
@@ -26,8 +27,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/truesight-is.jpg",
-			"resources/images/scope-images/truesight-is-ads.jpg"
+			"resources/images/scope-images/truesight-is.jpeg",
+			"resources/images/scope-images/truesight-is-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -45,8 +46,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/fastdraw-is-ads.png",
-			"resources/images/scope-images/fastdraw-is-ads.png"
+			"resources/images/scope-images/fastdraw-is.jpg",
+			"resources/images/scope-images/fastdraw-is-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -64,8 +65,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/steadyhand-is-ads.png",
-			"resources/images/scope-images/steadyhand-is-ads.png"
+			"resources/images/scope-images/steadyhand-is.jpeg",
+			"resources/images/scope-images/steadyhand-is-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -102,8 +103,8 @@
 		"Zoom" : 1.87,
         "Image" :
 		[
-			"resources/images/scope-images/suros-slo-12.jpg",
-			"resources/images/scope-images/suros-slo-12.jpg"
+			"resources/images/scope-images/suros-slo-12.jpeg",
+			"resources/images/scope-images/suros-slo-12-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -136,8 +137,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/suros-spo-26.jpg",
-			"resources/images/scope-images/suros-spo-26.jpg"
+			"resources/images/scope-images/suros-spo-26.jpeg",
+			"resources/images/scope-images/suros-spo-26-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -187,8 +188,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/suros-sro-41.jpg",
-			"resources/images/scope-images/suros-sro-41.jpg"
+			"resources/images/scope-images/suros-sro-41.jpeg",
+			"resources/images/scope-images/suros-sro-41-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -204,8 +205,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/suros-spo-51.jpeg",
+			"resources/images/scope-images/suros-spo-51-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -340,8 +341,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/omolon-candle.jpg",
-			"resources/images/scope-images/omolon-candle.jpg"
+			"resources/images/scope-images/omolon-candle-is2.jpeg",
+			"resources/images/scope-images/omolon-candle-is2-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -357,8 +358,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/spark-is6.jpg",
-			"resources/images/scope-images/spark-is6-ads.jpg"
+			"resources/images/scope-images/omolon-spark.jpeg",
+			"resources/images/scope-images/omolon-spark-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -374,8 +375,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/omolon-torch.jpg",
-			"resources/images/scope-images/omolon-torch.jpg"
+			"resources/images/scope-images/omolon-torch.jpeg",
+			"resources/images/scope-images/omolon-torch-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -391,8 +392,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/omolon-signal.jpg",
-			"resources/images/scope-images/omolon-signal.jpg"
+			"resources/images/scope-images/omolon-signal.jpeg",
+			"resources/images/scope-images/omolon-signal-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -425,8 +426,8 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-oes-ads.jpg",
-			"resources/images/scope-images/red-dot-oes-ads.jpg"
+			"resources/images/scope-images/red-dot-oes.jpeg",
+			"resources/images/scope-images/red-dot-oes-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -443,8 +444,8 @@
 		"Zoom" : 2.3,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-ors.jpg",
-			"resources/images/scope-images/red-dot-ors-ads.jpg"
+			"resources/images/scope-images/red-dot-ors.jpeg",
+			"resources/images/scope-images/red-dot-ors-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -461,8 +462,8 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-oas.jpg",
-			"resources/images/scope-images/red-dot-oas-ads.jpg"
+			"resources/images/scope-images/red-dot-oas.jpeg",
+			"resources/images/scope-images/red-dot-oas-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -516,8 +517,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-ora.jpg",
-			"resources/images/scope-images/red-dot-ora.jpg"
+			"resources/images/scope-images/red-dot-ora.jpeg",
+			"resources/images/scope-images/red-dot-ora-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -532,8 +533,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-ora-2.jpg",
-			"resources/images/scope-images/red-dot-ora-2-ads.jpg"
+			"resources/images/scope-images/red-dot-ora2.jpeg",
+			"resources/images/scope-images/red-dot-ora2-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -548,8 +549,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/oeg.jpg",
-			"resources/images/scope-images/oeg.jpg"
+			"resources/images/scope-images/oeg.jpeg",
+			"resources/images/scope-images/oeg-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -564,8 +565,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/oeg-riflescope.jpg",
-			"resources/images/scope-images/oeg-riflescope-ads.jpg"
+			"resources/images/scope-images/ora-riflescope.jpeg",
+			"resources/images/scope-images/ora-riflescope-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -580,8 +581,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/reflex-ads.jpg",
-			"resources/images/scope-images/reflex-ads.jpg"
+			"resources/images/scope-images/reflex.jpeg",
+			"resources/images/scope-images/reflex-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -596,8 +597,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/md-reflex.jpg",
-			"resources/images/scope-images/md-reflex.jpg"
+			"resources/images/scope-images/md-reflex.jpeg",
+			"resources/images/scope-images/md-reflex-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -612,8 +613,8 @@
 		"Zoom" : 2.8,
         "Image" :
 		[
-			"resources/images/scope-images/ranged-lense-rlr5-ads.png",
-			"resources/images/scope-images/ranged-lense-rlr5-ads.png"
+			"resources/images/scope-images/ranged-lense-rlr5.jpeg",
+			"resources/images/scope-images/ranged-lense-rlr5-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -632,8 +633,8 @@
 		"Zoom" : 2.6,
         "Image" :
 		[
-			"resources/images/scope-images/ranged-lense-rls3.jpg",
-			"resources/images/scope-images/ranged-lense-rls3-ads.jpg"
+			"resources/images/scope-images/ranged-lense-rls3.jpeg",
+			"resources/images/scope-images/ranged-lense-rls3-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -722,8 +723,8 @@
 		"Zoom" : 5,
         "Image" :
 		[
-			"resources/images/scope-images/longview-slr10.jpg",
-			"resources/images/scope-images/longview-slr10-ads.jpg"
+			"resources/images/scope-images/longview-slr10.jpeg",
+			"resources/images/scope-images/longview-slr10-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -755,7 +756,7 @@
 		"Zoom" : 5,
         "Image" :
 		[
-			"resources/images/scope-images/viewtac-slh20-ads.jpg",
+			"resources/images/scope-images/viewtac-slh20.jpg",
 			"resources/images/scope-images/viewtac-slh20-ads.jpg"
 		],
 		"Stats" :
@@ -771,8 +772,8 @@
 		"Zoom" : 9,
         "Image" :
 		[
-			"resources/images/scope-images/eagleeye-slr20-ads.png",
-			"resources/images/scope-images/eagleeye-slr20-ads.png"
+			"resources/images/scope-images/eagleeye-slr20-ads.jpg",
+			"resources/images/scope-images/eagleeye-slr20-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -787,8 +788,8 @@
 		"Zoom" : 8,
         "Image" :
 		[
-			"resources/images/scope-images/sightsys-sls20-ads.jpg",
-			"resources/images/scope-images/sightsys-sls20-ads.jpg"
+			"resources/images/scope-images/sightsys-sls20.jpeg",
+			"resources/images/scope-images/sightsys-sls20-ads.jpeg"
 		],
 		"Stats" :
 		[
@@ -902,8 +903,8 @@
 		"Zoom" : 5.5,
         "Image" :
 		[
-			"resources/images/scope-images/aquila-ss4-ads.png",
-			"resources/images/scope-images/aquila-ss4-ads.png"
+			"resources/images/scope-images/aquila-ss4-ads.jpg",
+			"resources/images/scope-images/aquila-ss4-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -950,8 +951,8 @@
 		"Zoom" : 5.2,
         "Image" :
 		[
-			"resources/images/scope-images/condor-ss2-ads.png",
-			"resources/images/scope-images/condor-ss2-ads.png"
+			"resources/images/scope-images/condor-ss2-ads.jpg",
+			"resources/images/scope-images/condor-ss2-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -966,8 +967,8 @@
 		"Zoom" : 5.5,
         "Image" :
 		[
-			"resources/images/scope-images/corvo-ss2-ads.png",
-			"resources/images/scope-images/corvo-ss2-ads.png"
+			"resources/images/scope-images/corvo-ss2-ads.jpg",
+			"resources/images/scope-images/corvo-ss2-ads.jpg"
 		],
 		"Stats" :
 		[
