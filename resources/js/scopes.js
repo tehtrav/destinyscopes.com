@@ -109,8 +109,8 @@ window.GetScopeData = function(){
 };
 
 window.RenderScopes = function(scopes){
-	var $column = $(".primary-column");
-	$column.html('');
+	$(".primary-column").prepend('<div class="scope-list" />');
+	var $column = $(".scope-list");
 
 	var $legend = $("#legend");
 	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');

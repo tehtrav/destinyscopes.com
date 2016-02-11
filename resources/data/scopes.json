@@ -1533,6 +1533,85 @@
 		"Stats" :
 		[
 		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Truth",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"...is where you seek it.\" —Lomar",
+		"Icon" : "resources/images/exotic-icons/truth.jpg",
+		"Zoom" : 1.2,
+        "Image" :
+		[
+			"resources/images/scope-images/truth.jpg",
+			"resources/images/scope-images/truth-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Gjallerhorn",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"If there is beauty in destruction, why not also in its delivery?\" - Feizel Crux",
+		"Icon" : "resources/images/exotic-icons/gjallerhorn.jpg",
+		"Zoom" : 1.2,
+        "Image" :
+		[
+			"resources/images/scope-images/gjallerhorn.jpg",
+			"resources/images/scope-images/gjallerhorn-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Dragon's Breath",
+		"Manufacturer" : "Exotic",
+		"Description" : "Burn the world. Burn it all.",
+		"Icon" : "resources/images/exotic-icons/dragons-breath.jpg",
+		"Zoom" : 1.2,
+        "Image" :
+		[
+			"resources/images/scope-images/dragons-breath.jpg",
+			"resources/images/scope-images/dragons-breath-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Super Good Advice",
+		"Manufacturer" : "Exotic",
+		"Description" : "This weapon is full of it.",
+		"Icon" : "resources/images/exotic-icons/super-good-advice.jpg",
+		"Zoom" : 1.5,
+        "Image" :
+		[
+			"resources/images/scope-images/super-good-advice.jpg",
+			"resources/images/scope-images/super-good-advice-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Sleeper Simulant",
+		"Manufacturer" : "Exotic",
+		"Description" : "Subroutine IKELOS: Status=complete. MIDNIGHT EXIGENT: Status=still in progress.",
+		"Icon" : "resources/images/exotic-icons/sleeper-simulant.jpg",
+		"Zoom" : 1.2,
+        "Image" :
+		[
+			"resources/images/scope-images/sleeper-simulant.jpg",
+			"resources/images/scope-images/sleeper-simulant-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
 	}
-
 ]
