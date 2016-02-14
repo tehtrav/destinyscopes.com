@@ -975,6 +975,22 @@
 	},
 	{
 		"Type" : "Exotic",
+		"Name" : "Defiance of Yasmin",
+		"Manufacturer" : "Raid Weapon",
+		"Description" : "\"Shields up! Protect the Queen! Brace for impact! Save the Queen\" —Paladin Yasmin Eld",
+		"Icon" : "resources/images/exotic-icons/yasmin.jpg",
+		"Zoom" : 4.5,
+        "Image" :
+		[
+			"resources/images/scope-images/defiance-of-yasmin.jpg",
+			"resources/images/scope-images/defiance-of-yasmin-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
 		"Name" : "Fabian Strategy",
 		"Manufacturer" : "Hakke",
 		"Description" : "Wait for enemy to make a mistake. Die. Stand by for Ghost Resurrection. Repeat as necessary.",
@@ -1576,6 +1592,22 @@
 		[
 			"resources/images/scope-images/dragons-breath.jpg",
 			"resources/images/scope-images/dragons-breath-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Thunderlord",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"They rest quiet on fields afar…for this is no ending, but the eye.\"",
+		"Icon" : "resources/images/exotic-icons/thunderlord.jpg",
+		"Zoom" : 1.5,
+        "Image" :
+		[
+			"resources/images/scope-images/thunderlord.jpg",
+			"resources/images/scope-images/thunderlord-ads.jpg"
 		],
 		"Stats" :
 		[
