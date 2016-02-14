@@ -8,9 +8,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/quickdraw-is.jpeg",
-			"resources/images/scope-images/bad-juju.jpg",
-			"resources/images/scope-images/hawkmoon.jpg"
+			"resources/images/scope-images/quickdraw-is.jpg",
+			"resources/images/scope-images/quickdraw-is-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -103,8 +102,8 @@
 		"Zoom" : 1.87,
         "Image" :
 		[
-			"resources/images/scope-images/suros-slo-12.jpeg",
-			"resources/images/scope-images/suros-slo-12-ads.jpeg"
+			"resources/images/scope-images/suros-slo-12.jpg",
+			"resources/images/scope-images/suros-slo-12-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -121,7 +120,7 @@
         "Image" :
 		[
 			"resources/images/scope-images/suros-slo-19.jpg",
-			"resources/images/scope-images/suros-slo-19.jpg"
+			"resources/images/scope-images/suros-slo-19-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -149,13 +148,13 @@
 		"Type" : "Red Dot Sights",
 		"Name" : "SPO-28",
 		"Manufacturer" : "Suros",
-		"Description" : "SUROS holo sights. Improved target acquisition.",
+		"Description" : "SUROS holo sights. Improved target acquisition.zz",
 		"Icon" : "resources/images/scope-icons/suros.png",
 		"Zoom" : 1.8,
         "Image" :
 		[
 			"resources/images/scope-images/suros-spo-28.jpg",
-			"resources/images/scope-images/suros-spo-28.jpg"
+			"resources/images/scope-images/suros-spo-28-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -172,7 +171,7 @@
         "Image" :
 		[
 			"resources/images/scope-images/suros-sro-37.jpg",
-			"resources/images/scope-images/suros-sro-37.jpg"
+			"resources/images/scope-images/suros-sro-37-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -239,8 +238,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/hakke-lb-assault.jpg",
+			"resources/images/scope-images/hakke-lb-assault-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -273,8 +272,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/hakke-ga-post.jpg",
-			"resources/images/scope-images/hakke-ga-post.jpg"
+			"resources/images/scope-images/ga-post.jpg",
+			"resources/images/scope-images/ga-post-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -462,8 +461,8 @@
 		"Zoom" : 2.2,
         "Image" :
 		[
-			"resources/images/scope-images/red-dot-oas.jpeg",
-			"resources/images/scope-images/red-dot-oas-ads.jpeg"
+			"resources/images/scope-images/red-dot-oas.jpg",
+			"resources/images/scope-images/red-dot-oas-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -688,8 +687,8 @@
 		"Zoom" : 4.5,
         "Image" :
 		[
-			"resources/images/scope-images/shortgaze.jpg",
-			"resources/images/scope-images/shortgaze.jpg"
+			"resources/images/scope-images/shortgaze-slh10.jpg",
+			"resources/images/scope-images/shortgaze-slh10-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -707,7 +706,7 @@
 		"Zoom" : 7,
         "Image" :
 		[
-			"resources/images/scope-images/longview-slr20-ads.jpg",
+			"resources/images/scope-images/longview-slr20.jpg",
 			"resources/images/scope-images/longview-slr20-ads.jpg"
 		],
 		"Stats" :
@@ -740,7 +739,7 @@
 		"Zoom" : 4.5,
         "Image" :
 		[
-			"resources/images/scope-images/ambush-slh25-ads.jpg",
+			"resources/images/scope-images/ambush-slh25.jpg",
 			"resources/images/scope-images/ambush-slh25-ads.jpg"
 		],
 		"Stats" :
@@ -772,7 +771,7 @@
 		"Zoom" : 9,
         "Image" :
 		[
-			"resources/images/scope-images/eagleeye-slr20-ads.jpg",
+			"resources/images/scope-images/eagleeye-slr20.jpg",
 			"resources/images/scope-images/eagleeye-slr20-ads.jpg"
 		],
 		"Stats" :
@@ -903,7 +902,7 @@
 		"Zoom" : 5.5,
         "Image" :
 		[
-			"resources/images/scope-images/aquila-ss4-ads.jpg",
+			"resources/images/scope-images/aquila-ss4.jpg",
 			"resources/images/scope-images/aquila-ss4-ads.jpg"
 		],
 		"Stats" :
@@ -919,8 +918,8 @@
 		"Zoom" : 4.8,
         "Image" :
 		[
-			"resources/images/scope-images/faucon-ss1.jpg",
-			"resources/images/scope-images/faucon-ss1-ads.jpg"
+			"resources/images/scope-images/omolon-faucon-ss1.jpg",
+			"resources/images/scope-images/omolon-faucon-ss1-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -951,7 +950,7 @@
 		"Zoom" : 5.2,
         "Image" :
 		[
-			"resources/images/scope-images/condor-ss2-ads.jpg",
+			"resources/images/scope-images/condor-ss2.jpg",
 			"resources/images/scope-images/condor-ss2-ads.jpg"
 		],
 		"Stats" :
@@ -967,7 +966,7 @@
 		"Zoom" : 5.5,
         "Image" :
 		[
-			"resources/images/scope-images/corvo-ss2-ads.jpg",
+			"resources/images/scope-images/corvo-ss2.jpg",
 			"resources/images/scope-images/corvo-ss2-ads.jpg"
 		],
 		"Stats" :
@@ -1031,8 +1030,8 @@
 		"Zoom" : 1.5,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/hard-light.jpg",
+			"resources/images/scope-images/hard-light-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1383,8 +1382,8 @@
 		"Zoom" : "7 & 7.5",
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/patience-and-time.jpg",
+			"resources/images/scope-images/patience-and-time-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1540,7 +1539,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"...is where you seek it.\" —Lomar",
 		"Icon" : "resources/images/exotic-icons/truth.jpg",
-		"Zoom" : 1.2,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/truth.jpg",
@@ -1556,7 +1555,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"If there is beauty in destruction, why not also in its delivery?\" - Feizel Crux",
 		"Icon" : "resources/images/exotic-icons/gjallerhorn.jpg",
-		"Zoom" : 1.2,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/gjallerhorn.jpg",
@@ -1572,7 +1571,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Burn the world. Burn it all.",
 		"Icon" : "resources/images/exotic-icons/dragons-breath.jpg",
-		"Zoom" : 1.2,
+		"Zoom" : 2,
         "Image" :
 		[
 			"resources/images/scope-images/dragons-breath.jpg",
@@ -1604,7 +1603,7 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Subroutine IKELOS: Status=complete. MIDNIGHT EXIGENT: Status=still in progress.",
 		"Icon" : "resources/images/exotic-icons/sleeper-simulant.jpg",
-		"Zoom" : 1.2,
+		"Zoom" : 1.7,
         "Image" :
 		[
 			"resources/images/scope-images/sleeper-simulant.jpg",
