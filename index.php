@@ -49,16 +49,16 @@
 				</div>
 			</div>
 			<div class="primary-column col-sm-9 col-lg-10">
+
+                <?php /*
                 <div class="placeholder-block">
                     <h4>Resources</h4>
                     <ul>
                         <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
                         <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
                     </ul>
-
-
-
                 </div>
+                */ ?>
                 <?php include 'resources/php/noscript-scope-list.php' ?>
 			</div>
 		</div>
