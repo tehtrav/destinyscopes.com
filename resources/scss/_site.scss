@@ -1,20 +1,14 @@
-// .scope {
-//     display: none !important;
-// }
-// .st-exotic {
-//     display: block !important;
-// }
-
-
 body {
+    @include flexbox;
+    @include flex-direction(column);
     position: relative;
     margin: 0;
+    min-height: 100vh;
+    padding-top: 57px;
     background-color: darken($dusk, 10%);
-    padding-top: 60px;
     @media (min-width: 768px) {
-        background: darken($dusk, 10%) url(../../resources/images/background.jpg) no-repeat center center fixed;
+        background: darken($dusk, 10%) url("../../resources/images/background.jpg") no-repeat center center fixed;
         background-size: cover;
-        padding-top: 0;
     }
     a {
         color: $link-color;
@@ -23,13 +17,7 @@ body {
             color: lighten($link-color, 10%);
         }
     }
-}
-
-// Sticky footer
-body {
-    min-height: 100vh;
-    @include flexbox;
-    @include flex-direction(column);
+    // Sticky footer flexbox
     .container {
         @include flex(1);
     }
@@ -58,14 +46,10 @@ body {
 }
 
 #global-header {
-    @media (max-width: 767px) {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 10;
-    }
-    //margin-bottom: 40px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
     .jump-to-legend {
         $gutter: 10px;
         top: $gutter;
@@ -97,6 +81,11 @@ body {
         span:before { top: 7px; }
         span:after { bottom: 7px; }
     }
+}
+
+// Padd top to account for sticky header
+#global-header + .container {
+    // margin-top: 57px;
 }
 
 #global-footer {
@@ -330,23 +319,18 @@ body {
 }
 
 .legend {
-    margin-top: 30px;
     @media (max-width: 767px) {
-        padding-top: 60px;
+        margin-top: 30px;
+        padding-top: 57px;
         position: static !important;
     }
     @media (min-width: 768px) {
-        .js & {
-            max-height: calc(100vh - 120px);
-            overflow: auto;
-        }
+        top: 57px + 30;
+        position: fixed;
+        max-height: calc(100vh - 60px - 50px);
+        overflow: auto;
     }
 
-    &.affix {
-        @media (min-width: 768px) {
-            top: 0px;
-        }
-    }
     .filters {
         margin-bottom: 28px;
     }

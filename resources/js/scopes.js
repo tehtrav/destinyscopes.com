@@ -17,16 +17,16 @@ $(document).ready(function(){
 	});
 
 	// Affix the legend on desktop devices
-    $('#legend').affix({
-		offset: {
-		    top: function () {
-				return (this.top = $('#global-header').outerHeight(true))
-		    },
-		    bottom: function () {
-				return (this.bottom = $('#global-footer').outerHeight(true))
-		    }
-		}
-	});
+    // $('#legend').affix({
+	// 	offset: {
+	// 	    top: function () {
+	// 			return (this.top = $('#global-header').outerHeight(true))
+	// 	    },
+	// 	    bottom: function () {
+	// 			return (this.bottom = $('#global-footer').outerHeight(true))
+	// 	    }
+	// 	}
+	// });
 
 	// Give #legend a width based on column size so it
 	// doesn't collapse when given fixed positioning
