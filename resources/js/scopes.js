@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 	// Run function to ajax scope data
 	GetScopeData();
 
@@ -34,6 +33,7 @@ $(document).ready(function(){
 	$( window ).resize(function() {
 		$("#legend").width( $(".secondary-column").width() );
 	});
+
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){
@@ -103,6 +103,7 @@ window.GetScopeData = function(){
 				));
 			}
 			RenderScopes(scopes);
+            hashScroll();
 			//RenderLegend(scopes);
 		}
 	});
@@ -181,4 +182,16 @@ window.FilterByScopeType = function(scopeType){
 		$("[data-scopetype]").hide();
 		$("[data-scopetype='" + scopeType + "']").show();
 	}
+}
+
+window.hashScroll = function(){
+    // If hash is in the url, go to that place
+    if(window.location.hash) {
+        var hash = window.location.hash
+
+        $('body').animate({
+            scrollTop: $(hash).offset().top
+        }, 0);
+
+    }
 }
