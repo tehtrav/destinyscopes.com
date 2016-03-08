@@ -50,6 +50,8 @@
 			</div>
 			<div class="primary-column col-sm-9 col-lg-10">
 
+                <div id="scope-list"></div>
+
                 <?php /*
                 <div class="placeholder-block">
                     <h4>Resources</h4>

@@ -110,8 +110,7 @@ window.GetScopeData = function(){
 };
 
 window.RenderScopes = function(scopes){
-	$(".primary-column").prepend('<div class="scope-list" />');
-	var $column = $(".scope-list");
+	var $column = $("#scope-list");
 
 	var $legend = $("#legend");
 	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
@@ -190,7 +189,7 @@ window.hashScroll = function(){
         var hash = window.location.hash
 
         $('body').animate({
-            scrollTop: $(hash).offset().top
+            scrollTop: $(hash).offset().top - 40
         }, 0);
 
     }
