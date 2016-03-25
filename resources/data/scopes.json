@@ -693,7 +693,7 @@
 		"Stats" :
 		[
 			["Range", 2],
-			["Aim Assist", 30],
+			["Aim Assist", 20],
 			["Handling", -2]
 		]
 	},
@@ -727,7 +727,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 40]
+			["Aim Assist", 30]
 		]
 	},
 	{
@@ -1078,8 +1078,8 @@
 		"Zoom" : 1.5,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/necrochasm.jpg",
+			"resources/images/scope-images/necrochasm-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1126,8 +1126,8 @@
 		"Zoom" : 1.7,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/no-time-to-explain.jpg",
+			"resources/images/scope-images/no-time-to-explain-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1158,8 +1158,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/jade-rabbit.jpg",
+			"resources/images/scope-images/jade-rabbit-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1206,8 +1206,8 @@
 		"Zoom" : 2,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/tlaloc.jpg",
+			"resources/images/scope-images/tlaloc-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1455,15 +1455,31 @@
 	},
 	{
 		"Type" : "Exotic",
-		"Name" : "Queenbreaker's Bow",
+		"Name" : "Queenbreaker's Bow (Marksman Scope)",
 		"Manufacturer" : "Exotic",
 		"Description" : "Despite the Breakers' treachery, Her Majesty still stands.",
 		"Icon" : "resources/images/exotic-icons/queenbreakers-bow.jpg",
-		"Zoom" : "2.5x & 4",
+		"Zoom" : 4,
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/queenbreakers-bow.jpg",
+			"resources/images/scope-images/queenbreakers-bow-marksman.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "Queenbreaker's Bow (Combat Scope)",
+		"Manufacturer" : "Exotic",
+		"Description" : "Despite the Breakers' treachery, Her Majesty still stands.",
+		"Icon" : "resources/images/exotic-icons/queenbreakers-bow.jpg",
+		"Zoom" : 2.5,
+        "Image" :
+		[
+			"resources/images/scope-images/queenbreakers-bow.jpg",
+			"resources/images/scope-images/queenbreakers-bow-combat.jpg"
 		],
 		"Stats" :
 		[
