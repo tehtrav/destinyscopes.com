@@ -33,7 +33,8 @@
 		[
 			["Stability", 5],
 			["Reload", 8],
-			["Handling", 8]
+			["Handling", 8],
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -90,7 +91,8 @@
 		[
 			["Stability", 2],
 			["Reload", 12],
-			["Handling", 12]
+			["Handling", 12],
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -148,7 +150,7 @@
 		"Type" : "Red Dot Sights",
 		"Name" : "SPO-28",
 		"Manufacturer" : "Suros",
-		"Description" : "SUROS holo sights. Improved target acquisition.zz",
+		"Description" : "SUROS holo sights. Improved target acquisition.",
 		"Icon" : "resources/images/scope-icons/suros.png",
 		"Zoom" : 1.8,
         "Image" :
@@ -158,7 +160,7 @@
 		],
 		"Stats" :
 		[
-
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -260,7 +262,7 @@
 		],
 		"Stats" :
 		[
-
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -379,7 +381,7 @@
 		],
 		"Stats" :
 		[
-
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -466,7 +468,8 @@
 		],
 		"Stats" :
 		[
-			["Stability", 14]
+			["Stability", 14],
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -711,6 +714,7 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist", 35]
 		]
 	},
 	{
@@ -744,6 +748,7 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist", -10]
 		]
 	},
 	{
@@ -776,6 +781,7 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist","20-30"]
 		]
 	},
 	{
@@ -792,7 +798,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 40]
+			["Aim Assist", 35]
 		]
 	},
 	{
@@ -809,7 +815,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 35]
+			["Aim Assist", 20]
 		]
 	},
 	{
@@ -842,7 +848,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 25]
+			["Aim Assist", 15]
 		]
 	},
 	{

@@ -26,42 +26,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="secondary-column col-sm-3 col-lg-2">
-				<div id="legend" class="legend">
-					<div class="filters js-only">
-						<h4>Manufacturers</h4>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-classic" checked> Classic</label>
-						</div>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-omolon" checked> Omolon</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="sm-hakke" checked> Hakke</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="sm-suros" checked> Suros</label>
-						</div>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-exotic" checked> Exotics</label>
-						</div>
-					</div>
-                    <?php include 'resources/php/noscript-scope-nav.php' ?>
-				</div>
+
 			</div>
 			<div class="primary-column col-sm-9 col-lg-10">
 
-                <div id="scope-list"></div>
+                <h1>&nbsp;</h1>
 
-                <?php /*
-                <div class="placeholder-block">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
-                        <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
-                    </ul>
-                </div>
-                */ ?>
-                <?php include 'resources/php/noscript-scope-list.php' ?>
+                <p>None of the values are taken directly from Bungie's API. Most of them are pulled from posts on reddit or elsewhere and are subject to error or changing with patches. </p>
+
+                <p>Hakke and Omolon sniper scopes all have zero effect on Aim Assist.</p>
+
+                <h4>About zoom levels</h4>
+
+                <p>All primary and secondary weapons have varying base zoom levels, which are modified by each scope's magnification level. This means something like Red Dot ORES will have different zoom levels on an Auto Rifle (base zoom 1.5x) and a Scout Rifle (base zoom 2x).</p>
+
+                <p></p>
+
 			</div>
 		</div>
 	</div>

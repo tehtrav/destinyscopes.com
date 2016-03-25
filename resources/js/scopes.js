@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 	// Run function to ajax scope data
 	GetScopeData();
 
@@ -17,16 +16,16 @@ $(document).ready(function(){
 	});
 
 	// Affix the legend on desktop devices
-    $('#legend').affix({
-		offset: {
-		    top: function () {
-				return (this.top = $('#global-header').outerHeight(true))
-		    },
-		    bottom: function () {
-				return (this.bottom = $('#global-footer').outerHeight(true))
-		    }
-		}
-	});
+    // $('#legend').affix({
+	// 	offset: {
+	// 	    top: function () {
+	// 			return (this.top = $('#global-header').outerHeight(true))
+	// 	    },
+	// 	    bottom: function () {
+	// 			return (this.bottom = $('#global-footer').outerHeight(true))
+	// 	    }
+	// 	}
+	// });
 
 	// Give #legend a width based on column size so it
 	// doesn't collapse when given fixed positioning
@@ -34,6 +33,7 @@ $(document).ready(function(){
 	$( window ).resize(function() {
 		$("#legend").width( $(".secondary-column").width() );
 	});
+
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){
@@ -103,14 +103,14 @@ window.GetScopeData = function(){
 				));
 			}
 			RenderScopes(scopes);
+            hashScroll();
 			//RenderLegend(scopes);
 		}
 	});
 };
 
 window.RenderScopes = function(scopes){
-	$(".primary-column").prepend('<div class="scope-list" />');
-	var $column = $(".scope-list");
+	var $column = $("#scope-list");
 
 	var $legend = $("#legend");
 	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
@@ -181,4 +181,16 @@ window.FilterByScopeType = function(scopeType){
 		$("[data-scopetype]").hide();
 		$("[data-scopetype='" + scopeType + "']").show();
 	}
+}
+
+window.hashScroll = function(){
+    // If hash is in the url, go to that place
+    if(window.location.hash) {
+        var hash = window.location.hash
+
+        $('body').animate({
+            scrollTop: $(hash).offset().top - 40
+        }, 0);
+
+    }
 }
