@@ -148,7 +148,7 @@ window.RenderScopes = function(scopes){
 		$visual.append($('<img class="scope-hip" src="'+ scopes[i].Images[0].href +'"/>'));
 
 		if ( scopes[i].Zoom != 0 || scopes[i].Zoom != "" ) {
-			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom + "x"));
+			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom));
 		}
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));

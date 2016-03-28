@@ -79,7 +79,11 @@ gulp.task('styles', function () {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['bower_components/jquery/dist/jquery.js','bower_components/bootstrap-sass/assets/javascripts/bootstrap.js','resources/js/scopes.js'])
+    return gulp.src([
+        'bower_components/jquery/dist/jquery.js',
+        'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+        'resources/js/scopes.js'
+    ])
       .pipe(concat('all.js'))
       .pipe(uglify())
       .pipe(gulp.dest('build/js/'))
