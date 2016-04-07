@@ -1001,7 +1001,7 @@
 		"Manufacturer" : "Raid Weapon",
 		"Description" : "\"Shields up! Protect the Queen! Brace for impact! Save the Queen\" —Paladin Yasmin Eld",
 		"Icon" : "resources/images/exotic-icons/yasmin.jpg",
-		"Zoom" : "4.5x",
+		"Zoom" : "4x",
         "Image" :
 		[
 			"resources/images/scope-images/defiance-of-yasmin.jpg",
