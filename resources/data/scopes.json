@@ -772,7 +772,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, significantly improved handling.",
 		"Icon" : "resources/images/scope-icons/sniper-ttk.png",
-		"Zoom" : "5.1x",
+		"Zoom" : "4.9x",
         "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
