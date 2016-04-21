@@ -119,6 +119,22 @@ body {
             border-top: 1px solid rgba(white, .1);
         }
     }
+
+    .notes {
+        position: absolute;
+        z-index: 3;
+        font-size: 11px;
+        top: 10px;
+        right: 10px;
+        background: rgba($dusk, .75);
+        padding: 4px 10px;
+        color: mix($dusk, #FFF, 30%);
+        border-radius: 3px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
     .zoom {
         position: absolute;
         z-index: 3;

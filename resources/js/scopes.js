@@ -36,13 +36,14 @@ $(document).ready(function(){
 
 });
 
-window.Scope = function( name, type, manufacturer, description, icon, zoom, images, stats){
+window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
 	this.Name = name || "";
 	this.Type = type || "";
 	this.Manufacturer = manufacturer || "";
 	this.Description = description || "";
 	this.Icon = icon || "";
 	this.Zoom = zoom || "";
+	this.Notes = notes || "";
 	this.Images = [];
 	this.Stats = [];
 	for(var i in images)
@@ -98,6 +99,7 @@ window.GetScopeData = function(){
 					data[scope].Description || "",
 					data[scope].Icon || "",
 					data[scope].Zoom || "",
+					data[scope].Notes || "",
 					data[scope].Image || [],
 					data[scope].Stats || []
 				));
@@ -149,6 +151,10 @@ window.RenderScopes = function(scopes){
 
 		if ( scopes[i].Zoom != 0 || scopes[i].Zoom != "" ) {
 			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom));
+		}
+
+        if ( scopes[i].Notes != "" ) {
+            $visual.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
 		}
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
