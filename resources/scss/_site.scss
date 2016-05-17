@@ -121,29 +121,37 @@ body {
     }
 
     .notes {
+        display: none;
         position: absolute;
         z-index: 3;
         font-size: 11px;
+        background: rgba($dusk, .75);
         top: 10px;
         right: 10px;
-        background: rgba($dusk, .75);
+        text-align: center;
         padding: 4px 10px;
         color: mix($dusk, #FFF, 30%);
         border-radius: 3px;
         font-weight: 600;
         letter-spacing: 1px;
         text-transform: uppercase;
+        @media (min-width: 768px) {
+            // display: block;
+        }
     }
 
     .zoom {
         position: absolute;
         z-index: 3;
-        font-size: 17px;
+        font-size: 14px;
         width: 100%;
-        top: 10px;
+        top: 7px;
         text-align: center;
         text-shadow: 0 1px 4px rgba(black, .4);
-        opacity: .6;
+        opacity: .75;
+        @media (min-width: 600px) {
+            font-size: 16px;
+        }
     }
 
     .visual {
