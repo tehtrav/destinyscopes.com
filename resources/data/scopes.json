@@ -703,7 +703,8 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, better handling",
 		"Icon" : "resources/images/scope-icons/sniper.png",
-		"Zoom" : "4.5x",
+		"Zoom" : "4.9x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/shortgaze-slh10.jpg",
@@ -711,8 +712,8 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist", 0],
 			["Range", 2],
-			["Aim Assist", 20],
 			["Handling", -2]
 		]
 	},
@@ -730,7 +731,7 @@
 		],
 		"Stats" :
 		[
-            ["Aim Assist", 35]
+            ["Aim Assist", 7]
 		]
 	},
 	{
@@ -739,7 +740,8 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Low-zoom scope. Improved range and handling.",
 		"Icon" : "resources/images/scope-icons/sniper.png",
-		"Zoom" : "5x",
+		"Zoom" : "5.2x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/longview-slr10.jpeg",
@@ -747,7 +749,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 30]
+            ["Aim Assist", 3]
 		]
 	},
 	{
@@ -756,7 +758,8 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile, snappy scope. Handles beautifully. Rewards a skilled hand.",
 		"Icon" : "resources/images/scope-icons/sniper.png",
-		"Zoom" : "4.5x",
+		"Zoom" : "4.9x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/ambush-slh25.jpg",
@@ -764,7 +767,7 @@
 		],
 		"Stats" :
 		[
-            ["Aim Assist", -10]
+            ["Aim Assist", -25]
 		]
 	},
 	{
@@ -773,7 +776,8 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, significantly improved handling.",
 		"Icon" : "resources/images/scope-icons/sniper-ttk.png",
-		"Zoom" : "5x",
+		"Zoom" : "4.9x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/viewtac-slh20.jpg",
@@ -781,6 +785,7 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist", 0]
 		]
 	},
 	{
@@ -797,7 +802,7 @@
 		],
 		"Stats" :
 		[
-            ["Aim Assist","20-30"]
+            ["Aim Assist", 5]
 		]
 	},
 	{
@@ -814,7 +819,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 35]
+            ["Aim Assist", 7]
 		]
 	},
 	{
@@ -831,7 +836,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 20]
+            ["Aim Assist", 3]
 		]
 	},
 	{
@@ -848,6 +853,7 @@
 		],
 		"Stats" :
 		[
+            ["Aim Assist", 0]
 		]
 	},
 	{
@@ -864,7 +870,7 @@
 		],
 		"Stats" :
 		[
-			["Aim Assist", 15]
+            ["Aim Assist", 0]
 		]
 	},
 	{
@@ -873,7 +879,8 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Light, low-zoom sniper scope. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : "4.65x",
+		"Zoom" : "5.1x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/hakke-ata-scout.jpg",
@@ -937,7 +944,8 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Ultra-light holo sniper sights. Low zoom, improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : "4.8x",
+		"Zoom" : "4.9x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/omolon-faucon-ss1.jpg",
@@ -953,7 +961,8 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Standard zoom, lightweight sniper sight. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : "5x",
+		"Zoom" : "5.2x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/yepaki-ss2.jpg",
@@ -1369,7 +1378,8 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "Please replace these components if use causes fatal damage: HEAT SINK. MAGAZINE. OPERATOR",
 		"Icon" : "resources/images/exotic-icons/icebreaker.jpg",
-		"Zoom" : "5x",
+		"Zoom" : "6x",
+		"Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/icebreaker.jpg",
@@ -1385,7 +1395,8 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Your only existence shall be that which I weave for you out of sorrow and woe.\"",
 		"Icon" : "resources/images/exotic-icons/black-spindle.jpg",
-		"Zoom" : "4x",
+		"Zoom" : "5x",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/black-spindle.jpg",
@@ -1401,7 +1412,8 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "\"Huddled at the mountain's base, we had no choice but to beat our ploughshares into swords once more.\"",
 		"Icon" : "resources/images/exotic-icons/hereafter.jpg",
-		"Zoom" : "4x & 10x",
+		"Zoom" : "5x, 12.5x while kneeling",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/hereafter.jpg",
@@ -1417,11 +1429,28 @@
 		"Manufacturer" : "Exotic",
 		"Description" : "If you've got it, they'll never see it coming.",
 		"Icon" : "resources/images/exotic-icons/patience-and-time.jpg",
-		"Zoom" : "7x & 7.5x",
+		"Zoom" : "7x, 6.5x with Custom Optics",
+        "Notes" : "Changed in 2.2.0",
         "Image" :
 		[
 			"resources/images/scope-images/patience-and-time.jpg",
 			"resources/images/scope-images/patience-and-time-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+    {
+		"Type" : "Exotic",
+		"Name" : "Zen Meteor",
+		"Manufacturer" : "Exotic",
+		"Description" : "Complete awareness, complete focus. A mind sharpened by diligence to a single deadly point.",
+		"Icon" : "resources/images/exotic-icons/zen-meteor.jpg",
+		"Zoom" : "5x",
+        "Image" :
+		[
+			"resources/images/scope-images/zen-meteor.jpg",
+			"resources/images/scope-images/zen-meteor-ads.jpg"
 		],
 		"Stats" :
 		[
