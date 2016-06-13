@@ -1,15 +1,29 @@
-// BOURBON SCSS FRAMEWORK
-// @import 'bower_components/bourbon/app/assets/stylesheets/bourbon';
-// @import 'bower_components/breakpoint-sass/stylesheets/_breakpoint.scss';
-// @import 'bower_components/neat/app/assets/stylesheets/_neat.scss';
+// Variables used in project
+@import 'base/variables';
 
-// Bootstrap
+// Vendor
 // ---------
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import '../../bower_components/sass-flex-mixin/flexbox';
 
-@import 'variables';
-@import 'mixins';
-@import 'type';
-@import 'utilities';
-@import 'site';
+// Custom
+// ---------
+
+// Base
+@import 'base/typography';
+
+// Mixins
+@import 'mixins/retina-image';
+@import 'mixins/grid';
+
+// Utilities
+@import 'utilities/state-helpers';
+
+// Components
+@import 'components/header';
+@import 'components/site';
+@import 'components/layout';
+@import 'components/legend';
+@import 'components/scope-list';
+@import 'components/scope';
+@import 'components/modals';

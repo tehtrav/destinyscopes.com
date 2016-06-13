@@ -18,39 +18,107 @@
 
 </head>
 <body class="no-js" data-spy="scroll" data-target="#legend">
-	<header id="global-header">
-		<h1>Destiny Scopes</h1>
+	<header class="global-header">
+		<h1 class="logo">Destiny Scopes</h1>
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
 
+    <div class="inspect">
+        <div class="inspect--window">
+            <a class="inspect--close" href="#"></a>
+            <div class="inspect--image">
+                <div class="visual">
+                    <img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
+                    <img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
+                    <p class="zoom">+ 0x</p></div>
+            </div>
+            <div class="inspect--info">
+                <h3>QuickDraw IS</h3>
+                <p>SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
+            </div>
+        </div>
+    </div>
+
+
 	<div class="container">
 		<div class="row">
-			<div class="secondary-column col-sm-3 col-lg-2">
-				<div id="legend" class="legend">
-					<div class="filters js-only">
-						<h4>Manufacturers</h4>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-classic" checked> Classic</label>
-						</div>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-omolon" checked> Omolon</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="sm-hakke" checked> Hakke</label>
-						</div>
-						<div class="checkbox">
-						    <label><input type="checkbox" value="sm-suros" checked> Suros</label>
-						</div>
-                        <div class="checkbox">
-						    <label><input type="checkbox" value="sm-exotic" checked> Exotics</label>
-						</div>
-					</div>
+            <div class="secondary-column">
+				<div id="legend" class="legend box">
+                    <div class="box-section js-only">
+                        <div class="search">
+                            <input autofocus class="form-control" type="text" placeholder="Search..." data-list=".scope-list">
+                        </div>
+                        <div class="filters js-only">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="sm-classic" checked> Classic</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="sm-omolon" checked> Omolon</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="sm-hakke" checked> Hakke</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="sm-suros" checked> Suros</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="sm-exotic" checked> Exotics</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-section site-notes">
+                        <h5>Aim Assist</h5>
+                        <p class="small">Credit goes to <a href="">suinoq</a> and <a>maniacgreek</a> from Reddit. Lots of info on how they came to the numbers that they did can be found in <a>this reddit post</a>.</p>
+                        <h5>Stat Values</h5>
+                        <p class="small">If stat values (including aim assist) are not shown it’s because either the scope doesn’t affect any or I don’t know them.</p>
+                    </div>
                     <?php include 'resources/php/noscript-scope-nav.php' ?>
 				</div>
-			</div>
-			<div class="primary-column col-sm-9 col-lg-10">
+                <div class="footer">
+                    <p class="small">
+                        This site is a hobby project by <a href="http://travislehman.com">Travis&nbsp;Lehman</a>
+                    </p>
+                    <ul class="social-icons">
+                        <li><a class="git" href="http://github.com/tehtrav">Github</a></li>
+                        <li><a class="twitter" href="http://twitter.com/tehtrav">Twitter</a></li>
+                        <li>
+                            <script type="text/javascript" language="javascript">
+                    		// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+                    		// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+                    		// This code is freeware provided these four comment lines remain intact
+                    		// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+                    		{ coded = "nus95crr55nNzz@i6spr.IW6"
+                    			key = "fYXSRUcqhN1TLVMwisKy9EmrzPCtboIQ23Z74Ajxp5D0eB6uGJOnHWga8kvFdl"
+                    			shift=coded.length
+                    			link=""
+                    			for (i=0; i<coded.length; i++) {
+                    				if (key.indexOf(coded.charAt(i))==-1) {
+                    					ltr = coded.charAt(i)
+                    					link += (ltr)
+                    				}
+                    				else {
+                    					ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                    					link += (key.charAt(ltr))
+                    				}
+                    			}
+                    			document.write("<a class='mail' href='mailto:"+link+"'>Email</a>")
+                    		}
+                    		</script>
+                        </li>
 
-                <div id="scope-list"></div>
+
+
+                    </ul>
+                </div>
+
+			</div>
+			<div class="primary-column">
+
+                <div id="scope-list" class="scope-list">
+                    <article class="item scope st-iron-sights sm-classic" id="quickdraw-is"><div class="visual"><img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg"><img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg"><p class="zoom">+ 0x</p></div><div class="details"><div class="icon" style="background-image: url(&quot;resources/images/scope-icons/iron-sites.png&quot;);"></div><h2 class="name">QuickDraw IS</h2><p class="description">Agile sight. Lightning fast handling.</p></div><ul class="stats"><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="15" style="width: 45px;"></div></div><span class="amount">+15</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="15" style="width: 45px;"></div></div><span class="amount">+15</span></li></ul></article>
+
+
+                </div>
 
                 <?php /*
                 <div class="placeholder-block">
@@ -67,29 +135,7 @@
 	</div>
 
 	<footer id="global-footer">
-		<p>A hobby project by <a href="https://github.com/tehtrav">@tehtrav</a>. Contribute on <a href="https://github.com/tehtrav/destinyscopes.com">Github</a>. Contact me on <a href="http://twitter.com/tehtrav">Twitter</a>, by
-		<script type="text/javascript" language="javascript">
-		// Email obfuscator script 2.1 by Tim Williams, University of Arizona
-		// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-		// This code is freeware provided these four comment lines remain intact
-		// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-		{ coded = "nus95crr55nNzz@i6spr.IW6"
-			key = "fYXSRUcqhN1TLVMwisKy9EmrzPCtboIQ23Z74Ajxp5D0eB6uGJOnHWga8kvFdl"
-			shift=coded.length
-			link=""
-			for (i=0; i<coded.length; i++) {
-				if (key.indexOf(coded.charAt(i))==-1) {
-					ltr = coded.charAt(i)
-					link += (ltr)
-				}
-				else {
-					ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-					link += (key.charAt(ltr))
-				}
-			}
-			document.write("<a href='mailto:"+link+"'>Email</a>")
-		}
-		</script><noscript>Email</noscript> for questions or comments.</p>
+
 
 	</footer>
 	<!--

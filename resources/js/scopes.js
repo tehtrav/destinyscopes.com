@@ -1,4 +1,15 @@
 $(document).ready(function(){
+
+	// Turn on HideSeek on search field
+	$('.search input').hideseek({
+		ignore: '.description',
+		attribute: 'title'
+	});
+
+	$('.search input').focus();
+
+
+
 	// Run function to ajax scope data
 	GetScopeData();
 
@@ -106,19 +117,24 @@ window.GetScopeData = function(){
 			}
 			RenderScopes(scopes);
             hashScroll();
+            adaptiveBackground();
+
 			//RenderLegend(scopes);
 		}
 	});
+
 };
 
 window.RenderScopes = function(scopes){
 	var $column = $("#scope-list");
 
 	var $legend = $("#legend");
-	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
+	//$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
 
 	for(var i in scopes) {
-		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
+		var $scope = $("<article></article>")
+			.addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
+		$scope.attr('title', scopes[i].Name)
 		$scope.addClass("scope");
 		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
@@ -150,7 +166,7 @@ window.RenderScopes = function(scopes){
 		$visual.append($('<img class="scope-hip" src="'+ scopes[i].Images[0].href +'"/>'));
 
 		if ( scopes[i].Zoom != 0 || scopes[i].Zoom != "" ) {
-			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom));
+			$visual.append($('<p></p>').addClass('zoom').text(scopes[i].Zoom));
 		}
 
         if ( scopes[i].Notes != "" ) {
@@ -159,10 +175,10 @@ window.RenderScopes = function(scopes){
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
 
+		$visual.appendTo($scope);
 		$details.append($('<h2></h2>').addClass('name').text(scopes[i].Name));
 		$details.append($('<p></p>').addClass('description').text(scopes[i].Description));
-		$details.appendTo($visual);
-		$visual.appendTo($scope);
+		$details.appendTo($scope);
 		$stats.appendTo($scope);
 		$scope.appendTo($column);
 
@@ -176,6 +192,35 @@ window.RenderScopes = function(scopes){
 		$link.appendTo("#legend ul");
 
 	}
+}
+
+
+
+window.adaptiveBackground = function(scopeType){
+	var abSettings      = {
+		selector:             '.scope-ads',
+		parent:               '.scope .zoom',
+		//exclude:              [ 'rgb(0,0,0)', 'rgba(255,255,255)' ],
+		normalizeTextColor:   false,
+		normalizedTextColors:  {
+			light:      "#fff",
+			dark:       "#000"
+			},
+			lumaClasses:  {
+			light:      "ab-light",
+			dark:       "ab-dark"
+		}
+	};
+
+	//$.adaptiveBackground.run(abSettings);
+
+	$('img.scope-ads').on('ab-color-found', function(ev,payload) {
+		$(this).parents('.scope').find('.zoom').css('background-color',payload.color);
+		console.log(payload.color);   // The dominant color in the image.
+	// console.log(payload.palette); // The color palette found in the image.
+	// console.log(ev);   // The jQuery.Event object
+	});
+
 }
 
 window.FilterByScopeType = function(scopeType){

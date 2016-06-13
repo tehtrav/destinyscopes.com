@@ -1,0 +1,23 @@
+.global-header {
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+    // z-index: 10;
+
+    padding: 5rem 0;
+    background: linear-gradient(black 75%, rgba(black,0));
+    .logo {
+        @include retina-image(wide-logo, png, 719px, 49px);
+        width: 719px;
+        height: 49px;
+        text-indent: -9999px;
+        margin: 0 auto;
+    }
+    .jump-to-legend {
+        display: none !important;
+    }
+}
+
+// .global-header + .container {
+//     padding-top: 100px;
+// }

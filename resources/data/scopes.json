@@ -5,7 +5,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. Lightning fast handling.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : "+ 0x",
         "Image" :
 		[
 			"resources/images/scope-images/quickdraw-is.jpg",
