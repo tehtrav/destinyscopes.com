@@ -5,10 +5,8 @@
     position: relative;
     padding-top: 56.25%; // 16:9
     position: relative;
-
     box-shadow: 0 1px 1px rgba(white, .18) inset;
     border-radius: 4px;
-
 
     img {
         position: absolute;
@@ -22,18 +20,14 @@
         bottom: 0;
         width: 100%;
     }
-
     img.scope-ads {
         opacity: 1;
-
     }
-
     img.scope-hip {
         opacity: 0;
-        transition: opacity .3s;
-        &:hover {
-            opacity: 1;
-        }
+    }
+    &:hover .scope-hip {
+        opacity: 1;
     }
 }
 
@@ -61,6 +55,6 @@
     font-size: 12px;
 }
 
-.stats {
+.scope .stats {
     display: none;
 }

@@ -23,22 +23,27 @@
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
 
+    <?php /*
     <div class="inspect">
         <div class="inspect--window">
             <a class="inspect--close" href="#"></a>
-            <div class="inspect--image">
-                <div class="visual">
-                    <img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
-                    <img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
-                    <p class="zoom">+ 0x</p></div>
-            </div>
-            <div class="inspect--info">
-                <h3>QuickDraw IS</h3>
-                <p>SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
+
+            <div class="inspect--container">
+                <div class="inspect--image">
+                    <div class="visual">
+                        <img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
+                        <img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
+                        <p class="zoom">+ 0x</p></div>
+                    </div>
+                    <div class="inspect--info">
+                        <h2 class="scope--title">QuickDraw IS</h2>
+                        <p class="scope--desc">SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
+                        <ul class="scope--stats stats"><li class="stats-range"><span class="label">Range</span><div class="graph"><div class="plot positive" data-size="6" style="width: 18px;"></div></div><span class="amount">+6</span></li><li class="stats-stability"><span class="label">Stability</span><div class="graph"><div class="plot positive" data-size="9" style="width: 27px;"></div></div><span class="amount">+9</span></li><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li></ul>
+                    </div>
             </div>
         </div>
     </div>
-
+    */ ?>
 
 	<div class="container">
 		<div class="row">

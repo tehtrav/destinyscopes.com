@@ -1,0 +1,73 @@
+.stats {
+    $push: 80px;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    > li:first-child {
+        //margin-top: 20px;
+    }
+    li {
+        @include clearfix;
+        list-style: none;
+        margin: 0 0 4px;
+        font-weight: $medium;
+        padding-left: $push;
+    }
+    .label {
+        font-size: 12px;
+        text-align: left;
+        padding: 0;
+        display: block;
+        width: $push;
+        margin-left: -($push);
+        float: left;
+    }
+    .graph {
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .amount {
+        display: inline-block;
+        font-size: 11px;
+        margin-top: -9px;
+        vertical-align: middle;
+    }
+}
+
+.graph {
+    background: #202226;
+    border-radius: 2px;
+    height: 12px;
+    width: 124px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    &:before {
+        $pull: 0;
+        width: 0px;
+        top: $pull;
+        bottom: $pull;
+        position: absolute;
+        left: 50%;
+        content: " ";
+        background: rgba(white, .4);
+    }
+    .plot {
+        // min-width: 40px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: $green;
+        border: 0px solid rgba(black, .3) !important;
+        &.negative {
+            right: 50%;
+            background: #D35521;
+            border-right-width: 1px;
+        }
+        &.positive {
+            left: 50%;
+            background: #7ED321;
+            border-left-width: 1px;
+        }
+    }
+}

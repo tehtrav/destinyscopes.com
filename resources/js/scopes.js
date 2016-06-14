@@ -6,9 +6,8 @@ $(document).ready(function(){
 		attribute: 'title'
 	});
 
+	// Focus on load
 	$('.search input').focus();
-
-
 
 	// Run function to ajax scope data
 	GetScopeData();
@@ -26,18 +25,6 @@ $(document).ready(function(){
 		});
 	});
 
-	// Affix the legend on desktop devices
-    // $('#legend').affix({
-	// 	offset: {
-	// 	    top: function () {
-	// 			return (this.top = $('#global-header').outerHeight(true))
-	// 	    },
-	// 	    bottom: function () {
-	// 			return (this.bottom = $('#global-footer').outerHeight(true))
-	// 	    }
-	// 	}
-	// });
-
 	// Give #legend a width based on column size so it
 	// doesn't collapse when given fixed positioning
 	$("#legend").width( $(".secondary-column").width() );
@@ -45,6 +32,55 @@ $(document).ready(function(){
 		$("#legend").width( $(".secondary-column").width() );
 	});
 
+	// <div class="inspect">
+	// 	<div class="inspect--window">
+	// 		<a class="inspect--close" href="#"></a>
+	//
+	// 		<div class="inspect--container">
+	// 			<div class="inspect--image">
+	// 				<div class="visual">
+	// 					<img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
+	// 					<img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
+	// 					<p class="zoom">+ 0x</p>
+	//				</div>
+// 				</div>
+// 				<div class="inspect--info">
+// 					<h2 class="scope--title">QuickDraw IS</h2>
+// 					<p class="scope--desc">SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
+// 					<ul class="scope--stats stats"><li class="stats-range"><span class="label">Range</span><div class="graph"><div class="plot positive" data-size="6" style="width: 18px;"></div></div><span class="amount">+6</span></li><li class="stats-stability"><span class="label">Stability</span><div class="graph"><div class="plot positive" data-size="9" style="width: 27px;"></div></div><span class="amount">+9</span></li><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li></ul>
+// 				</div>
+	// 		</div>
+	// 	</div>
+	// </div>
+
+
+
+	// Make modal on click
+	$("body").on( "click", ".scope", function() {
+		$("body").append("<div class='inspect'></div>");
+		var $modal = $("<div class='inspect--window'></div>");
+		$modal.append('<a class="inspect--close" href="#"></a>');
+
+		var $container = $("<div></div>").addClass("inspect--container");
+		var $image = $("<div></div>").addClass("inspect--image");
+		var $info = $("<div></div>").addClass("inspect--info");
+
+		$(this).find(".visual").clone().appendTo($image);
+		$(this).find(".name").clone().appendTo($info);
+		$(this).find(".description").clone().appendTo($info);
+		$(this).find(".stats").clone().appendTo($info);
+
+
+
+		$info.appendTo($container);
+		$image.appendTo($container);
+		$container.appendTo($modal);
+		$modal.appendTo(".inspect");
+	});
+
+	$("body").on( "click", ".inspect--close, .inspect", function() {
+		$(".inspect").remove();
+	});
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
