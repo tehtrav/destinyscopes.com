@@ -30,7 +30,7 @@
 			</div>
 			<div class="primary-column col-sm-9 col-lg-10">
 
-                <h1>&nbsp;</h1>
+                <h1>About</h1>
 
                 <p>None of the values are taken directly from Bungie's API. Most of them are pulled from posts on reddit or elsewhere and are subject to error or changing with patches. </p>
 
@@ -41,6 +41,29 @@
                 <p>All primary and secondary weapons have varying base zoom levels, which are modified by each scope's magnification level. This means something like Red Dot ORES will have different zoom levels on an Auto Rifle (base zoom 1.5x) and a Scout Rifle (base zoom 2x).</p>
 
                 <p></p>
+
+                <h1>Change Notes</h1>
+
+
+                <h3>April 18 2016</h3>
+
+                <ul>
+                    <li>Added Zen Meteor</li>
+                    <li>Removed sniper aim-assist values since till we have more reliable info</li>
+                    <li>Shortgaze zoom value changed from 4.5 to 4.9</li>
+                    <li>Ambush zoom value changed from 4.5 to 4.9</li>
+                    <li>Longview zoom value changed from 5 to 5.2</li>
+                    <li>Faucon zoom value changed from 4.8 to 4.9</li>
+                    <li>Yepaki zoom value changed from 5 to 5.2</li>
+                    <li>Yepaki screenshots updated to show new zoom</li>
+                    <li>ATA Scout zoom value changed from 4.65 to 5.1</li>
+                    <li>ATA Scout screenshots updated to show new zoom</li>
+                    <li>Icebreaker zoom value changed from 5 to 6</li>
+                    <li>Black Spindle zoom value changed from 4 to 5</li>
+                    <li>Patience and Time w/ custom optics zoom value changed from 7.5 to 6.5</li>
+                    <li>Hereafter zoom value changed from 4/10 to 5/12.5</li>
+                </ul>
+
 
 			</div>
 		</div>

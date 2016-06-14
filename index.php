@@ -55,21 +55,26 @@
                         </div>
                         <div class="filters js-only">
                             <div class="checkbox">
-                                <label><input type="checkbox" value="sm-classic" checked> Classic</label>
+                                <label><input type="checkbox" value="sm-classic" checked name="show-Classic"> Classic</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" value="sm-omolon" checked> Omolon</label>
+                                <label><input type="checkbox" value="sm-omolon" checked name="show-Omolon"> Omolon</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" value="sm-hakke" checked> Hakke</label>
+                                <label><input type="checkbox" value="sm-hakke" checked name="show-Hakke"> Hakke</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" value="sm-suros" checked> Suros</label>
+                                <label><input type="checkbox" value="sm-suros" checked name="show-Suros"> Suros</label>
                             </div>
                             <div class="checkbox">
-                                <label><input type="checkbox" value="sm-exotic" checked> Exotics</label>
+                                <label><input type="checkbox" value="sm-exotic" checked name="show-Exotics"> Exotics</label>
                             </div>
                         </div>
+                        <br>
+
+                        <label>
+                            <input type="checkbox" id="show-stats-preference" name="show-stats-preference"> Show stats in list view
+                        </label>
                     </div>
                     <div class="box-section site-notes">
                         <h5>Aim Assist</h5>

@@ -81,6 +81,7 @@ gulp.task('styles', function () {
 gulp.task('scripts', function() {
     return gulp.src([
         'bower_components/jquery/dist/jquery.js',
+        'resources/js/cookie.js',
         'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
         'bower_components/hideseek/jquery.hideseek.min.js',
         'bower_components/adaptive.background/src/jquery.adaptive-backgrounds.js',

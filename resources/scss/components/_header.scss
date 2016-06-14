@@ -4,12 +4,25 @@
     // width: 100%;
     // z-index: 10;
 
-    padding: 5rem 0;
     background: linear-gradient(black 75%, rgba(black,0));
+    padding: 10px 20px;
+    @media (min-width: $screen-sm-min) {
+        padding: 30px 20px;
+    }
+    @media (min-width: $screen-md-min) {
+        padding: 5rem 20px;
+    }
+
     .logo {
         @include retina-image(wide-logo, png, 719px, 49px);
-        width: 719px;
+        width: 100%;
+        max-width: 719px;
         height: 49px;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
         text-indent: -9999px;
         margin: 0 auto;
     }

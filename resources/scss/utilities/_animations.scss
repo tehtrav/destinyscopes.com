@@ -1,0 +1,48 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        @include translate(0, 30px);
+    }
+    100% {
+        opacity: 1;
+        @include translate(0, 0);
+    }
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        @include translate(0, 0);
+    }
+    100% {
+        opacity: 0;
+        @include translate(0, 30px);
+    }
+}
+
+@keyframes width-grow {
+    0% {
+        max-width: 0;
+    }
+    100% {
+        max-width: 200px;
+    }
+}

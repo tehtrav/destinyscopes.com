@@ -36,6 +36,7 @@
 
 .graph {
     background: #202226;
+    background: rgba(white, .12);
     border-radius: 2px;
     height: 12px;
     width: 124px;
@@ -54,6 +55,9 @@
     }
     .plot {
         // min-width: 40px;
+        @include animation(width-grow .2s 3s);
+        @include animation-fill-mode(forwards);
+
         position: absolute;
         top: 0;
         bottom: 0;

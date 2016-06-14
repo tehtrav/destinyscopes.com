@@ -1,3 +1,12 @@
+.inspect-open {
+    overflow: hidden;
+}
+
+.inspect-open .inspect {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .inspect {
     padding: 30px;
     position: fixed;
@@ -8,13 +17,16 @@
     background: rgba(#0D1118, .8);
     z-index: 4;
     -webkit-backdrop-filter: blur(20px);
-
+    @include animation(fadeIn .2s);
     @media (min-width: $screen-md-min) {
         @include flexbox;
         @include align-items(center);
         @include justify-content(center);
     }
-
+    &.animate-out {
+        @include animation(fadeOut .2s);
+        @include animation-fill-mode(forwards);
+    }
 }
 
 .inspect--window {
@@ -24,7 +36,6 @@
     z-index: 4;
     position: relative;
     display: block;
-    max-width: 1100px;
     padding: 32px;
     border: 1px solid rgba(white, .2);
     background: rgba(10,12,15,0.70);
@@ -32,6 +43,17 @@
         0px 2px 10px 0px rgba(0,0,0,0.31),
         inset 0px 1px 2px 0px rgba(255,255,255,0.23);
     border-radius: 4px;
+    @media (min-width: $screen-md-min) {
+        max-width: 1300px;
+    }
+
+
+
+    @include animation(fadeInUp .3s);
+    .animate-out & {
+        @include animation(fadeOutDown .3s);
+        @include animation-fill-mode(forwards);
+    }
 }
 
 .inspect--close {
@@ -59,7 +81,9 @@
 }
 
 .inspect--container {
-    padding-left: 270px;
+    @media (min-width: $screen-md-min) {
+        padding-left: 270px;
+    }
 }
 
 .inspect--info {
@@ -79,8 +103,10 @@
 }
 
 .inspect--image {
+    margin-bottom: 24px;
     @media (min-width: $screen-md-min) {
         width: 100%;
         float: right;
+        margin-bottom: 0;
     }
 }

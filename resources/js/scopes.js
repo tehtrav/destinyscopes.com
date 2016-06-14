@@ -25,6 +25,27 @@ $(document).ready(function(){
 		});
 	});
 
+    // Hide/Show of stats in list view
+    $(function(){
+        $("#show-stats-preference").change(function() {
+            $(".scope-list").toggleClass("show-stats", this.checked)
+        }).change();
+    });
+
+
+    $("input[type='checkbox']").each(function() {
+        var mycookie = $.cookie($(this).attr('name'));
+        if (mycookie && mycookie == "true") {
+            $(this).prop('checked', mycookie);
+        }
+    });
+    $("input[type='checkbox']").change(function() {
+        $.cookie($(this).attr("name"), $(this).prop('checked'), {
+            path: '/',
+            expires: 365
+        });
+    });
+
 	// Give #legend a width based on column size so it
 	// doesn't collapse when given fixed positioning
 	$("#legend").width( $(".secondary-column").width() );
@@ -57,7 +78,7 @@ $(document).ready(function(){
 
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
-		$("body").append("<div class='inspect'></div>");
+		$("body").addClass("inspect-open").append("<div class='inspect'></div>");
 		var $modal = $("<div class='inspect--window'></div>");
 		$modal.append('<a class="inspect--close" href="#"></a>');
 
@@ -70,16 +91,20 @@ $(document).ready(function(){
 		$(this).find(".description").clone().appendTo($info);
 		$(this).find(".stats").clone().appendTo($info);
 
-
-
+        $image.appendTo($container);
 		$info.appendTo($container);
-		$image.appendTo($container);
 		$container.appendTo($modal);
 		$modal.appendTo(".inspect");
 	});
 
 	$("body").on( "click", ".inspect--close, .inspect", function() {
-		$(".inspect").remove();
+        // Add CSS animation class
+        $(".inspect").addClass("animate-out");
+        $(".inspect-open").removeClass("inspect-open");
+        // Remove markup once animation is complete
+        setTimeout(function(){
+            $(".inspect").remove();
+        }, 310);
 	});
 });
 
@@ -207,6 +232,10 @@ window.RenderScopes = function(scopes){
 
         if ( scopes[i].Notes != "" ) {
             $visual.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
+		}
+
+        if ( scopes[i].Stats != "" ) {
+            $scope.addClass("has-stats");
 		}
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
