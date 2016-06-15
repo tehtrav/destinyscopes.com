@@ -1,0 +1,79 @@
+.scope {
+    cursor: pointer;
+}
+
+.visual {
+    position: relative;
+    padding-top: 56.25%; // 16:9
+    position: relative;
+    box-shadow: 0 1px 1px rgba(white, .18) inset;
+    border-radius: 4px;
+
+    img {
+        position: absolute;
+        z-index: -1;
+        border-radius: 4px;
+        box-shadow: 0 1px 10px rgba(black, .5);
+
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    img.scope-ads {
+        opacity: 1;
+    }
+    img.scope-hip {
+        opacity: 0;
+    }
+    &:hover .scope-hip {
+        opacity: 1;
+    }
+}
+
+.zoom {
+    padding: 4px 9px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 3;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    background: rgba(white,0.16);
+    box-shadow: 0px 2px 10px 0px rgba(black,0.9), inset 0px 1px 1px 0px rgba(white,0.2);
+    border-radius: 100px;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.name {
+    font-size: 18px;
+    margin: 12px 0 6px;
+    .has-stats & {
+        @include retina-image(icon-has-stats, png, 9px, 14px);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}
+
+.description {
+    font-size: 12px;
+}
+
+.scope .stats,
+.scope .notes {
+    display: none;
+}
+
+//
+.show-stats {
+    .scope {
+        .name {
+            background: none;
+        }
+        .stats {
+            display: block;
+        }
+    }
+}

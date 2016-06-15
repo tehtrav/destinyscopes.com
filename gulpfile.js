@@ -79,7 +79,13 @@ gulp.task('styles', function () {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['bower_components/jquery/dist/jquery.js','bower_components/bootstrap-sass/assets/javascripts/bootstrap.js','resources/js/scopes.js'])
+    return gulp.src([
+        'bower_components/jquery/dist/jquery.js',
+        'resources/js/cookie.js',
+        'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+        'bower_components/hideseek/jquery.hideseek.min.js',
+        'bower_components/adaptive.background/src/jquery.adaptive-backgrounds.js',
+        'resources/js/scopes.js'])
       .pipe(concat('all.js'))
       .pipe(uglify())
       .pipe(gulp.dest('build/js/'))
@@ -88,7 +94,7 @@ gulp.task('scripts', function() {
 /* Watch Files For Changes */
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch('resources/scss/*.scss', ['styles']);
+    gulp.watch('resources/scss/**/*', ['styles']);
     gulp.watch('resources/js/*.js', ['scripts']);
     gulp.watch('*.php').on('change', livereload.changed);
     gulp.watch('*.html').on('change', livereload.changed);

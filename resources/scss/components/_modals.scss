@@ -1,0 +1,123 @@
+.inspect-open {
+    overflow: hidden;
+}
+
+.inspect-open .inspect {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.inspect {
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(#0D1118, .8);
+    z-index: 4;
+    -webkit-backdrop-filter: blur(20px);
+    @include animation(fadeIn .2s);
+    @media (min-width: $screen-md-min) {
+        @include flexbox;
+        @include align-items(center);
+        @include justify-content(center);
+    }
+    &.animate-out {
+        @include animation(fadeOut .2s);
+        @include animation-fill-mode(forwards);
+    }
+}
+
+.inspect--window {
+    @include flex(1 auto);
+    @include flexbox;
+    width: 100%;
+    z-index: 4;
+    position: relative;
+    display: block;
+    padding: 32px;
+    border: 1px solid rgba(white, .2);
+    background: rgba(10,12,15,0.70);
+    box-shadow:
+        0px 2px 10px 0px rgba(0,0,0,0.31),
+        inset 0px 1px 2px 0px rgba(255,255,255,0.23);
+    border-radius: 4px;
+    @media (min-width: $screen-md-min) {
+        max-width: 1300px;
+    }
+
+
+
+    @include animation(fadeInUp .3s);
+    .animate-out & {
+        @include animation(fadeOutDown .3s);
+        @include animation-fill-mode(forwards);
+    }
+}
+
+.inspect--close {
+    position: absolute;
+    @include square(25px);
+    background: rgba(10,12,15,1);
+    border: 1px solid #777;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.31);
+    right: -12px;
+    top: -12px;
+    border-radius: 40px;
+    background-origin: padding-box;
+    background-clip: padding-box;
+    color: #777;
+    &:hover {
+        border-color: $link-hover-color;
+    }
+    &:after {
+        content:"\00d7";
+        position: absolute;
+        font-size: 24px;
+        left: 4px;
+        top: -7px;
+    }
+}
+
+.inspect--container {
+    @media (min-width: $screen-md-min) {
+        padding-left: 270px;
+    }
+}
+
+.inspect--info {
+    .name {
+        font-size: 22px;
+        margin: 0 0 5px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .notes {
+        display: inline-block;
+        font-size: 12px;
+        color: #333;
+        background: $blue;
+        border-radius: 3px;
+        padding: 2px 6px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    @media (min-width: $screen-md-min) {
+        width: 240px;
+        margin-left: -270px;
+        float: left;
+    }
+}
+
+.inspect--image {
+    margin-bottom: 24px;
+    @media (min-width: $screen-md-min) {
+        width: 100%;
+        float: right;
+        margin-bottom: 0;
+    }
+}

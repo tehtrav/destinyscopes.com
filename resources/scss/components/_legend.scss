@@ -1,0 +1,89 @@
+.legend {
+    margin-bottom: 17px;
+    h5 {
+        margin-bottom: 4px;
+    }
+}
+
+.legend.box {
+    background: rgba(247,247,247,.04);
+    border: 1px solid rgba(white,.06);
+    border-top: 1px solid rgba(white,.12);
+    box-shadow:
+        0px 2px 10px 0px rgba(0,0,0,0.31),
+        inset 0px 1px 2px 0px rgba(255,255,255,0.05);
+    border-radius: 4px;
+    .box-section {
+        padding: 22px;
+        border-bottom: 1px solid rgba(white, .1);
+        &:last-child {
+            border: none;
+        }
+    }
+}
+
+.search {
+    margin-bottom: 16px;
+    input {
+        background: rgba(215,215,215,.1);
+        border: 2px solid rgba(255,255,255,.1);
+        border-radius: 4px;
+        width: 100%;
+        box-shadow: none;
+        color: white;
+
+    }
+}
+
+.site-notes {
+    padding-bottom: 8px !important;
+}
+
+::-webkit-input-placeholder {
+  color: #777;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:  #777;
+}
+:-ms-input-placeholder {
+  color:  #777;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:  #777;
+}
+
+.footer {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 20px;
+    li {
+        display: block;
+        margin: 0 12px 0 0;
+        a {
+            @include square(23px);
+            border-radius: 30px;
+            display: block;
+            // background: red;
+            text-indent: -9999px;
+            opacity: .4;
+            transition:
+            &:hover {
+                opacity: 1;
+            }
+            &.twitter {
+                @include retina-image(icon-twitter, png, 23px, 23px);
+            }
+            &.mail {
+                @include retina-image(icon-mail, png, 23px, 23px);
+            }
+            &.git {
+                @include retina-image(icon-git, png, 23px, 23px);
+            }
+        }
+    }
+}

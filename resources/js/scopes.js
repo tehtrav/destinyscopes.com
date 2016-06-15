@@ -1,4 +1,14 @@
 $(document).ready(function(){
+
+	// Turn on HideSeek on search field
+	$('.search input').hideseek({
+		ignore: '.description',
+		attribute: 'title'
+	});
+
+	// Focus on load
+	$('.search input').focus();
+
 	// Run function to ajax scope data
 	GetScopeData();
 
@@ -15,17 +25,26 @@ $(document).ready(function(){
 		});
 	});
 
-	// Affix the legend on desktop devices
-    // $('#legend').affix({
-	// 	offset: {
-	// 	    top: function () {
-	// 			return (this.top = $('#global-header').outerHeight(true))
-	// 	    },
-	// 	    bottom: function () {
-	// 			return (this.bottom = $('#global-footer').outerHeight(true))
-	// 	    }
-	// 	}
-	// });
+    // Hide/Show of stats in list view
+    $(function(){
+        $("#show-stats-preference").change(function() {
+            $(".scope-list").toggleClass("show-stats", this.checked)
+        }).change();
+    });
+
+
+    $("input[type='checkbox']").each(function() {
+        var mycookie = $.cookie($(this).attr('name'));
+        if (mycookie && mycookie == "true") {
+            $(this).prop('checked', mycookie);
+        }
+    });
+    $("input[type='checkbox']").change(function() {
+        $.cookie($(this).attr("name"), $(this).prop('checked'), {
+            path: '/',
+            expires: 365
+        });
+    });
 
 	// Give #legend a width based on column size so it
 	// doesn't collapse when given fixed positioning
@@ -34,6 +53,59 @@ $(document).ready(function(){
 		$("#legend").width( $(".secondary-column").width() );
 	});
 
+	// <div class="inspect">
+	// 	<div class="inspect--window">
+	// 		<a class="inspect--close" href="#"></a>
+	//
+	// 		<div class="inspect--container">
+	// 			<div class="inspect--image">
+	// 				<div class="visual">
+	// 					<img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
+	// 					<img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
+	// 					<p class="zoom">+ 0x</p>
+	//				</div>
+// 				</div>
+// 				<div class="inspect--info">
+// 					<h2 class="scope--title">QuickDraw IS</h2>
+// 					<p class="scope--desc">SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
+// 					<ul class="scope--stats stats"><li class="stats-range"><span class="label">Range</span><div class="graph"><div class="plot positive" data-size="6" style="width: 18px;"></div></div><span class="amount">+6</span></li><li class="stats-stability"><span class="label">Stability</span><div class="graph"><div class="plot positive" data-size="9" style="width: 27px;"></div></div><span class="amount">+9</span></li><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li></ul>
+// 				</div>
+	// 		</div>
+	// 	</div>
+	// </div>
+
+
+
+	// Make modal on click
+	$("body").on( "click", ".scope", function() {
+		$("body").addClass("inspect-open").append("<div class='inspect'></div>");
+		var $modal = $("<div class='inspect--window'></div>");
+		$modal.append('<a class="inspect--close" href="#"></a>');
+
+		var $container = $("<div></div>").addClass("inspect--container");
+		var $image = $("<div></div>").addClass("inspect--image");
+		var $info = $("<div></div>").addClass("inspect--info");
+
+		$(this).find(".visual").clone().appendTo($image);
+		$(this).find(".name").clone().appendTo($info);
+		$(this).find(".description, .notes").clone().appendTo($info);
+		$(this).find(".stats").clone().appendTo($info);
+
+        $image.appendTo($container);
+		$info.appendTo($container);
+		$container.appendTo($modal);
+		$modal.appendTo(".inspect");
+	});
+
+	$("body").on( "click", ".inspect--close, .inspect", function() {
+        // Add CSS animation class
+        $(".inspect").addClass("animate-out");
+        $(".inspect-open").removeClass("inspect-open");
+        // Remove markup once animation is complete
+        setTimeout(function(){
+            $(".inspect").remove();
+        }, 310);
+	});
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
@@ -106,19 +178,24 @@ window.GetScopeData = function(){
 			}
 			RenderScopes(scopes);
             hashScroll();
+            adaptiveBackground();
+
 			//RenderLegend(scopes);
 		}
 	});
+
 };
 
 window.RenderScopes = function(scopes){
 	var $column = $("#scope-list");
 
 	var $legend = $("#legend");
-	$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
+	//$legend.append('<h4>Scopes</h4><ul class="nav"></ul>');
 
 	for(var i in scopes) {
-		var $scope = $("<article></article>").addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
+		var $scope = $("<article></article>")
+			.addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
+		$scope.attr('title', scopes[i].Name)
 		$scope.addClass("scope");
 		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
@@ -150,19 +227,22 @@ window.RenderScopes = function(scopes){
 		$visual.append($('<img class="scope-hip" src="'+ scopes[i].Images[0].href +'"/>'));
 
 		if ( scopes[i].Zoom != 0 || scopes[i].Zoom != "" ) {
-			$visual.append($('<p></p>').addClass('zoom').text("Magnification: " + scopes[i].Zoom));
+			$visual.append($('<p></p>').addClass('zoom').text(scopes[i].Zoom));
 		}
 
-        if ( scopes[i].Notes != "" ) {
-            $visual.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
+        if ( scopes[i].Stats != "" ) {
+            $scope.addClass("has-stats");
 		}
 
 		$details.append($('<div></div>').addClass('icon').css('background-image', 'url(' + scopes[i].Icon + ')'));
 
-		$details.append($('<h2></h2>').addClass('name').text(scopes[i].Name));
-		$details.append($('<p></p>').addClass('description').text(scopes[i].Description));
-		$details.appendTo($visual);
 		$visual.appendTo($scope);
+		$details.append($('<h2></h2>').addClass('name').text(scopes[i].Name));
+        if ( scopes[i].Notes != "" ) {
+            $details.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
+		}
+		$details.append($('<p></p>').addClass('description').text(scopes[i].Description));
+		$details.appendTo($scope);
 		$stats.appendTo($scope);
 		$scope.appendTo($column);
 
@@ -176,6 +256,35 @@ window.RenderScopes = function(scopes){
 		$link.appendTo("#legend ul");
 
 	}
+}
+
+
+
+window.adaptiveBackground = function(scopeType){
+	var abSettings      = {
+		selector:             '.scope-ads',
+		parent:               '.scope .zoom',
+		//exclude:              [ 'rgb(0,0,0)', 'rgba(255,255,255)' ],
+		normalizeTextColor:   false,
+		normalizedTextColors:  {
+			light:      "#fff",
+			dark:       "#000"
+			},
+			lumaClasses:  {
+			light:      "ab-light",
+			dark:       "ab-dark"
+		}
+	};
+
+	//$.adaptiveBackground.run(abSettings);
+
+	$('img.scope-ads').on('ab-color-found', function(ev,payload) {
+		$(this).parents('.scope').find('.zoom').css('background-color',payload.color);
+		console.log(payload.color);   // The dominant color in the image.
+	// console.log(payload.palette); // The color palette found in the image.
+	// console.log(ev);   // The jQuery.Event object
+	});
+
 }
 
 window.FilterByScopeType = function(scopeType){

@@ -5,7 +5,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. Lightning fast handling.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : "+ 0x",
         "Image" :
 		[
 			"resources/images/scope-images/quickdraw-is.jpg",
@@ -23,7 +23,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Flexible sight. Light, with good recoil control. Strong target aquisition.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/truesight-is.jpeg",
@@ -43,7 +43,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Standard sight. A lightweight design, good for recoil control.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/fastdraw-is.jpg",
@@ -62,7 +62,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Stable sight. Optimized for excellent recoil control.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/steadyhand-is.jpeg",
@@ -81,7 +81,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Snapshot sight. Excellent handling. Superb target aquisition.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/sureshot-is.jpg",
@@ -101,7 +101,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS projection sight. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/suros-slo-12.jpg",
@@ -118,7 +118,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS irons with projection sight. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/suros-slo-19.jpg",
@@ -135,7 +135,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS lightweight red dot sights. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : ".2 + Weapon Type Base",
+		"Zoom" : "+ .2x",
         "Image" :
 		[
 			"resources/images/scope-images/suros-spo-26.jpeg",
@@ -152,7 +152,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS holo sights. Improved target acquisition.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/suros-spo-28.jpg",
@@ -169,7 +169,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS ranged combat scope. Improves range.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/suros-sro-37.jpg",
@@ -186,7 +186,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/suros-sro-41.jpeg",
@@ -203,7 +203,7 @@
 		"Manufacturer" : "Suros",
 		"Description" : "SUROS threat evaluation. Highlights enemy targets.",
 		"Icon" : "resources/images/scope-icons/suros.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/suros-spo-51.jpeg",
@@ -237,7 +237,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Medium-range assault scope. Improved optics and range.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/hakke-lb-assault.jpg",
@@ -254,7 +254,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Häkke holo sights. Improved target acquisition.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/sc-holo.jpg",
@@ -271,7 +271,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Agile post sights. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/ga-post.jpg",
@@ -288,7 +288,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Häkke iron sights. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/gb-iron.jpg",
@@ -305,7 +305,7 @@
 		"Manufacturer" : "Hakke",
 		"Description" : "Häkke threat evaluation tech. Highlights dangerous enemies and Guardians with charged Supers.",
 		"Icon" : "resources/images/scope-icons/hakke.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/hakke-ld-watchdog.jpg",
@@ -339,7 +339,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Minimal iron sites. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/omolon-candle-is2.jpeg",
@@ -356,7 +356,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon holo sights. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/omolon-spark.jpeg",
@@ -373,7 +373,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon close quarters combat sights. CQ optics, improved target acquisition.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : ".2 + Weapon Type Base",
+		"Zoom" : "+ .2x",
         "Image" :
 		[
 			"resources/images/scope-images/omolon-torch.jpeg",
@@ -390,7 +390,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon imaging technology. Highlights enemy targets.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/omolon-flash-hs4.jpg",
@@ -406,7 +406,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Omolon imaging technology. Highlights long-distance enemy targets at optimal combat range.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/omolon-signal.jpeg",
@@ -423,7 +423,7 @@
 		"Manufacturer" : "Omolon",
 		"Description" : "Ranged combat scope. Improved optics and range.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
-		"Zoom" : ".5 + Weapon Type Base",
+		"Zoom" : "+ .5x",
         "Image" :
 		[
 			"resources/images/scope-images/impulse-ms2.jpg",
@@ -440,7 +440,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. For smooth engagement in close quarters.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : ".2 + Weapon Type Base",
+		"Zoom" : "+ .2x",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-oes.jpeg",
@@ -458,7 +458,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Accurized sight. For precise fire.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ors.jpeg",
@@ -476,7 +476,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Snapshot sight. Enhanced target acquisition.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : ".2 + Weapon Type Base",
+		"Zoom" : "+ .2",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-oas.jpg",
@@ -494,7 +494,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Precision sight. Highest zoom in class. Enhanced range.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : ".6 + Weapon Type Base",
+		"Zoom" : "+ .6",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ors1.jpg",
@@ -512,7 +512,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Flexible sight. Enhances handling, range, and recoil control.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ores.jpg",
@@ -532,7 +532,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling",
 		"Icon" : "resources/images/scope-icons/red-dot-alt.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ora.jpeg",
@@ -548,7 +548,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling.",
 		"Icon" : "resources/images/scope-icons/red-dot-alt.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ora2.jpeg",
@@ -564,7 +564,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved handling.",
 		"Icon" : "resources/images/scope-icons/reflex.png",
-		"Zoom" : ".4 + Weapon Type Base",
+		"Zoom" : "+ .4x",
         "Image" :
 		[
 			"resources/images/scope-images/oeg.jpeg",
@@ -580,7 +580,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Improved optics, improved range.",
 		"Icon" : "resources/images/scope-icons/oeg-riflescope.png",
-		"Zoom" : ".6 + Weapon Type Base",
+		"Zoom" : "+ .6x",
         "Image" :
 		[
 			"resources/images/scope-images/ora-riflescope.jpeg",
@@ -596,7 +596,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Slightly improved optics, improved aim assist.",
 		"Icon" : "resources/images/scope-icons/reflex.png",
-		"Zoom" : ".3 + Weapon Type Base",
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/reflex.jpeg",
@@ -612,7 +612,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Significantly improved handling.",
 		"Icon" : "resources/images/scope-icons/md-reflex.png",
-		"Zoom" : "0 + Weapon Type Base",
+		"Zoom" : 0,
         "Image" :
 		[
 			"resources/images/scope-images/md-reflex.jpeg",
@@ -628,7 +628,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Precision scope. Superb effective range. Heavy, with poor recoil control.",
 		"Icon" : "resources/images/scope-icons/ranged-scope.png",
-		"Zoom" : ".8 + Weapon Type Base",
+		"Zoom" : "+ .8x",
         "Image" :
 		[
 			"resources/images/scope-images/ranged-lense-rlr5.jpeg",
@@ -648,7 +648,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Mid-range scope. Good effective range and recoil control. Heavy and slow.",
 		"Icon" : "resources/images/scope-icons/ranged-scope.png",
-		"Zoom" : ".6 + Weapon Type Base",
+		"Zoom" : "+ .6x",
         "Image" :
 		[
 			"resources/images/scope-images/ranged-lense-rls3.jpeg",
@@ -668,7 +668,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile scope. Modest zoom. Light and snappy.",
 		"Icon" : "resources/images/scope-icons/ranged-scope.png",
-		"Zoom" : ".4 + Weapon Type Base",
+		"Zoom" : "+ .4x",
         "Image" :
 		[
 			"resources/images/scope-images/focus-lense-fls2.jpg",
@@ -686,7 +686,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Agile scope. Modest zoom. Light and snappy.",
 		"Icon" : "resources/images/scope-icons/ranged-scope.png",
-		"Zoom" : ".6 + Weapon Type Base",
+		"Zoom" : "+ .6x",
         "Image" :
 		[
 			"resources/images/scope-images/focus-lense-fla5.jpg",
@@ -1010,11 +1010,12 @@
 		"Manufacturer" : "Raid Weapon",
 		"Description" : "\"Shields up! Protect the Queen! Brace for impact! Save the Queen\" —Paladin Yasmin Eld",
 		"Icon" : "resources/images/exotic-icons/yasmin.jpg",
-		"Zoom" : "4x",
+		"Zoom" : "5x",
+		"Notes" : "Changed in 2.3.0",
         "Image" :
 		[
-			"resources/images/scope-images/defiance-of-yasmin.jpg",
-			"resources/images/scope-images/defiance-of-yasmin-ads.jpg"
+			"resources/images/scope-images/soon.jpg",
+			"resources/images/scope-images/soon.jpg"
 		],
 		"Stats" :
 		[
