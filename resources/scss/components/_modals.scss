@@ -95,6 +95,17 @@
         font-size: 14px;
         line-height: 1.4;
     }
+    .notes {
+        display: inline-block;
+        font-size: 12px;
+        color: #333;
+        background: $blue;
+        border-radius: 3px;
+        padding: 2px 6px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
     @media (min-width: $screen-md-min) {
         width: 240px;
         margin-left: -270px;

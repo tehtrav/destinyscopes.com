@@ -5,46 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="build/css/main.min.css">
-	<meta name="description" content="A website for viewing screenshots of the many scopes and sights available in the game Destiny, made by Bungie" />
+    <meta name="description" content="A website for viewing screenshots of the many scopes and sights available in the game Destiny, made by Bungie" />
 	<meta name="keywords" content="Destiny, Bungie, Destiny The Game, Scopes, Weapons, Sights, Screenshots, Shortgaze, Ambush, Red Dot Sight, ACOG" />
-
-
-	<link rel="apple-touch-icon" href="/public/images/touch-icon-iphone.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/public/images/touch-icon-ipad.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/public/images/touch-icon-iphone-retina.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/public/images/touch-icon-ipad-retina.png">
-
+    <link rel="shortcut icon" href="resources/images/favicon.ico">
+    <link rel="icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="resources/images/favicon-96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="152x152" href="resources/images/favicon-152.png">
 	<title>Destinyscopes.com</title>
-
 </head>
 <body class="no-js" data-spy="scroll" data-target="#legend">
 	<header class="global-header">
 		<h1 class="logo">Destiny Scopes</h1>
 		<a class="jump-to-legend" href="#legend"><span>Legend</span></a>
 	</header>
-
-    <?php /*
-    <div class="inspect">
-        <div class="inspect--window">
-            <a class="inspect--close" href="#"></a>
-
-            <div class="inspect--container">
-                <div class="inspect--image">
-                    <div class="visual">
-                        <img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
-                        <img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
-                        <p class="zoom">+ 0x</p></div>
-                    </div>
-                    <div class="inspect--info">
-                        <h2 class="scope--title">QuickDraw IS</h2>
-                        <p class="scope--desc">SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
-                        <ul class="scope--stats stats"><li class="stats-range"><span class="label">Range</span><div class="graph"><div class="plot positive" data-size="6" style="width: 18px;"></div></div><span class="amount">+6</span></li><li class="stats-stability"><span class="label">Stability</span><div class="graph"><div class="plot positive" data-size="9" style="width: 27px;"></div></div><span class="amount">+9</span></li><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li></ul>
-                    </div>
-            </div>
-        </div>
-    </div>
-    */ ?>
-
 	<div class="container">
 		<div class="row">
             <div class="secondary-column">
@@ -70,19 +44,53 @@
                                 <label><input type="checkbox" value="sm-exotic" checked name="show-Exotics"> Exotics</label>
                             </div>
                         </div>
-                        <br>
-
-                        <label>
-                            <input type="checkbox" id="show-stats-preference" name="show-stats-preference"> Show stats in list view
-                        </label>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="show-stats-preference" name="show-stats-preference"> Show stats in list view</label>
+                        </div>
                     </div>
                     <div class="box-section site-notes">
                         <h5>Aim Assist</h5>
-                        <p class="small">Credit goes to <a href="">suinoq</a> and <a>maniacgreek</a> from Reddit. Lots of info on how they came to the numbers that they did can be found in <a>this reddit post</a>.</p>
+                        <p class="small">Credit goes to <a href="http://www.reddit.com/user/suinoq">suinoq</a> and <a href="http://www.reddit.com/user/maniacgreek">maniacgreek</a> from Reddit. Lots of info on how they came to the numbers that they did can be found in <a>this reddit post</a>.</p>
                         <h5>Stat Values</h5>
-                        <p class="small">If stat values (including aim assist) are not shown it’s because either the scope doesn’t affect any or I don’t know them.</p>
+                        <p class="small">If stat values (including aim assist &amp; zoom) are not shown it's because either the scope doesn't affect any or I don't know them.</p>
+                        <h5>Zoom Numbers</h5>
+                        <p class="small">Each weapon type has a different base zoom. The numbers you see on this site with an plus sign are additive to the weapon's base zoom.</p>
+                        <table class="table table-condensed small">
+                            <tr>
+                                <td>Hand Cannons</td>
+                                <td>1.5</td>
+                            </tr>
+                            <tr>
+                                <td>Auto Rifles</td>
+                                <td>1.5</td>
+                            </tr>
+                            <tr>
+                                <td>Pulse Rifles</td>
+                                <td>1.7</td>
+                            </tr>
+                            <tr>
+                                <td>Scout Rifles</td>
+                                <td>2.0</td>
+                            </tr>
+                            <tr>
+                                <td>Fusion Rifles</td>
+                                <td>1.5</td>
+                            </tr>
+                            <tr>
+                                <td>Shotguns</td>
+                                <td>1.2</td>
+                            </tr>
+                            <tr>
+                                <td>Machine Guns</td>
+                                <td>1.5</td>
+                            </tr>
+                            <tr>
+                                <td>Rocket Launchers</td>
+                                <td>2.0</td>
+                            </tr>
+                        </table>
+                        <p class="small">See this amazing Reddit post by <a href="http://www.reddit.com/user/suinoq">suinoq</a> for more info on how the resulting zoom is calculated.</p>
                     </div>
-                    <?php include 'resources/php/noscript-scope-nav.php' ?>
 				</div>
                 <div class="footer">
                     <p class="small">
@@ -115,45 +123,17 @@
                     		}
                     		</script>
                         </li>
-
-
-
                     </ul>
                 </div>
-
 			</div>
 			<div class="primary-column">
-
                 <div id="scope-list" class="scope-list">
-                    <article class="item scope st-iron-sights sm-classic" id="quickdraw-is"><div class="visual"><img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg"><img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg"><p class="zoom">+ 0x</p></div><div class="details"><div class="icon" style="background-image: url(&quot;resources/images/scope-icons/iron-sites.png&quot;);"></div><h2 class="name">QuickDraw IS</h2><p class="description">Agile sight. Lightning fast handling.</p></div><ul class="stats"><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="15" style="width: 45px;"></div></div><span class="amount">+15</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="15" style="width: 45px;"></div></div><span class="amount">+15</span></li></ul></article>
-
-
                 </div>
-
-                <?php /*
-                <div class="placeholder-block">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
-                        <li><a href="https://docs.google.com/spreadsheets/d/1L7FV9l4hXo2tHD3XlFUp854XvJIwTKFIPvASLduPPS4/edit#gid=0">PVP weapons spreadsheet</a> by <a href="http://reddit.com/u/exxtrooper">u/exxtrooper</a></li>
-                    </ul>
-                </div>
-                */ ?>
                 <?php include 'resources/php/noscript-scope-list.php' ?>
 			</div>
 		</div>
 	</div>
-
-	<footer id="global-footer">
-
-
-	</footer>
-	<!--
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-	-->
 	<script src="build/js/all.js"></script>
-
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

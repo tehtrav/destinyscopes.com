@@ -88,7 +88,7 @@ $(document).ready(function(){
 
 		$(this).find(".visual").clone().appendTo($image);
 		$(this).find(".name").clone().appendTo($info);
-		$(this).find(".description").clone().appendTo($info);
+		$(this).find(".description, .notes").clone().appendTo($info);
 		$(this).find(".stats").clone().appendTo($info);
 
         $image.appendTo($container);
@@ -230,10 +230,6 @@ window.RenderScopes = function(scopes){
 			$visual.append($('<p></p>').addClass('zoom').text(scopes[i].Zoom));
 		}
 
-        if ( scopes[i].Notes != "" ) {
-            $visual.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
-		}
-
         if ( scopes[i].Stats != "" ) {
             $scope.addClass("has-stats");
 		}
@@ -242,6 +238,9 @@ window.RenderScopes = function(scopes){
 
 		$visual.appendTo($scope);
 		$details.append($('<h2></h2>').addClass('name').text(scopes[i].Name));
+        if ( scopes[i].Notes != "" ) {
+            $details.append($('<p></p>').addClass('notes').text(scopes[i].Notes));
+		}
 		$details.append($('<p></p>').addClass('description').text(scopes[i].Description));
 		$details.appendTo($scope);
 		$stats.appendTo($scope);
