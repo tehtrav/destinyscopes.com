@@ -53,35 +53,15 @@ $(document).ready(function(){
 		$("#legend").width( $(".secondary-column").width() );
 	});
 
-	// <div class="inspect">
-	// 	<div class="inspect--window">
-	// 		<a class="inspect--close" href="#"></a>
-	//
-	// 		<div class="inspect--container">
-	// 			<div class="inspect--image">
-	// 				<div class="visual">
-	// 					<img class="scope-ads" src="resources/images/scope-images/quickdraw-is-ads.jpg">
-	// 					<img class="scope-hip" src="resources/images/scope-images/quickdraw-is.jpg">
-	// 					<p class="zoom">+ 0x</p>
-	//				</div>
-// 				</div>
-// 				<div class="inspect--info">
-// 					<h2 class="scope--title">QuickDraw IS</h2>
-// 					<p class="scope--desc">SUROS threat evaluation. Highlights enemy Guardians who have charged Supers, and powerful Minions of Darkness.</p>
-// 					<ul class="scope--stats stats"><li class="stats-range"><span class="label">Range</span><div class="graph"><div class="plot positive" data-size="6" style="width: 18px;"></div></div><span class="amount">+6</span></li><li class="stats-stability"><span class="label">Stability</span><div class="graph"><div class="plot positive" data-size="9" style="width: 27px;"></div></div><span class="amount">+9</span></li><li class="stats-reload"><span class="label">Reload</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li><li class="stats-handling"><span class="label">Handling</span><div class="graph"><div class="plot positive" data-size="4" style="width: 12px;"></div></div><span class="amount">+4</span></li></ul>
-// 				</div>
-	// 		</div>
-	// 	</div>
-	// </div>
-
-
 
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
-		$("body").addClass("inspect-open").append("<div class='inspect'></div>");
-		var $modal = $("<div class='inspect--window'></div>");
-		$modal.append('<a class="inspect--close" href="#"></a>');
+        // Add hash to URL
+        window.location.hash = '#' + $(this).attr('id');
 
+        // Build modal HTML from elements in the exisiting markup
+		$("body").addClass("inspect-open").append("<div class='inspect'><div class='inspect--overlay'></div></div>");
+		var $modal = $("<div class='inspect--window'></div>");
 		var $container = $("<div></div>").addClass("inspect--container");
 		var $image = $("<div></div>").addClass("inspect--image");
 		var $info = $("<div></div>").addClass("inspect--info");
@@ -91,13 +71,18 @@ $(document).ready(function(){
 		$(this).find(".description, .notes").clone().appendTo($info);
 		$(this).find(".stats").clone().appendTo($info);
 
+        $modal.append('<a class="inspect--close" href="#"></a>');
         $image.appendTo($container);
 		$info.appendTo($container);
 		$container.appendTo($modal);
 		$modal.appendTo(".inspect");
 	});
 
-	$("body").on( "click", ".inspect--close, .inspect", function() {
+    // Close overlay when clicking close or outside modal
+	$("body").on("click",".inspect--close, .inspect--overlay", function() {
+        // Remove URL hash
+        window.location.hash = '';
+
         // Add CSS animation class
         $(".inspect").addClass("animate-out");
         $(".inspect-open").removeClass("inspect-open");
@@ -105,6 +90,7 @@ $(document).ready(function(){
         setTimeout(function(){
             $(".inspect").remove();
         }, 310);
+        return false;
 	});
 });
 
@@ -302,10 +288,6 @@ window.hashScroll = function(){
     // If hash is in the url, go to that place
     if(window.location.hash) {
         var hash = window.location.hash
-
-        $('body').animate({
-            scrollTop: $(hash).offset().top - 40
-        }, 0);
-
+        $(hash).click();
     }
 }
