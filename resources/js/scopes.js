@@ -56,10 +56,12 @@ $(document).ready(function(){
 
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
+        // Add hash to URL
+        window.location.hash = '#' + $(this).attr('id');
+
+        // Build modal HTML from elements in the exisiting markup
 		$("body").addClass("inspect-open").append("<div class='inspect'><div class='inspect--overlay'></div></div>");
 		var $modal = $("<div class='inspect--window'></div>");
-		$modal.append('<a class="inspect--close" href="#"></a>');
-
 		var $container = $("<div></div>").addClass("inspect--container");
 		var $image = $("<div></div>").addClass("inspect--image");
 		var $info = $("<div></div>").addClass("inspect--info");
@@ -69,13 +71,18 @@ $(document).ready(function(){
 		$(this).find(".description, .notes").clone().appendTo($info);
 		$(this).find(".stats").clone().appendTo($info);
 
+        $modal.append('<a class="inspect--close" href="#"></a>');
         $image.appendTo($container);
 		$info.appendTo($container);
 		$container.appendTo($modal);
 		$modal.appendTo(".inspect");
 	});
 
+    // Close overlay when clicking close or outside modal
 	$("body").on("click",".inspect--close, .inspect--overlay", function() {
+        // Remove URL hash
+        window.location.hash = '';
+
         // Add CSS animation class
         $(".inspect").addClass("animate-out");
         $(".inspect-open").removeClass("inspect-open");
@@ -281,10 +288,6 @@ window.hashScroll = function(){
     // If hash is in the url, go to that place
     if(window.location.hash) {
         var hash = window.location.hash
-
-        $('body').animate({
-            scrollTop: $(hash).offset().top - 40
-        }, 0);
-
+        $(hash).click();
     }
 }
