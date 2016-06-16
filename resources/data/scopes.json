@@ -712,9 +712,7 @@
 		],
 		"Stats" :
 		[
-            ["Aim Assist", 0],
-			["Range", 2],
-			["Handling", -2]
+            ["Aim Assist", 0]
 		]
 	},
 	{
@@ -1635,15 +1633,15 @@
 	},
 	{
 		"Type" : "Exotic",
-		"Name" : "Gjallerhorn",
+		"Name" : "Gjallarhorn",
 		"Manufacturer" : "Exotic",
 		"Description" : "\"If there is beauty in destruction, why not also in its delivery?\" - Feizel Crux",
-		"Icon" : "resources/images/exotic-icons/gjallerhorn.jpg",
+		"Icon" : "resources/images/exotic-icons/gjallarhorn.jpg",
 		"Zoom" : "2x",
         "Image" :
 		[
-			"resources/images/scope-images/gjallerhorn.jpg",
-			"resources/images/scope-images/gjallerhorn-ads.jpg"
+			"resources/images/scope-images/gjallarhorn.jpg",
+			"resources/images/scope-images/gjallarhorn-ads.jpg"
 		],
 		"Stats" :
 		[
