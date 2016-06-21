@@ -337,7 +337,7 @@
 		"Type" : "Red Dot Sights",
 		"Name" : "Candle IS2",
 		"Manufacturer" : "Omolon",
-		"Description" : "Minimal iron sites. Improves weapon handling.",
+		"Description" : "Minimal iron sights. Improves weapon handling.",
 		"Icon" : "resources/images/scope-icons/omolon.png",
 		"Zoom" : 0,
         "Image" :
