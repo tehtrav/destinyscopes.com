@@ -50,7 +50,7 @@
                     </div>
                     <div class="box-section site-notes">
                         <h5>Aim Assist</h5>
-                        <p class="small">Credit goes to <a href="http://www.reddit.com/user/suinoq">suinoq</a> and <a href="http://www.reddit.com/user/maniacgreek">maniacgreek</a> from Reddit. Lots of info on how they came to the numbers that they did can be found in <a>this reddit post</a>.</p>
+                        <p class="small">Credit goes to <a href="http://www.reddit.com/user/suinoq">suinoq</a> and <a href="http://www.reddit.com/user/maniacgreek">maniacgreek</a> from Reddit. Lots of info on how they came to the numbers that they did can be found in <a href="https://www.reddit.com/r/CruciblePlaybook/comments/4g56e0/sniper_scope_aa_values_post_patch_22/">this reddit post</a>.</p>
                         <h5>Stat Values</h5>
                         <p class="small">If stat values (including aim assist &amp; zoom) are not shown it's because either the scope doesn't affect any or I don't know them.</p>
                         <h5>Zoom Numbers</h5>
@@ -89,7 +89,7 @@
                                 <td>2.0</td>
                             </tr>
                         </table>
-                        <p class="small">See this amazing Reddit post by <a href="http://www.reddit.com/user/suinoq">suinoq</a> for more info on how the resulting zoom is calculated.</p>
+                        <p class="small">See <a href="https://www.reddit.com/r/CruciblePlaybook/comments/414bo1/destiny_weapon_zoom_and_zoom_mods_testing/">this amazing Reddit post</a> by <a href="http://www.reddit.com/user/suinoq">suinoq</a> for more info on how the resulting zoom is calculated.</p>
                     </div>
 				</div>
                 <div class="footer">
