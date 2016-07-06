@@ -57,7 +57,8 @@ $(document).ready(function(){
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
         // Add hash to URL
-        window.location.hash = '#' + $(this).attr('id');
+        window.location.hash = '#' + $(this).attr('hash');
+		// $(this).attr('hash');
 
         // Build modal HTML from elements in the exisiting markup
 		$("body").addClass("inspect-open").append("<div class='inspect'><div class='inspect--overlay'></div></div>");
@@ -65,7 +66,7 @@ $(document).ready(function(){
 		var $container = $("<div></div>").addClass("inspect--container");
 		var $image = $("<div></div>").addClass("inspect--image");
 		var $info = $("<div></div>").addClass("inspect--info");
-
+		
 		$(this).find(".visual").clone().appendTo($image);
 		$(this).find(".name").clone().appendTo($info);
 		$(this).find(".description, .notes").clone().appendTo($info);
@@ -94,7 +95,8 @@ $(document).ready(function(){
 	});
 });
 
-window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
+window.Scope = function( hash, name, type, manufacturer, description, icon, zoom, notes, images, stats){
+	this.Hash = hash || "";
 	this.Name = name || "";
 	this.Type = type || "";
 	this.Manufacturer = manufacturer || "";
@@ -151,6 +153,7 @@ window.GetScopeData = function(){
 			var scopes = [];
 			for(var scope in data){
 				scopes.push( new Scope(
+					data[scope].Hash || "",
 					data[scope].Name || "",
 					data[scope].Type || "",
 					data[scope].Manufacturer || "",
@@ -180,8 +183,9 @@ window.RenderScopes = function(scopes){
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>")
-			.addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
-		$scope.attr('title', scopes[i].Name)
+			.addClass("item").attr('id', scopes[i].Hash);
+		$scope.attr('title', scopes[i].Name);
+		$scope.attr('hash', scopes[i].Hash);
 		$scope.addClass("scope");
 		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
@@ -287,7 +291,8 @@ window.FilterByScopeType = function(scopeType){
 window.hashScroll = function(){
     // If hash is in the url, go to that place
     if(window.location.hash) {
-        var hash = window.location.hash
+        var hash = window.location.hash;
+		console.log(hash);
         $(hash).click();
     }
 }
