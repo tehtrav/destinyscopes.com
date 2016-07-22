@@ -56,8 +56,16 @@ $(document).ready(function(){
 
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
-        // Add hash to URL
-        window.location.hash = '#' + $(this).attr('hash');
+
+		// store scroll in var
+		var scrollPosition = $('body').scrollTop();
+
+		// Add hash to URL
+		window.location.hash = '#' + $(this).attr('hash');
+
+		// Set scroll to stored
+		$('html,body').scrollTop(scrollPosition);
+
 		// $(this).attr('hash');
 
         // Build modal HTML from elements in the exisiting markup
@@ -66,7 +74,7 @@ $(document).ready(function(){
 		var $container = $("<div></div>").addClass("inspect--container");
 		var $image = $("<div></div>").addClass("inspect--image");
 		var $info = $("<div></div>").addClass("inspect--info");
-		
+
 		$(this).find(".visual").clone().appendTo($image);
 		$(this).find(".name").clone().appendTo($info);
 		$(this).find(".description, .notes").clone().appendTo($info);
@@ -80,9 +88,16 @@ $(document).ready(function(){
 	});
 
     // Close overlay when clicking close or outside modal
-	$("body").on("click",".inspect--close, .inspect--overlay", function() {
+	$("body").on("click",".inspect--close, .inspect--overlay", function(e) {
+
+		// store scroll in var
+		var scrollPosition = $('body').scrollTop();
+
         // Remove URL hash
-        window.location.hash = '';
+        window.location.hash = "";
+
+		// Set scroll to stored
+		$('html,body').scrollTop(scrollPosition);
 
         // Add CSS animation class
         $(".inspect").addClass("animate-out");
@@ -91,7 +106,6 @@ $(document).ready(function(){
         setTimeout(function(){
             $(".inspect").remove();
         }, 310);
-        return false;
 	});
 });
 
