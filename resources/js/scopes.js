@@ -109,8 +109,7 @@ $(document).ready(function(){
 	});
 });
 
-window.Scope = function( hash, name, type, manufacturer, description, icon, zoom, notes, images, stats){
-	this.Hash = hash || "";
+window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
 	this.Name = name || "";
 	this.Type = type || "";
 	this.Manufacturer = manufacturer || "";
@@ -167,7 +166,6 @@ window.GetScopeData = function(){
 			var scopes = [];
 			for(var scope in data){
 				scopes.push( new Scope(
-					data[scope].Hash || "",
 					data[scope].Name || "",
 					data[scope].Type || "",
 					data[scope].Manufacturer || "",
@@ -197,9 +195,8 @@ window.RenderScopes = function(scopes){
 
 	for(var i in scopes) {
 		var $scope = $("<article></article>")
-			.addClass("item").attr('id', scopes[i].Hash);
-		$scope.attr('title', scopes[i].Name);
-		$scope.attr('hash', scopes[i].Hash);
+			.addClass("item").attr('id', scopes[i].Name.toLowerCase().replace(/\s+/g, "-").replace(/'/g, ''));
+		$scope.attr('title', scopes[i].Name)
 		$scope.addClass("scope");
 		$scope.addClass("st-" + scopes[i].Type.toLowerCase().replace(/\s+/g, "-"));
 		$scope.addClass("sm-" + scopes[i].Manufacturer.toLowerCase().replace(/\s+/g, "-"));
@@ -305,8 +302,7 @@ window.FilterByScopeType = function(scopeType){
 window.hashScroll = function(){
     // If hash is in the url, go to that place
     if(window.location.hash) {
-        var hash = window.location.hash;
-		console.log(hash);
+        var hash = window.location.hash
         $(hash).click();
     }
 }
