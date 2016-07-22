@@ -494,7 +494,7 @@
 		"Manufacturer" : "Classic",
 		"Description" : "Precision sight. Highest zoom in class. Enhanced range.",
 		"Icon" : "resources/images/scope-icons/red-dot.png",
-		"Zoom" : "+ .6",
+		"Zoom" : "+ .4",
         "Image" :
 		[
 			"resources/images/scope-images/red-dot-ors1.jpg",
