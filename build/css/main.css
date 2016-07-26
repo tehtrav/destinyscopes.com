@@ -6458,7 +6458,8 @@ body {
   padding-top: 56.25%;
   position: relative;
   box-shadow: 0 1px 1px rgba(255, 255, 255, 0.18) inset;
-  border-radius: 4px; }
+  border-radius: 4px;
+  cursor: pointer; }
   .visual img {
     position: absolute;
     z-index: -1;
