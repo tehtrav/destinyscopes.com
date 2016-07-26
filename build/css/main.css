@@ -6478,7 +6478,8 @@ body {
     opacity: 1; }
   .visual img.scope-hip {
     opacity: 0; }
-  .visual:hover .scope-hip {
+  .visual:hover .scope-hip,
+  .visual:focus .scope-hip {
     opacity: 1; }
 
 .zoom {
