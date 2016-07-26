@@ -3,6 +3,7 @@
 }
 
 .visual {
+    @extend %disable-touch-selection;
     position: relative;
     padding-top: 56.25%; // 16:9
     position: relative;
