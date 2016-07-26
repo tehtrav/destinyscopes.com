@@ -1,59 +1,5 @@
 $(document).ready(function(){
 
-	// Turn on HideSeek on search field
-	$('.search input').hideseek({
-		ignore: '.description',
-		attribute: 'title'
-	});
-
-	// Focus on load
-	$('.search input').focus();
-
-	// Run function to ajax scope data
-	GetScopeData();
-
-	// Add .js class to body for js/no-js styling
-	$(".no-js").removeClass("no-js").addClass("js");
-
-	// When checkbox is clicked, hide all scopes
-	// then show the checked ones by class
-	$("#legend :checkbox").click(function() {
-		$(".scope").hide();
-		$("#legend :checkbox:checked").each(function() {
-			$( "." + $(this).val() ).show();
-			console.log("." + $(this).val());
-		});
-	});
-
-    // Hide/Show of stats in list view
-    $(function(){
-        $("#show-stats-preference").change(function() {
-            $(".scope-list").toggleClass("show-stats", this.checked)
-        }).change();
-    });
-
-
-    $("input[type='checkbox']").each(function() {
-        var mycookie = $.cookie($(this).attr('name'));
-        if (mycookie && mycookie == "true") {
-            $(this).prop('checked', mycookie);
-        }
-    });
-    $("input[type='checkbox']").change(function() {
-        $.cookie($(this).attr("name"), $(this).prop('checked'), {
-            path: '/',
-            expires: 365
-        });
-    });
-
-	// Give #legend a width based on column size so it
-	// doesn't collapse when given fixed positioning
-	$("#legend").width( $(".secondary-column").width() );
-	$( window ).resize(function() {
-		$("#legend").width( $(".secondary-column").width() );
-	});
-
-
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
 
@@ -107,6 +53,62 @@ $(document).ready(function(){
             $(".inspect").remove();
         }, 310);
 	});
+
+	// Add .js class to body for js/no-js styling
+	$(".no-js").removeClass("no-js").addClass("js");
+
+	// Turn on HideSeek on search field
+	$('.search input').hideseek({
+		ignore: '.description',
+		attribute: 'title'
+	});
+
+	// Focus on load
+	$('.search input').focus();
+
+	// Run function to ajax scope data
+	GetScopeData();
+
+	// When checkbox is clicked, hide all scopes
+	// then show the checked ones by class
+	$("#legend :checkbox").click(function() {
+		$(".scope").hide();
+		$("#legend :checkbox:checked").each(function() {
+			$( "." + $(this).val() ).show();
+			console.log("." + $(this).val());
+		});
+	});
+
+    // Hide/Show of stats in list view
+    $(function(){
+        $("#show-stats-preference").change(function() {
+            $(".scope-list").toggleClass("show-stats", this.checked)
+        }).change();
+    });
+
+
+    $("input[type='checkbox']").each(function() {
+        var mycookie = $.cookie($(this).attr('name'));
+        if (mycookie && mycookie == "true") {
+            $(this).prop('checked', mycookie);
+        }
+    });
+    $("input[type='checkbox']").change(function() {
+        $.cookie($(this).attr("name"), $(this).prop('checked'), {
+            path: '/',
+            expires: 365
+        });
+    });
+
+	// Give #legend a width based on column size so it
+	// doesn't collapse when given fixed positioning
+	$("#legend").width( $(".secondary-column").width() );
+	$( window ).resize(function() {
+		$("#legend").width( $(".secondary-column").width() );
+	});
+
+
+
 });
 
 window.Scope = function( name, type, manufacturer, description, icon, zoom, notes, images, stats){
