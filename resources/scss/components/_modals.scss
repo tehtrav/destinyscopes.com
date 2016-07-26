@@ -15,6 +15,7 @@
     bottom: 0;
     right: 0;
     z-index: 4;
+    cursor: pointer;
 
     @media (min-width: $screen-md-min) {
         @include flexbox;
@@ -64,6 +65,7 @@
 
 .inspect--close {
     @include square(30px);
+    cursor: pointer;
     position: absolute;
     border: 1px solid #777;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
