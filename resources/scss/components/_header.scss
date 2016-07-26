@@ -1,8 +1,6 @@
 .global-header {
-    // position: fixed;
-    // top: 0;
-    // width: 100%;
-    // z-index: 10;
+    position: relative;
+    z-index: 1;
 
     background: linear-gradient(black 75%, rgba(black,0));
     padding: 10px 20px;
@@ -30,7 +28,3 @@
         display: none !important;
     }
 }
-
-// .global-header + .container {
-//     padding-top: 100px;
-// }

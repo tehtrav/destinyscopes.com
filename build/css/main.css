@@ -6232,6 +6232,8 @@ h1, h2, h3, h4, h5 {
     max-width: 200px; } }
 
 .global-header {
+  position: relative;
+  z-index: 1;
   background: linear-gradient(black 75%, transparent);
   padding: 10px 20px; }
   @media (min-width: 768px) {
@@ -6263,17 +6265,18 @@ body {
   background-color: #151a20;
   background: #151a20 url("../../resources/images/background.jpg") no-repeat center center fixed;
   background-size: cover; }
-  body:before {
+  body:after {
     content: " ";
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    height: 100vh;
-    z-index: -1;
+    height: 80vh;
+    z-index: 0;
     background: linear-gradient(black, transparent); }
   body .container {
-    z-index: 2; }
+    z-index: 1;
+    position: relative; }
   body a {
     color: #00A8E3;
     text-decoration: none; }
@@ -6520,7 +6523,7 @@ body {
   overflow-y: auto; }
 
 .inspect {
-  padding: 16px;
+  padding: 26px;
   position: fixed;
   top: 0;
   left: 0;
@@ -6598,13 +6601,13 @@ body {
     animation-fill-mode: forwards; }
 
 .inspect--close {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   border: 1px solid #777;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.31);
-  right: -12px;
-  top: -12px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  right: -15px;
+  top: -15px;
   border-radius: 40px;
   color: #777;
   background-image: url("../../resources/images/icon-close.png");
