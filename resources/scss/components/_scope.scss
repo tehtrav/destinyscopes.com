@@ -13,10 +13,9 @@
 
     img {
         position: absolute;
-        z-index: -1;
+        z-index: -1; // this makes sure the box-shadow on the parent container shows above the image
         border-radius: 4px;
         box-shadow: 0 1px 10px rgba(black, .5);
-
         left: 0;
         top: 0;
         right: 0;
