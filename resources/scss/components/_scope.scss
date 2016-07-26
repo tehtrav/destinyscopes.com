@@ -29,8 +29,8 @@
     img.scope-hip {
         opacity: 0;
     }
-    //&:hover .scope-hip,
-    &:focus .scope-hip {
+    &:hover .scope-hip,
+    &:active .scope-hip {
         opacity: 1;
     }
 }
