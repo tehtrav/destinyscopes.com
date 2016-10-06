@@ -1021,6 +1021,23 @@
 	},
     {
 		"Type" : "Exotic",
+		"Name" : "But Not Forgotten",
+		"Manufacturer" : "Archon Forge",
+		"Description" : "Not even the dead are truly gone.",
+		"Icon" : "resources/images/exotic-icons/but-not-forgotten.jpg",
+		"Zoom" : "4.9x",
+		"Notes" : "",
+        "Image" :
+		[
+			"resources/images/scope-images/but-not-forgotten.jpg",
+			"resources/images/scope-images/but-not-forgotten-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
 		"Name" : "The Winged Word",
 		"Manufacturer" : "Trials of Osiris",
 		"Description" : "\"You cannot keep it silent.\" —Fractal Scrolls",
