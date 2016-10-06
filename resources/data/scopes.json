@@ -308,8 +308,8 @@
 		"Zoom" : "+ .5x",
         "Image" :
 		[
-			"resources/images/scope-images/hakke-ld-watchdog.jpg",
-			"resources/images/scope-images/hakke-ld-watchdog.jpg"
+			"resources/images/scope-images/hakke-watchdog.jpg",
+			"resources/images/scope-images/hakke-watchdog-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -325,8 +325,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/lc-ranged.jpg",
-			"resources/images/scope-images/lc-ranged-ads.jpg"
+			"resources/images/scope-images/hakke-lc-ranged.jpg",
+			"resources/images/scope-images/hakke-lc-ranged-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1012,8 +1012,25 @@
 		"Notes" : "Changed in 2.3.0",
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/defiance-of-yasmin.jpg",
+			"resources/images/scope-images/defiance-of-yasmin-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+    {
+		"Type" : "Exotic",
+		"Name" : "The Winged Word",
+		"Manufacturer" : "Trials of Osiris",
+		"Description" : "\"You cannot keep it silent.\" —Fractal Scrolls",
+		"Icon" : "resources/images/exotic-icons/the-winged-word.jpg",
+		"Zoom" : "4.9x",
+		"Notes" : "",
+        "Image" :
+		[
+			"resources/images/scope-images/the-winged-word.jpg",
+			"resources/images/scope-images/the-winged-word-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1286,22 +1303,6 @@
 		[
 			"resources/images/scope-images/hawkmoon.jpg",
 			"resources/images/scope-images/hawkmoon-ads.jpg"
-		],
-		"Stats" :
-		[
-		]
-	},
-	{
-		"Type" : "Exotic",
-		"Name" : "Ace of Spades",
-		"Manufacturer" : "Exotic",
-		"Description" : "Don't play your hand unless you're sure you have that ace in the hole.",
-		"Icon" : "resources/images/exotic-icons/ace-of-spades.jpg",
-		"Zoom" : "1.5x",
-        "Image" :
-		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
 		],
 		"Stats" :
 		[
