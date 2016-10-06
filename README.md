@@ -17,7 +17,8 @@ If you see a scope that I'm missing and would like to provide your own screensho
 2. Wait until "Patrol mission available" fades away.
 3. Point at the center of the triangular crack in the ground towards the path on the left
 
-    http://destinyscopes.com/resources/images/scope-images/hakke-atb-long-range-ads.jpg
+    ![Destinyscopes scope screenshot example](http://destinyscopes.com/resources/images/scope-images/hakke-atb-long-range-ads.jpg)
+
 
 4. Make sure there are none of the following abnormalities:
     * "Super Charged" HUD message
