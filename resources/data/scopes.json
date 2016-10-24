@@ -21,7 +21,7 @@
 		"Manufacturer" : "Iron Banner",
 		"Description" : "Agile sight. For smooth engagement in close quarters.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : 0,
+		"Zoom" : "+ .2x",
         "Image" :
 		[
 			"resources/images/scope-images/iron-red-dot.jpg",
@@ -37,7 +37,7 @@
 		"Manufacturer" : "Iron Banner",
 		"Description" : "Sharpshooter scope. Long range, with enhanced target acquisition. Surprisingly light.",
 		"Icon" : "resources/images/scope-icons/iron-sites.png",
-		"Zoom" : 0,
+		"Zoom" : "+ .3x",
         "Image" :
 		[
 			"resources/images/scope-images/iron-ranged-scope.jpg",
@@ -1074,7 +1074,7 @@
 		"Manufacturer" : "Archon Forge",
 		"Description" : "Not even the dead are truly gone.",
 		"Icon" : "resources/images/exotic-icons/but-not-forgotten.jpg",
-		"Zoom" : "4.9x",
+		"Zoom" : "5.4x",
 		"Notes" : "",
         "Image" :
 		[
