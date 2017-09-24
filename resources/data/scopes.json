@@ -1,6 +1,55 @@
 [
 	{
 		"Type" : "Iron Sights",
+		"Name" : "Iron Warrior Sights",
+		"Manufacturer" : "Iron Banner",
+		"Description" : "Stable sight. Optimized for excellent recoil control.",
+		"Icon" : "resources/images/scope-icons/iron-sites.png",
+		"Zoom" : 0,
+        "Image" :
+		[
+			"resources/images/scope-images/iron-warrior-sights.jpg",
+			"resources/images/scope-images/iron-warrior-sights-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Red Dot Sights",
+		"Name" : "Iron Red Dot",
+		"Manufacturer" : "Iron Banner",
+		"Description" : "Agile sight. For smooth engagement in close quarters.",
+		"Icon" : "resources/images/scope-icons/iron-sites.png",
+		"Zoom" : "+ .2x",
+        "Image" :
+		[
+			"resources/images/scope-images/iron-red-dot.jpg",
+			"resources/images/scope-images/iron-red-dot-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Ranged Scopes",
+		"Name" : "Iron Ranged Scope",
+		"Manufacturer" : "Iron Banner",
+		"Description" : "Sharpshooter scope. Long range, with enhanced target acquisition. Surprisingly light.",
+		"Icon" : "resources/images/scope-icons/iron-sites.png",
+		"Zoom" : "+ .3x",
+        "Image" :
+		[
+			"resources/images/scope-images/iron-ranged-scope.jpg",
+			"resources/images/scope-images/iron-ranged-scope-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+
+	{
+		"Type" : "Iron Sights",
 		"Name" : "QuickDraw IS",
 		"Manufacturer" : "Classic",
 		"Description" : "Agile sight. Lightning fast handling.",
@@ -308,8 +357,8 @@
 		"Zoom" : "+ .5x",
         "Image" :
 		[
-			"resources/images/scope-images/hakke-ld-watchdog.jpg",
-			"resources/images/scope-images/hakke-ld-watchdog.jpg"
+			"resources/images/scope-images/hakke-watchdog.jpg",
+			"resources/images/scope-images/hakke-watchdog-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -325,8 +374,8 @@
 		"Zoom" : 0,
         "Image" :
 		[
-			"resources/images/scope-images/lc-ranged.jpg",
-			"resources/images/scope-images/lc-ranged-ads.jpg"
+			"resources/images/scope-images/hakke-lc-ranged.jpg",
+			"resources/images/scope-images/hakke-lc-ranged-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1012,8 +1061,42 @@
 		"Notes" : "Changed in 2.3.0",
         "Image" :
 		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
+			"resources/images/scope-images/defiance-of-yasmin.jpg",
+			"resources/images/scope-images/defiance-of-yasmin-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+    {
+		"Type" : "Exotic",
+		"Name" : "But Not Forgotten",
+		"Manufacturer" : "Archon Forge",
+		"Description" : "Not even the dead are truly gone.",
+		"Icon" : "resources/images/exotic-icons/but-not-forgotten.jpg",
+		"Zoom" : "5.4x",
+		"Notes" : "",
+        "Image" :
+		[
+			"resources/images/scope-images/but-not-forgotten.jpg",
+			"resources/images/scope-images/but-not-forgotten-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
+		"Name" : "The Winged Word",
+		"Manufacturer" : "Trials of Osiris",
+		"Description" : "\"You cannot keep it silent.\" —Fractal Scrolls",
+		"Icon" : "resources/images/exotic-icons/the-winged-word.jpg",
+		"Zoom" : "4.9x",
+		"Notes" : "",
+        "Image" :
+		[
+			"resources/images/scope-images/the-winged-word.jpg",
+			"resources/images/scope-images/the-winged-word-ads.jpg"
 		],
 		"Stats" :
 		[
@@ -1286,22 +1369,6 @@
 		[
 			"resources/images/scope-images/hawkmoon.jpg",
 			"resources/images/scope-images/hawkmoon-ads.jpg"
-		],
-		"Stats" :
-		[
-		]
-	},
-	{
-		"Type" : "Exotic",
-		"Name" : "Ace of Spades",
-		"Manufacturer" : "Exotic",
-		"Description" : "Don't play your hand unless you're sure you have that ace in the hole.",
-		"Icon" : "resources/images/exotic-icons/ace-of-spades.jpg",
-		"Zoom" : "1.5x",
-        "Image" :
-		[
-			"resources/images/scope-images/soon.jpg",
-			"resources/images/scope-images/soon.jpg"
 		],
 		"Stats" :
 		[
@@ -1601,6 +1668,22 @@
 	},
 	{
 		"Type" : "Exotic",
+		"Name" : "Trespasser",
+		"Manufacturer" : "Exotic",
+		"Description" : "\"You are not welcome.\" —Unknown \"I beg to differ.\" —Shiro-4",
+		"Icon" : "resources/images/exotic-icons/dregs-promise.jpg",
+		"Zoom" : "1.2x",
+        "Image" :
+		[
+			"resources/images/scope-images/trespasser.jpg",
+			"resources/images/scope-images/trespasser-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
 		"Name" : "Dreg's Promise",
 		"Manufacturer" : "Exotic",
 		"Description" : "\"I am a marvel with ten thousand arms.\"",
@@ -1697,6 +1780,22 @@
 	},
 	{
 		"Type" : "Exotic",
+		"Name" : "Nemesis Star",
+		"Manufacturer" : "Exotic",
+		"Description" : "What is the answer when the question is extinction?",
+		"Icon" : "resources/images/exotic-icons/nemesis-star.jpg",
+		"Zoom" : "2x",
+        "Image" :
+		[
+			"resources/images/scope-images/nemesis-star.jpg",
+			"resources/images/scope-images/nemesis-star-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Exotic",
 		"Name" : "Sleeper Simulant",
 		"Manufacturer" : "Exotic",
 		"Description" : "Subroutine IKELOS: Status=complete. MIDNIGHT EXIGENT: Status=still in progress.",
@@ -1706,6 +1805,22 @@
 		[
 			"resources/images/scope-images/sleeper-simulant.jpg",
 			"resources/images/scope-images/sleeper-simulant-ads.jpg"
+		],
+		"Stats" :
+		[
+		]
+	},
+	{
+		"Type" : "Shotgun",
+		"Name" : "Shotguns: Rangefinder vs Normal",
+		"Manufacturer" : "Other",
+		"Description" : "Hover the image to see the zoom granted by Rangefinder",
+		"Icon" : "",
+		"Zoom" : "",
+        "Image" :
+		[
+			"resources/images/scope-images/party-crasher-rangefinder-ads.jpg",
+			"resources/images/scope-images/party-crasher-ads.jpg"
 		],
 		"Stats" :
 		[

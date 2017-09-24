@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+    // Run function to ajax scope data
+	GetScopeData();
+
 	// Make modal on click
 	$("body").on( "click", ".scope", function() {
 
@@ -7,7 +10,7 @@ $(document).ready(function(){
 		var scrollPosition = $('body').scrollTop();
 
 		// Add hash to URL
-		window.location.hash = '#' + $(this).attr('hash');
+		window.location.hash = '#' + $(this).attr('id');
 
 		// Set scroll to stored
 		$('html,body').scrollTop(scrollPosition);
@@ -66,8 +69,6 @@ $(document).ready(function(){
 	// Focus on load
 	$('.search input').focus();
 
-	// Run function to ajax scope data
-	GetScopeData();
 
 	// When checkbox is clicked, hide all scopes
 	// then show the checked ones by class
